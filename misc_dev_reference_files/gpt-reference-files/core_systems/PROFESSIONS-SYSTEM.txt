@@ -1,0 +1,56 @@
+FULL PROFESSIONS LIST
+
+STR (Strength):
+
+    Miner:
+        Individuals specialized in extracting metals and raw materials from the earth.
+    Blacksmith:
+        Craftsmen who forge weapons, armor, and tools using metals and occasionally infusing them with elemental crystals.
+    Lumberjack:
+        Workers who chop down trees to provide wood for various purposes.
+    Carpenter:
+        Craftsmen skilled in making and repairing wooden structures and objects.
+
+DEX (Dexterity):
+
+    Taylor:
+        Craftsmen who design and create clothing, sometimes using materials enhanced with elemental properties.
+    Jeweler:
+        Craftsmen who design and create jewelry, often incorporating elemental crystals for aesthetic or minor magical effects.
+    Shinobi:
+	Master in the arts of stealh, mercenarys that take any kind of service that must be completed in secret
+    Cartographer:
+	Experts in creating maps and charts, often venturing into unknown territories to document the landscape.
+		
+CON (Constitution):
+
+    Farmer:
+        Individuals who cultivate the land, growing crops and raising livestock.
+    Fisherman:
+        People who catch fish and other aquatic creatures for food.
+    Cook/Chef:
+        Experts in making bread, pastries, and other baked goods and also beverages, such as beer or wine.
+    Tanner:
+        Workers who treat animal hides to produce leather.
+
+WIS (Wisdom):
+
+    Alchemist:
+        Experts in the collection, refining, and crafting of elemental crystals into potions and other concoctions.
+    Herbalist:
+        Experts in the collection and use of herbs for medicinal and other purposes.
+    Librarian:
+        Custodians of knowledge, managing and organizing collections of books and scrolls. Can write or copy documents, often knowledgeable in various languages and scripts.
+    Seamen:
+	Skilled sailors who navigate the vast oceans and waterways, often relying on the stars and elemental cues to guide their way.
+		
+CHA (Charisma):
+
+    Merchant:
+        Traders who deal in various goods, including elemental crystals and magical artifacts.
+    Artist:
+        Individuals skilled in various arts, be it painting, sculpture, or other forms.
+  Diplomat:
+	Individuals who devote to doing politics and relations between the various magic guilds and organizations in the world.
+  Tavern Owner:
+	Proprietors of establishments where people gather for drink, food, and entertainment. Often a hub of information and gossip.

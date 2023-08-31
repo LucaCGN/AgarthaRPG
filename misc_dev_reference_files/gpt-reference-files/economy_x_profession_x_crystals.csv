@@ -1,0 +1,43 @@
+Economic Section,Profession,Interaction,Common Crystals
+Trade & Commerce,Merchant,Determine price of goods,All based on demand
+Trade & Commerce,Tavern Owner,Entertain guests,"Fire, Light, Sound"
+Trade & Commerce,Diplomat,Negotiate trade agreements,"Sound, Light, Air"
+Trade & Commerce,Herbalist,Trade specialized herbs,"Earth, Water"
+Trade & Commerce,Tanner,Trade specialized leather types,"Earth, Water"
+Trade & Commerce,Lumberjack,Trade specialized wood types,Wood
+Navigation & Exploration,Cartographer,Chart unknown lands,"Earth, Air, Water"
+Navigation & Exploration,Lumberjack,Clear paths and create routes,"Earth, Wood"
+Navigation & Exploration,Merchant,Establish and maintain trade routes,"Earth, Air, Water"
+Navigation & Exploration,Seamen,"Use wind, star, and water crystals","Wind, Star, Water"
+Information & Knowledge,Shinobi,Collect covert information,"Shadow, Silence"
+Information & Knowledge,Herbalist,Document medicinal properties of herbs,"Ink, Light"
+Information & Knowledge,Cartographer,Map terrains and waters,"Earth, Water, Air"
+Information & Knowledge,Librarian,Use ink and time crystals,"Ink, Time"
+Elemental Crystal Supply Chain,Merchant,Distribute crystals,Normal
+Elemental Crystal Supply Chain,Miner,Extract elemental crystals,Normal
+Elemental Crystal Supply Chain,Herbalist,Extract herbs with enhanced properties,"Earth, Water"
+Elemental Crystal Supply Chain,Lumberjack,Extract wood with enhanced properties,Wood
+Elemental Crystal Supply Chain,Alchemist,Refine and craft crystals,All based on rarity
+Elemental Crystal Production Chain,Jeweler,Incorporate crystals into jewelry,"Metal, Light, Shadow"
+Elemental Crystal Production Chain,Herbalist,Provide herbs for various concoctions,"Earth, Water, Sun"
+Elemental Crystal Production Chain,Lumberjack,Provide wood for various crafts,Wood
+Elemental Crystal Production Chain,Blacksmith,Use crystals for forging,"Wood, Metal, Fire, Earth"
+Elemental Crystal Production Chain,Carpenter,Use crystals for structures,"Wood, Metal, Earth, Time"
+Elemental Crystal Production Chain,Cook/Chef,Use crystals in cooking,"Wood, Fire, Water, Ice"
+Elemental Crystal Production Chain,Tanner,Use crystals to enhance leather properties,"Water, Sun, Earth"
+Elemental Crystal Production Chain,Taylor,Use crystals to imbue clothing,"Ink, Air, Light"
+Elemental Crystal Production Chain,Farmer,Use earth and water crystals in farming,"Water, Earth, Sun"
+Elemental Crystal Demand Side,Farmer,Enhance crop growth,"Earth, Water, Sun"
+Elemental Crystal Demand Side,Fisherman,Locate fish schools,"Water, Sound"
+Elemental Crystal Demand Side,Librarian,Preserve and restore books,"Light, Time, Air"
+Elemental Crystal Demand Side,Cook/Chef,Preserve food,"Ice, Time"
+Elemental Crystal Demand Side,Tanner,Provide leather for various crafts,"Water, Sun"
+Elemental Crystal Demand Side,Shinobi,Stealth and evasion,"Shadow, Air, Silence"
+Elemental Crystal Demand Side,Artist,Use crystals in art,"Magnetism, Sound, Light, Ink"
+Elemental Crystal Demand Side,Tavern Owner,Use crystals in the inn keeping,"Fire, Water, Ice, Electricity"
+Currency & Valuation,Merchant,Convert crystal value to gold-silver-copper,All based on rarity
+Currency & Valuation,Diplomat,Negotiate currency exchange rates,All based on regional agreements
+Art & Entertainment,Tanner,Create decorative leather items,"Ink, Light, Shadow"
+Art & Entertainment,Cook/Chef,Create special dishes,"Fire, Ice, Earth"
+Art & Entertainment,Tavern Owner,Provide ambient music,"Sound, Light"
+Art & Entertainment,Artist,"Use light, ink, and sound crystals in artworks","Light, Ink, Sound"

@@ -1,0 +1,60 @@
+### Master AI Command Interactions with Agents
+
+1. **set (Setting)**
+    - **set_initiate_scenario**: The Master AI calls this command to initiate or change the game's setting based on the current context or player's decision.
+
+2. **npc (NPCs)**
+    - **npc_initiate_dialog**: Start a dialogue with a specific NPC.
+    - **npc_create**: Introduce a new NPC into the game.
+    - **npc_delete**: Remove (or "kill") an existing NPC from the game.
+
+3. **lor (Lore)**
+    - **lor_retrieve_info**: Retrieve specific lore information, such as history, culture, or legends.
+
+4. **cam (Campaign)**
+    - **cam_update_event**: Update the campaign with a new event.
+    - **cam_retrieve_past_event**: Get details on past events.
+    - **cam_preview_future_event**: Peek into potential future events (like foreshadowing).
+
+5. **tes (Tests/Checks)**
+    - **tes_execute_check**: Execute a specific check, such as a DEX or STR check.
+
+6. **itens (Items)**
+    - **item_retrieve_info**: Get details about a specific item.
+    - **item_add_to_inventory**: Add a new item to the player's inventory.
+    - **item_remove_from_inventory**: Remove an item from the player's inventory.
+
+7. **music (Music)**
+    - **music_change_theme**: Change the game's musical theme based on the current context.
+
+8. **opo (Opponents)**
+    - **opo_initiate_combat**: Start combat with a specific opponent.
+    - **opo_retrieve_info**: Get details about a specific opponent.
+
+9. **ali (Allies)**
+    - **ali_call_for_help**: Call an ally for help in a particular situation.
+    - **ali_retrieve_info**: Get details about a specific ally.
+
+10. **ski (Skills)**
+    - **ski_execute_skill**: Use a specific skill from the character's skill set.
+    - **ski_learn_new**: Learn a new skill or improve an existing one.
+
+11. **ach (Achievements)**
+    - **ach_update**: Update the player's achievements.
+    - **ach_retrieve**: Get a list of the player's achievements.
+
+12. **sav (Save & Load)**
+    - **sav_create_checkpoint**: Create a new save point.
+
+13. **env (Environment)**
+    - **env_change_weather**: Alter the game's current weather conditions.
+
+14. **puz (Puzzles & Challenges)**
+    - **puz_introduce_challenge**: Present a new puzzle or challenge to the player.
+
+15. **tra (Trading & Economy)**
+    - **tra_initiate_trade**: Begin a trading interaction with an NPC.
+
+16. **mag (Magic & Spells)**
+    - **mag_cast_spell**: Cast a specific spell during combat or exploration.
+

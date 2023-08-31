@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agartha RPG</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <h1>Welcome to Agartha RPG!</h1>
+  <a href="{{ url_for('login') }}">Login</a>
+  <a href="{{ url_for('register') }}">Register</a>
+  <!-- Include the JavaScript file here -->
+  <script src="{{ url_for('static', filename='js/account.js') }}"></script>
+</body>
+</html>
