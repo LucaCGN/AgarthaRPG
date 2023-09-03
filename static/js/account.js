@@ -2,19 +2,20 @@
 $("#registerForm").submit(function(event) {
   event.preventDefault();
   $.ajax({
-    url: "/register",  // Replace with your Flask route for registration
+    url: "/register",
     type: "POST",
     data: JSON.stringify({
       user_name: $("#username").val(),
+      user_surname: $("#surname").val(),
+      user_birthday: $("#birthday").val(),
       user_email: $("#email").val(),
-      user_password: $("#password").val(),
-      // Add other fields as needed
+      user_password: $("#password").val()
     }),
     contentType: "application/json",
     success: function(response) {
       alert(response.message);
       if (response.message === "User registered successfully") {
-        window.location.href = "/email_verification";  // Redirect to email verification page
+        window.location.href = "/email_verification";
       }
     },
     error: function(error) {
@@ -22,6 +23,7 @@ $("#registerForm").submit(function(event) {
     }
   });
 });
+
 
 // For the Email Verification Page
 $("#emailVerificationForm").submit(function(event) {
@@ -37,7 +39,7 @@ $("#emailVerificationForm").submit(function(event) {
     success: function(response) {
       alert(response.message);
       if (response.message === "Email verified") {
-        window.location.href = "/login";  // Redirect to login page
+        window.location.href = "/begin_creation";  // Redirect to begin creation page
       }
     },
     error: function(error) {
@@ -45,6 +47,7 @@ $("#emailVerificationForm").submit(function(event) {
     }
   });
 });
+
 
 // For the Login Page
 $("#loginForm").submit(function(event) {
