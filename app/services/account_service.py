@@ -1,5 +1,6 @@
 from flask import jsonify, request, make_response
-from models import AccountInfo as User, db_session  # Replace with your actual import
+from app.models import AccountInfo as User, db_session 
+from config import SECRET_KEY, EmailPassword  # Importing directly from config.py
 import hashlib
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -7,17 +8,6 @@ from email.mime.text import MIMEText
 import random
 import jwt
 import datetime
-import configparser  # Importing configparser
-
-# Initialize the Config Parser
-config = configparser.ConfigParser()
-
-# Read the config file
-config.read('path/to/config.ini')
-
-# Get the JWT secret key
-SECRET_KEY = config.get('JWT', 'SECRET_KEY')
-
 
 # Function to encrypt password using SHA-256
 def encrypt_password_sha(password):
