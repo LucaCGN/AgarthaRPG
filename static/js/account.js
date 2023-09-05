@@ -90,3 +90,44 @@ $("#passwordResetForm").submit(function(event) {
     }
   });
 });
+
+// For requesting a new verification email
+$("#requestVerificationEmailForm").submit(function(event) {
+  event.preventDefault();
+  $.ajax({
+    url: "/api/email-verification",
+    type: "POST",
+    data: JSON.stringify({ email: $("#email").val() }),
+    contentType: "application/json",
+    success: function(response) {
+      alert(response.message);
+    },
+    error: function(error) {
+      alert(error.responseJSON.message);
+    }
+  });
+});
+
+// For actually resetting the password
+$("#actualPasswordResetForm").submit(function(event) {
+  event.preventDefault();
+  $.ajax({
+    url: "/api/reset-password",
+    type: "POST",
+    data: JSON.stringify({
+      email: $("#email").val(),
+      new_password: $("#newPassword").val(),
+      reset_token: $("#resetToken").val()
+    }),
+    contentType: "application/json",
+    success: function(response) {
+      alert(response.message);
+      if (response.message === "Password reset successfully") {
+        window.location.href = "/login";
+      }
+    },
+    error: function(error) {
+      alert(error.responseJSON.message);
+    }
+  });
+});

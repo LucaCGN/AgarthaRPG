@@ -3,12 +3,6 @@ from app.services import account_service  # Assuming this is the correct import 
 
 api = Blueprint('api', __name__)
 
-@api.before_request
-def require_login():
-    allowed_routes = ['api_login', 'api_register']
-    if request.endpoint not in allowed_routes and 'email' not in session:
-        return redirect(url_for('index'))
-
 @api.route('/register', methods=['POST'])
 def api_register():
     user_details = request.json
@@ -28,8 +22,9 @@ def api_verify_email():
     account_service.verify_email(email, verification_code)
     return jsonify({"message": "Email verified"})
 
-@api.route('/login', methods=['POST'])
+@api.route('/login', methods=['GET', 'POST'])
 def api_login():
+    print("Inside api_login")
     try:
         email = request.json['email']
         password = request.json['password']
@@ -38,3 +33,17 @@ def api_login():
         return jsonify(user)
     except Exception as e:
         return jsonify({"message": str(e)}), 400
+
+@api.route('/request-password-reset', methods=['POST'])
+def api_request_password_reset():
+    email = request.json['email']
+    account_service.send_password_reset_email(email)
+    return jsonify({"message": "Password reset email sent"})
+
+@api.route('/reset-password', methods=['POST'])
+def api_reset_password():
+    email = request.json['email']
+    new_password = request.json['new_password']
+    reset_token = request.json['reset_token']
+    account_service.reset_password(email, new_password, reset_token)
+    return jsonify({"message": "Password reset successfully"})
