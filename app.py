@@ -2,7 +2,9 @@
 
 from flask import Flask
 from config import *
-# Import other modules here
+import sys
+from app.routes import *
+
 
 app = Flask(__name__)
 
@@ -12,6 +14,9 @@ app.config['MYSQL_DB_NAME'] = MYSQL_DB_NAME
 app.config['MYSQL_TABLE_NAME'] = MYSQL_TABLE_NAME
 app.config['MYSQL_USER'] = MYSQL_USER
 app.config['MYSQL_PASSWORD'] = MYSQL_PASSWORD
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

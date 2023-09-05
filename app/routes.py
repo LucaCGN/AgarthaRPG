@@ -1,3 +1,4 @@
+from app import app 
 # routes.py
 
 from flask import Flask, request, jsonify

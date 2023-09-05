@@ -1,0 +1,10 @@
+# config.py
+DALLE_API_KEY = "your_dalle_api_key_here"
+CHATGPT_API_KEY = "your_chatgpt_api_key_here"
+MYSQL_HOST = "66.94.118.226"
+MYSQL_DB_NAME = "user_data"
+MYSQL_TABLE_NAME = "account_info"
+MYSQL_USER = "agartha@localhost"
+MYSQL_PASSWORD = "Lunia@443251"
+EmailPassword = "Lunia@443251"
+SECRET_KEY = "your_jwt_secret_key_here"
