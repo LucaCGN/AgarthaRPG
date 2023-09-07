@@ -24,15 +24,22 @@ def api_verify_email():
 
 @api.route('/login', methods=['GET', 'POST'])
 def api_login():
-    print("Inside api_login")
-    try:
-        email = request.json['email']
-        password = request.json['password']
-        user = account_service.login_user(email, password)
-        session['email'] = email
-        return jsonify(user)
-    except Exception as e:
-        return jsonify({"message": str(e)}), 400
+    if request.method == 'POST':
+        try:
+            req_data = request.json
+            if not req_data:
+                return jsonify({"message": "No JSON received"}), 415
+            email = req_data['email']
+            password = req_data['password']
+            user = account_service.login_user(email, password)
+            session['email'] = email
+            return jsonify(user)
+        except Exception as e:
+            return jsonify({"message": str(e)}), 400
+    else:
+        # Handle GET request here
+        return "Login Page"
+
 
 @api.route('/request-password-reset', methods=['POST'])
 def api_request_password_reset():
