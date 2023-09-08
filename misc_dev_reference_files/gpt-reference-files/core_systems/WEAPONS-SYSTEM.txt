@@ -1,387 +1,667 @@
-### Weapons and Combat Actions
-
----
-
-### 1. Axe
-
-**Base Damage:** 1d12 (slashing)
-
-- **Cleave:** 
-  - **Damage:** 1d10 (slashing)
-  - **Effect:** Hits up to 2 adjacent enemies.
-- **Rending Strike:** 
-  - **Damage:** 1d8 (slashing)
-  - **Effect:** Target suffers a bleeding debuff, taking an additional 1d4 damage for 2 turns.
-- **Axe Throw:** 
-  - **Damage:** 1d12 (slashing)
-  - **Effect:** Ranged attack (20 feet). Must retrieve the axe next turn.
-
----
-
-### 2. Bladed Fan
-
-**Base Damage:** 1d6 (slashing)
-
-- **Dancing Blades:** 
-  - **Damage:** 3d4 (slashing)
-  - **Effect:** Single target attack.
-- **Wind Cutter:** 
-  - **Damage:** 1d6 (slashing)
-  - **Effect:** Ranged attack (15 feet). Pushes target 5 feet back.
-- **Defensive Twirl:** 
-  - **Effect:** Increases AC by 2 for the next turn.
-
----
-
-### 3. Boomerang
-
-**Base Damage:** 1d8 (bludgeoning)
-
-- **Ricochet Throw:** 
-  - **Damage:** 1d6 (bludgeoning)
-  - **Effect:** Hits up to 3 enemies in a line.
-- **Stunning Strike:** 
-  - **Damage:** 1d8 (bludgeoning)
-  - **Effect:** Target is stunned for the next turn.
-- **Returning Arc:** 
-  - **Damage:** 1d8 (bludgeoning)
-  - **Effect:** Ignores half cover.
-
----
-
-### 4. Bone Spear
-
-**Base Damage:** 1d10 (piercing)
-
-- **Piercing Thrust:** 
-  - **Damage:** 1d10 (piercing)
-  - **Effect:** Single target attack with extra 5 feet reach.
-- **Skeletal Pull:** 
-  - **Damage:** 1d8 (piercing)
-  - **Effect:** Pulls target 10 feet closer.
-- **Bone Shards:** 
-  - **Damage:** 1d6 (piercing)
-  - **Effect:** Hits all enemies in a 10-foot cone.
-
----
-
-### 5. Chain Dual Club
-
-**Base Damage:** 1d8 (bludgeoning)
-
-- **Whirlwind Strike:** 
-  - **Damage:** 2d6 (bludgeoning)
-  - **Effect:** Hits all adjacent enemies.
-- **Chain Grapple:** 
-  - **Effect:** Grapples a target, immobilizing them for a turn.
-- **Crushing Blow:** 
-  - **Damage:** 1d10 (bludgeoning)
-  - **Effect:** Single target attack. Target is knocked prone.
-
----
-
-### 6. Claws
-
-**Base Damage:** 1d6 (slashing)
-
-- **Rapid Swipes:** 
-  - **Damage:** 3d4 (slashing)
-  - **Effect:** Single target attack.
-- **Pounce and Rend:** 
-  - **Damage:** 2d6 (slashing)
-  - **Effect:** Leap 10 feet and attack. If hit, target is grappled.
-- **Eviscerate:** 
-  - **Damage:** 1d8 (slashing)
-  - **Effect:** Single target attack. If target is below half HP, deal additional 1d6 damage.
-
----
-
-### 7. Compound Bow
-
-**Base Damage:** 1d8 (piercing)
-
-- **Precision Shot:** 
-  - **Damage:** 1d10 (piercing)
-  - **Effect:** Single target attack with advantage.
-- **Volley:** 
-  - **Damage:** 1d6 (piercing)
-  - **Effect:** Ranged attack hitting up to 3 targets in a 15-foot radius.
-- **Explosive Arrow:** 
-  - **Damage:** 1d8 (piercing) + 1d6 (fire)
-  - **Effect:** Single target attack. All adjacent enemies take 1d6 fire damage.
-
----
-
-### 8. Daggers
-
-**Base Damage:** 1d4 (piercing)
-
-- **Twin Stab:** 
-  - **Damage:** 2d4 (piercing)
-  - **Effect:** Two rapid attacks on a single target.
-- **Throwing Knife:** 
-  - **Damage:** 1d4 (piercing)
-  - **Effect:** Ranged attack with a range of 20 feet.
-- **Backstab:** 
-  - **Damage:** 2d6 (piercing)
-  - **Effect:** Must be behind the target. If hit, target is surprised.
-
----
-
-### 9. Dual-handed Sword
-
-**Base Damage:** 2d6 (slashing)
-
-- **Great Cleave:** 
-  - **Damage:** 2d8 (slashing)
-  - **Effect:** Hits up to 3 adjacent enemies.
-- **Charging Slash:** 
-  - **Damage:** 3d6 (slashing)
-  - **Effect:** Move up to 10 feet in a straight line and attack all in path.
-- **Guard Stance:** 
-  - **Effect:** Increases AC by 3 for the next turn, but can't attack.
-
----
-
-### 10. Dual Scissors Blades
-
-**Base Damage:** 1d8 (slashing)
-
-- **Scissor Snip:** 
-  - **Damage:** 2d6 (slashing)
-  - **Effect:** Single target attack.
-- **Blade Dance:** 
-  - **Damage:** 1d8 (slashing)
-  - **Effect:** Hits up to 2 adjacent enemies.
-- **Defensive Parry:** 
-  - **Effect:** Parries the next melee attack, countering with 1d6 damage.
-
----
-
-### 11. Fuuma Shuriken
-
-**Base Damage:** 1d8 (slashing)
-
-- **Whirling Throw:** 
-  - **Damage:** 1d8 (slashing)
-  - **Effect:** Hits up to 3 enemies in a straight line.
-- **Shadow Strike:** 
-  - **Damage:** 1d10 (slashing)
-  - **Effect:** Single target attack with advantage if undetected.
-- **Returning Blade:** 
-  - **Damage:** 1d6 (slashing)
-  - **Effect:** Throw shuriken and it returns to the user, hitting the target twice.
-
----
-
-### 12. Long Bow
-
-**Base Damage:** 1d10 (piercing)
-
-- **Arrow Rain:** 
-  - **Damage:** 1d6 (piercing)
-  - **Effect:** Hits all enemies in a 15-foot radius.
-- **Piercing Arrow:** 
-  - **Damage:** 1d12 (piercing)
-  - **Effect:** Ignores armor and shield bonuses.
-- **Quick Shot:** 
-  - **Damage:** 1d8 (piercing)
-  - **Effect:** Can shoot twice in one turn.
-
----
-
-### 13. Long Dagger
-
-**Base Damage:** 1d6 (piercing)
-
-- **Lunge:** 
-  - **Damage:** 1d8 (piercing)
-  - **Effect:** Move up to 5 feet and attack.
-- **Parrying Stance:** 
-  - **Effect:** Next melee attack against you misses.
-- **Vital Strike:** 
-  - **Damage:** 1d6 (piercing)
-  - **Effect:** If hit, target is poisoned for 3 turns, taking 1d4 damage each turn.
-
----
-
-### 14. Martial Artist
-
-**Base Damage:** 1d6 (bludgeoning)
-
-- **Flurry of Blows:** 
-  - **Damage:** 3d4 (bludgeoning)
-  - **Effect:** Rapid strikes on a single target.
-- **Chi Strike:** 
-  - **Damage:** 1d8 (bludgeoning)
-  - **Effect:** Next attack has increased damage.
-- **Meditative Stance:** 
-  - **Effect:** Heal for 1d6 HP.
-
----
-
-### 15. Nan-chaku
-
-**Base Damage:** 1d6 (bludgeoning)
-
-- **Whirling Defense:** 
-  - **Effect:** Increases AC by 2 for the next turn.
-- **Double Strike:** 
-  - **Damage:** 2d6 (bludgeoning)
-  - **Effect:** Two rapid attacks on a single target.
-- **Stunning Blow:** 
-  - **Damage:** 1d4 (bludgeoning)
-  - **Effect:** Target is stunned for the next turn.
-
----
-
-### 16. One-handed Sword
-
-**Base Damage:** 1d8 (slashing)
-
-- **Riposte:** 
-  - **Damage:** 1d8 (slashing)
-  - **Effect:** Counterattack after a successful parry.
-- **Sword Thrust:** 
-  - **Damage:** 1d10 (piercing)
-  - **Effect:** Single target attack with extra 5 feet reach.
-- **Blade Dance:** 
-  - **Damage:** 1d6 (slashing)
-  - **Effect:** Can attack two different targets.
-
----
-
-### 17. Rapier
-
-**Base Damage:** 1d8 (piercing)
-
-- **Fencing Lunge:** 
-  - **Damage:** 1d10 (piercing)
-  - **Effect:** Single target attack with extra 5 feet reach.
-- **Evasive Parry:** 
-  - **Effect:** Dodge the next attack and counter with a basic attack.
-- **Precise Thrust:** 
-  - **Damage:** 1d8 (piercing)
-  - **Effect:** Ignores armor bonuses.
-
----
-
-### 18. Ring Blade
-
-**Base Damage:** 1d8 (slashing)
-
-- **Circular Throw:** 
-  - **Damage:** 1d8 (slashing)
-  - **Effect:** Ranged attack (15 feet). Returns to the user.
-- **Blade Dance:** 
-  - **Damage:** 1d6 (slashing)
-  - **Effect:** Can attack two different targets.
-- **Defensive Spin:** 
-  - **Effect:** Increases AC by 2 for the next turn.
-
----
-
-### 19. Scythe
-
-**Base Damage:** 1d10 (slashing)
-
-- **Reaper's Swing:** 
-  - **Damage:** 1d12 (slashing)
-  - **Effect:** Single target attack.
-- **Harvest:** 
-  - **Damage:** 1d8 (slashing)
-  - **Effect:** Hits all enemies in a 10-foot cone.
-- **Grim Pull:** 
-  - **Effect:** Pulls target 10 feet closer.
-
----
-
-### 20. Shurikens
-
-**Base Damage:** 1d4 (piercing)
-
-- **Rapid Throw:** 
-  - **Damage:** 3d4 (piercing)
-  - **Effect:** Three rapid ranged attacks on a single target.
-- **Poisoned Tips:** 
-  - **Damage:** 1d4 (piercing)
-  - **Effect:** Target is poisoned for 3 turns, taking 1d4 damage each turn.
-- **Shadow Strike:** 
-  - **Damage:** 1d6 (piercing)
-  - **Effect:** Attack with advantage if undetected.
-
----
-
-### 21. Spiked Brass Knuckle
-
-**Base Damage:** 1d6 (bludgeoning)
-
-- **Punch Combo:** 
-  - **Damage:** 3d4 (bludgeoning)
-  - **Effect:** Three rapid punches on a single target.
-- **Knockout Blow:** 
-  - **Damage:** 1d8 (bludgeoning)
-  - **Effect:** Target is stunned for the next turn.
-- **Defensive Stance:** 
-  - **Effect:** Increases AC by 2 for the next turn.
-
----
-
-### 22. Spiked Whip
-
-**Base Damage:** 1d6 (slashing)
-
-- **Lash Out:** 
-  - **Damage:** 1d6 (slashing)
-  - **Effect:** Single target attack with 10 feet reach.
-- **Entangle:** 
-  - **Effect:** Target is restrained for the next turn.
-- **Whip Crack:** 
-  - **Damage:** 1d4 (slashing)
-  - **Effect:** Hits all enemies in a 5-foot radius.
-
----
-
-### 23. Trident
-
-**Base Damage:** 1d8 (piercing)
-
-- **Thrust:** 
-  - **Damage:** 1d8 (piercing)
-  - **Effect:** Single target attack.
-- **Sweeping Strike:** 
-  - **Damage:** 1d6 (piercing)
-  - **Effect:** Hits up to 3 enemies in a straight line.
-- **Ocean's Wrath:** 
-  - **Damage:** 1d10 (piercing)
-  - **Effect:** Water elemental damage added.
-
----
-
-### 24. Trident Whip
-
-**Base Damage:** 1d8 (slashing)
-
-- **Whip Lash:** 
-  - **Damage:** 1d8 (slashing)
-  - **Effect:** Single target attack with 10 feet reach.
-- **Entangling Tines:** 
-  - **Effect:** Target is restrained for the next turn.
-- **Whirling Defense:** 
-  - **Effect:** Increases AC by 2 for the next turn.
-
----
-
-### 25. Two-handed Bladed Staff
-
-**Base Damage:** 1d10 (slashing)
-
-- **Sweeping Arc:** 
-  - **Damage:** 1d10 (slashing)
-  - **Effect:** Hits all enemies in a 10-foot radius.
-- **Piercing Jab:** 
-  - **Damage:** 1d8 (piercing)
-  - **Effect:** Single target attack with 5 feet reach.
-- **Defensive Stance:** 
-  - **Effect:** Increases AC by 2 for the next turn.
-
+{
+  "weapons": [
+    {
+      "name": "Axe",
+      "stat": "STR",
+      "base_damage": "1d12 (slashing)",
+      "actions": [
+        {
+          "name": "Cleave",
+          "damage": "1d10 (slashing)",
+          "effect": "Hits up to 2 adjacent enemies."
+        },
+        {
+          "name": "Rending Strike",
+          "damage": "1d8 (slashing)",
+          "effect": "Target suffers a bleeding debuff, taking an additional 1d4 damage for 2 turns."
+        },
+        {
+          "name": "Axe Throw",
+          "damage": "1d12 (slashing)",
+          "effect": "Ranged attack (20 feet). Must retrieve the axe next turn."
+        }
+      ]
+    },
+    {
+      "name": "Bone Spear",
+      "stat": "STR",
+      "base_damage": "1d10 (piercing)",
+      "actions": [
+        {
+          "name": "Piercing Thrust",
+          "damage": "1d10 (piercing)",
+          "effect": "Single target attack with extra 5 feet reach."
+        },
+        {
+          "name": "Skeletal Pull",
+          "damage": "1d8 (piercing)",
+          "effect": "Pulls target 10 feet closer."
+        },
+        {
+          "name": "Bone Shards",
+          "damage": "1d6 (piercing)",
+          "effect": "Hits all enemies in a 10-foot cone."
+        }
+      ]
+    },
+    {
+      "name": "Chain Dual Club",
+      "stat": "STR",
+      "base_damage": "1d8 (bludgeoning)",
+      "actions": [
+        {
+          "name": "Whirlwind Strike",
+          "damage": "2d6 (bludgeoning)",
+          "effect": "Hits all adjacent enemies."
+        },
+        {
+          "name": "Chain Grapple",
+          "damage": null,
+          "effect": "Grapples a target, immobilizing them for a turn."
+        },
+        {
+          "name": "Crushing Blow",
+          "damage": "1d10 (bludgeoning)",
+          "effect": "Single target attack. Target is knocked prone."
+        }
+      ]
+    },
+    {
+      "name": "Claws",
+      "stat": "DEX",
+      "base_damage": "1d6 (slashing)",
+      "actions": [
+        {
+          "name": "Rapid Swipes",
+          "damage": "3d4 (slashing)",
+          "effect": "Single target attack."
+        },
+        {
+          "name": "Pounce and Rend",
+          "damage": "2d6 (slashing)",
+          "effect": "Leap 10 feet and attack. If hit, target is grappled."
+        },
+        {
+          "name": "Eviscerate",
+          "damage": "1d8 (slashing)",
+          "effect": "Single target attack. If target is below half HP, deal additional 1d6 damage."
+        }
+      ]
+    },
+    {
+      "name": "Compound Bow",
+      "stat": "DEX",
+      "base_damage": "1d8 (piercing)",
+      "actions": [
+        {
+          "name": "Precision Shot",
+          "damage": "1d10 (piercing)",
+          "effect": "Single target attack with advantage."
+        },
+        {
+          "name": "Volley",
+          "damage": "1d6 (piercing)",
+          "effect": "Ranged attack hitting up to 3 targets in a 15-foot radius."
+        },
+        {
+          "name": "Explosive Arrow",
+          "damage": "1d8 (piercing) + 1d6 (fire)",
+          "effect": "Single target attack. All adjacent enemies take 1d6 fire damage."
+        }
+      ]
+    },
+    {
+      "name": "Daggers",
+      "stat": "DEX",
+      "base_damage": "1d4 (piercing)",
+      "actions": [
+        {
+          "name": "Twin Stab",
+          "damage": "2d4 (piercing)",
+          "effect": "Two rapid attacks on a single target."
+        },
+        {
+          "name": "Throwing Knife",
+          "damage": "1d4 (piercing)",
+          "effect": "Ranged attack with a range of 20 feet."
+        },
+        {
+          "name": "Backstab",
+          "damage": "2d6 (piercing)",
+          "effect": "Must be behind the target. If hit, target is surprised."
+        }
+      ]
+    },
+    {
+      "name": "Dual-handed Sword",
+      "stat": "STR",
+      "base_damage": "2d6 (slashing)",
+      "actions": [
+        {
+          "name": "Great Cleave",
+          "damage": "2d8 (slashing)",
+          "effect": "Hits up to 3 adjacent enemies."
+        },
+        {
+          "name": "Charging Slash",
+          "damage": "3d6 (slashing)",
+          "effect": "Move up to 10 feet in a straight line and attack all in path."
+        },
+        {
+          "name": "Guard Stance",
+          "damage": null,
+          "effect": "Increases AC by 3 for the next turn, but can't attack."
+        }
+      ]
+    },
+    {
+      "name": "Dual Scissors Blades",
+      "stat": "STR",
+      "base_damage": "1d8 (slashing)",
+      "actions": [
+        {
+          "name": "Scissor Snip",
+          "damage": "2d6 (slashing)",
+          "effect": "Single target attack."
+        },
+        {
+          "name": "Blade Dance",
+          "damage": "1d8 (slashing)",
+          "effect": "Hits up to 2 adjacent enemies."
+        },
+        {
+          "name": "Defensive Parry",
+          "damage": null,
+          "effect": "Parries the next melee attack, countering with 1d6 damage."
+        }
+      ]
+    },
+    {
+      "name": "Fuuma Shuriken",
+      "stat": "DEX",
+      "base_damage": "1d8 (slashing)",
+      "actions": [
+        {
+          "name": "Whirling Throw",
+          "damage": "1d8 (slashing)",
+          "effect": "Hits up to 3 enemies in a straight line."
+        },
+        {
+          "name": "Shadow Strike",
+          "damage": "1d10 (slashing)",
+          "effect": "Single target attack with advantage if undetected."
+        },
+        {
+          "name": "Returning Blade",
+          "damage": "1d6 (slashing)",
+          "effect": "Throw shuriken and it returns to the user, hitting the target twice."
+        }
+      ]
+    },
+    {
+      "name": "Long Bow",
+      "stat": "DEX",
+      "base_damage": "1d10 (piercing)",
+      "actions": [
+        {
+          "name": "Arrow Rain",
+          "damage": "1d6 (piercing)",
+          "effect": "Hits all enemies in a 15-foot radius."
+        },
+        {
+          "name": "Piercing Arrow",
+          "damage": "1d12 (piercing)",
+          "effect": "Ignores armor and shield bonuses."
+        },
+        {
+          "name": "Quick Shot",
+          "damage": "1d8 (piercing)",
+          "effect": "Can shoot twice in one turn."
+        }
+      ]
+    },
+    {
+      "name": "Long Dagger",
+      "stat": "DEX",
+      "base_damage": "1d6 (piercing)",
+      "actions": [
+        {
+          "name": "Lunge",
+          "damage": "1d8 (piercing)",
+          "effect": "Move up to 5 feet and attack."
+        },
+        {
+          "name": "Parrying Stance",
+          "damage": null,
+          "effect": "Next melee attack against you misses."
+        },
+        {
+          "name": "Vital Strike",
+          "damage": "1d6 (piercing)",
+          "effect": "If hit, target is poisoned for 3 turns, taking 1d4 damage each turn."
+        }
+      ]
+    },
+    {
+      "name": "Martial Artist",
+      "stat": "CON",
+      "base_damage": "1d6 (bludgeoning)",
+      "actions": [
+        {
+          "name": "Flurry of Blows",
+          "damage": "3d4 (bludgeoning)",
+          "effect": "Rapid strikes on a single target."
+        },
+        {
+          "name": "Chi Strike",
+          "damage": "1d8 (bludgeoning)",
+          "effect": "Next attack has increased damage."
+        },
+        {
+          "name": "Meditative Stance",
+          "damage": null,
+          "effect": "Heal for 1d6 HP."
+        }
+      ]
+    },
+    {
+      "name": "Nan-chaku",
+      "stat": "CON",
+      "base_damage": "1d6 (bludgeoning)",
+      "actions": [
+        {
+          "name": "Whirling Defense",
+          "damage": null,
+          "effect": "Increases AC by 2 for the next turn."
+        },
+        {
+          "name": "Double Strike",
+          "damage": "2d6 (bludgeoning)",
+          "effect": "Two rapid attacks on a single target."
+        },
+        {
+          "name": "Stunning Blow",
+          "damage": "1d4 (bludgeoning)",
+          "effect": "Target is stunned for the next turn."
+        }
+      ]
+    },
+    {
+      "name": "One-handed Sword",
+      "stat": "STR",
+      "base_damage": "1d8 (slashing)",
+      "actions": [
+        {
+          "name": "Riposte",
+          "damage": "1d8 (slashing)",
+          "effect": "Counterattack after a successful parry."
+        },
+        {
+          "name": "Sword Thrust",
+          "damage": "1d10 (piercing)",
+          "effect": "Single target attack with extra 5 feet reach."
+        },
+        {
+          "name": "Blade Dance",
+          "damage": "1d6 (slashing)",
+          "effect": "Can attack two different targets."
+        }
+      ]
+    },
+    {
+      "name": "Rapier",
+      "stat": "DEX",
+      "base_damage": "1d8 (piercing)",
+      "actions": [
+        {
+          "name": "Fencing Lunge",
+          "damage": "1d10 (piercing)",
+          "effect": "Single target attack with extra 5 feet reach."
+        },
+        {
+          "name": "Evasive Parry",
+          "damage": null,
+          "effect": "Dodge the next attack and counter with a basic attack."
+        },
+        {
+          "name": "Precise Thrust",
+          "damage": "1d8 (piercing)",
+          "effect": "Ignores armor bonuses."
+        }
+      ]
+    },
+    {
+      "name": "Scythe",
+      "stat": "STR",
+      "base_damage": "1d10 (slashing)",
+      "actions": [
+        {
+          "name": "Reaper's Swing",
+          "damage": "1d12 (slashing)",
+          "effect": "Single target attack."
+        },
+        {
+          "name": "Harvest",
+          "damage": "1d8 (slashing)",
+          "effect": "Hits all enemies in a 10-foot cone."
+        },
+        {
+          "name": "Grim Pull",
+          "damage": null,
+          "effect": "Pulls target 10 feet closer."
+        }
+      ]
+    },
+    {
+      "name": "Shurikens",
+      "stat": "DEX",
+      "base_damage": "1d4 (piercing)",
+      "actions": [
+        {
+          "name": "Rapid Throw",
+          "damage": "3d4 (piercing)",
+          "effect": "Three rapid ranged attacks on a single target."
+        },
+        {
+          "name": "Poisoned Tips",
+          "damage": "1d4 (piercing)",
+          "effect": "Target is poisoned for 3 turns, taking 1d4 damage each turn."
+        },
+        {
+          "name": "Shadow Strike",
+          "damage": "1d6 (piercing)",
+          "effect": "Attack with advantage if undetected."
+        }
+      ]
+    },
+    {
+      "name": "Spiked Brass Knuckle",
+      "stat": "STR",
+      "base_damage": "1d6 (bludgeoning)",
+      "actions": [
+        {
+          "name": "Punch Combo",
+          "damage": "3d4 (bludgeoning)",
+          "effect": "Three rapid punches on a single target."
+        },
+        {
+          "name": "Knockout Blow",
+          "damage": "1d8 (bludgeoning)",
+          "effect": "Target is stunned for the next turn."
+        },
+        {
+          "name": "Defensive Stance",
+          "damage": null,
+          "effect": "Increases AC by 2 for the next turn."
+        }
+      ]
+    },
+    {
+      "name": "Trident",
+      "stat": "STR",
+      "base_damage": "1d8 (piercing)",
+      "actions": [
+        {
+          "name": "Thrust",
+          "damage": "1d8 (piercing)",
+          "effect": "Single target attack."
+        },
+        {
+          "name": "Sweeping Strike",
+          "damage": "1d6 (piercing)",
+          "effect": "Hits up to 3 enemies in a straight line."
+        },
+        {
+          "name": "Ocean's Wrath",
+          "damage": "1d10 (piercing)",
+          "effect": "Water elemental damage added."
+        }
+      ]
+    },
+    {
+      "name": "War Hammer",
+      "stat": "STR",
+      "base_damage": "1d10 (bludgeoning)",
+      "actions": [
+        {
+          "name": "Smash",
+          "damage": "1d12 (bludgeoning)",
+          "effect": "Single target attack."
+        },
+        {
+          "name": "Ground Slam",
+          "damage": "1d8 (bludgeoning)",
+          "effect": "Hits all enemies in a 5-foot radius."
+        },
+        {
+          "name": "Stunning Blow",
+          "damage": "1d6 (bludgeoning)",
+          "effect": "Target is stunned for the next turn."
+        }
+      ]
+    },
+    {
+      "name": "Bladed Fan",
+      "stat": "CHA",
+      "base_damage": "1d6 (slashing)",
+      "actions": [
+        {
+          "name": "Graceful Dance",
+          "damage": "3d4 (slashing)",
+          "effect": "Charm a single target, causing them to be stunned for a turn."
+        },
+        {
+          "name": "Wind Cutter",
+          "damage": "1d6 (slashing)",
+          "effect": "Ranged attack (15 feet). Pushes target 5 feet back with a graceful motion."
+        },
+        {
+          "name": "Elegant Twirl",
+          "damage": null,
+          "effect": "Increases allies' AC by 2 for the next turn through an inspiring performance."
+        }
+      ]
+    },
+    {
+      "name": "Boomerang",
+      "stat": "CHA",
+      "base_damage": "1d8 (bludgeoning)",
+      "actions": [
+        {
+          "name": "Ricochet Charm",
+          "damage": "1d6 (bludgeoning)",
+          "effect": "Hits up to 3 enemies in a line, with a chance to charm each target for a turn."
+        },
+        {
+          "name": "Stunning Performance",
+          "damage": "1d8 (bludgeoning)",
+          "effect": "Target is stunned for the next turn, mesmerized by the throw."
+        },
+        {
+          "name": "Returning Show",
+          "damage": "1d8 (bludgeoning)",
+          "effect": "Ignores half cover. Charms target if hit."
+        }
+      ]
+    },
+    {
+      "name": "Ring Blade",
+      "stat": "CHA",
+      "base_damage": "1d8 (slashing)",
+      "actions": [
+        {
+          "name": "Circular Charm",
+          "damage": "1d8 (slashing)",
+          "effect": "Ranged attack (15 feet). Returns to the user, charming the target if hit."
+        },
+        {
+          "name": "Blade Dance",
+          "damage": "1d6 (slashing)",
+          "effect": "Can attack two different targets, with a chance to charm each."
+        },
+        {
+          "name": "Inspiring Spin",
+          "damage": null,
+          "effect": "Increases allies' morale, granting advantage on their next attack rolls."
+        }
+      ]
+    },
+    {
+      "name": "Spiked Whip",
+      "stat": "CHA",
+      "base_damage": "1d6 (slashing)",
+      "actions": [
+        {
+          "name": "Lash of Persuasion",
+          "damage": "1d6 (slashing)",
+          "effect": "Single target attack with 10 feet reach. Charms target if hit."
+        },
+        {
+          "name": "Entangling Command",
+          "damage": null,
+          "effect": "Target is restrained for the next turn, compelled to obey."
+        },
+        {
+          "name": "Whip of Leadership",
+          "damage": "1d4 (slashing)",
+          "effect": "Hits all enemies in a 5-foot radius, with a chance to cause them to flee."
+        }
+      ]
+    },
+    {
+      "name": "Trident Whip",
+      "stat": "CHA",
+      "base_damage": "1d8 (slashing)",
+      "actions": [
+        {
+          "name": "Whip of Authority",
+          "damage": "1d8 (slashing)",
+          "effect": "Single target attack with 10 feet reach. Charms target if hit."
+        },
+        {
+          "name": "Commanding Tines",
+          "damage": null,
+          "effect": "Target is restrained for the next turn, obeying the user's command."
+        },
+        {
+          "name": "Triple Charm",
+          "damage": "3d4 (slashing)",
+          "effect": "Three rapid attacks on a single target, with a chance to charm with each hit."
+        }
+      ]
+    },
+    {
+      "weapons": [
+        {
+          "name": "Orb",
+          "stat": "WIS",
+          "actions": [
+            {
+              "name": "Multicast",
+              "effect": "Allows the user to multicast. The number of different magics scales with WIS."
+            }
+          ]
+        },
+        {
+          "name": "Fairy Staff",
+          "stat": "WIS",
+          "actions": [
+            {
+              "name": "Summon Elemental Spirit",
+              "effect": "Materializes elemental energy as a spirit that fights by the user's side. Its attack counts as a bonus action, and its efficiency scales with WIS."
+            },
+            {
+              "name": "Spirit Attack",
+              "damage": "1d6 (elemental)",
+              "effect": "The summoned spirit attacks a target."
+            },
+            {
+              "name": "Spiritual Bond",
+              "effect": "Enhances the connection with the summoned spirit, increasing its abilities."
+            }
+          ]
+        },
+        {
+          "name": "Wood Staff",
+          "stat": "WIS",
+          "actions": [
+            {
+              "name": "Potency Boost",
+              "effect": "Adds a bonus on attack rolls, scaling with WIS."
+            },
+            {
+              "name": "Damage Boost",
+              "effect": "Adds bonus damage from the staff, scaling with WIS."
+            }
+          ]
+        },
+        {
+          "name": "Nature Staff",
+          "stat": "WIS",
+          "actions": [
+            {
+              "name": "Mana Restore",
+              "effect": "Restores mana, scaling with WIS."
+            },
+            {
+              "name": "Life Points Restore",
+              "effect": "Restores life points, scaling with WIS."
+            }
+          ]
+        },
+        {
+          "name": "Grimoire",
+          "stat": "WIS",
+          "actions": [
+            {
+              "name": "Store Magic",
+              "effect": "Allows the user to store magic. The level and quantity of stored magic scale with WIS."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bracer",
+      "stat": "CON",
+      "passive": {
+        "name": "Armor Enhancement",
+        "effect": "+1 AC"
+      },
+      "actions": [
+        {
+          "name": "Combat Readiness",
+          "effect": "1 combat action. Can be used together with one and two-handed weapons."
+        }
+      ]
+    },
+    {
+      "name": "Round Shield",
+      "stat": "CON",
+      "passive": {
+        "name": "Shield Defense",
+        "effect": "+2 AC"
+      },
+      "actions": [
+        {
+          "name": "Defensive Stance",
+          "effect": "Gain the ability to use block as a reaction."
+        }
+      ]
+    },
+    {
+      "name": "Kite Shield",
+      "stat": "CON",
+      "passive": {
+        "name": "Strong Shielding",
+        "effect": "+3 AC"
+      },
+      "actions": [
+        {
+          "name": "Aggro Pull",
+          "effect": "Access to an exclusive pull aggro skill that gives an extra +2 AC and aggros all nearby enemies."
+        }
+      ]
+    }
+  ]
+}
