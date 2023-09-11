@@ -1,0 +1,73 @@
+# Item Schema for RPG Game
+
+## Schema Attributes
+
+1. **Item ID**: A unique identifier for each item.
+2. **Name**: The name of the item.
+3. **Description**: A brief description of the item.
+4. **Type**: The category to which the item belongs (e.g., Crystal, Weapon, Armor, Consumable, etc.).
+5. **Subtype**: More specific categorization within the type (e.g., Fire Crystal, Sword, Leather Armor).
+6. **Attributes**: A dictionary of attributes that the item impacts (e.g., STR, DEX, etc.).
+7. **Usable_By**: A list of professions that can use the item.
+8. **Durability**: How many uses the item has before it becomes unusable.
+9. **Element**: The elemental property, if any.
+10. **Craftable**: Whether the item can be crafted or not.
+11. **Crafting_Ingredients**: If craftable, what ingredients are required.
+12. **Skill_Interaction**: How the item interacts with skills.
+13. **Active_Effects**: A list of effects that are activated when the item is used.
+
+## Item Types and Subtypes
+
+### Crystals
+- **Subtypes**: Fire, Water, Earth, Air, Metal, Time, Spirit, etc.
+- **Usable_By**: All professions, specific skills might require certain types.
+
+### Metals
+- **Subtypes**: Iron, Copper, Gold, Mythril, etc.
+- **Usable_By**: Blacksmith, Miner, etc.
+
+### Consumables
+- **Subtypes**: Food, Potion, Herb, etc.
+- **Usable_By**: All, but effectiveness might vary.
+
+### Weapons
+- **Subtypes**: Sword, Axe, Bow, Dagger, etc.
+- **Usable_By**: Specific professions depending on the weapon.
+
+### Armor
+- **Subtypes**: Leather Armor, Metal Armor, Cloth Armor, etc.
+- **Usable_By**: Specific professions depending on the armor type.
+
+### Crafting Materials
+- **Subtypes**: Wood, Leather, Fabric, Ink, etc.
+- **Usable_By**: Various crafting professions.
+
+### Currency
+- **Subtypes**: Gold, Silver, Copper
+- **Usable_By**: All professions.
+
+### Others
+- **Subtypes**: Map, Book, Scroll, etc.
+- **Usable_By**: Specific professions or all.
+
+## Example Item JSON
+
+```json
+{
+  "Item_ID": "001",
+  "Name": "Fire Crystal",
+  "Description": "A crystal imbued with the essence of fire.",
+  "Type": "Crystal",
+  "Subtype": "Fire",
+  "Attributes": {},
+  "Usable_By": ["All"],
+  "Durability": "Single-use",
+  "Element": "Fire",
+  "Craftable": "No",
+  "Crafting_Ingredients": [],
+  "Skill_Interaction": {
+    "Elemental Forging": "Allows forging of fire weapons",
+    "Potion Mastery": "Allows creation of fire resistance potion"
+  },
+  "Active_Effects": []
+}
