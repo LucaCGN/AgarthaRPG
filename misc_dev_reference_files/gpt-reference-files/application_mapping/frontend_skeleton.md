@@ -5,53 +5,27 @@
 ### Components:
 
 1. **Header Text**: "Welcome to Agartha, the next-gen AI-powered chat-based RPG"
-2. **Login Button**: Opens the Login Form.
-3. **Register Button**: Opens the Registration Form.
-
-### Behavior:
-
-- Login Button navigates to the Login Page.
-- Register Button navigates to the Registration Page.
-
----
-
-## 2- Login Page
-
-### Components:
-
-1. **Login Form**: Fields for username and password.
+2. **Login Button & Form**: Swichts the visible form to the Login Form.
+3. **Register Button & Form**: Swichts the visible form to the  Registration Form.
+4. **Forgot Password Link**: Navigates to the Password Reset Page.
+5. **Register Button**: Submits the registration form.
 2. **Login Button**: Submits the login form.
-3. **Forgot Password Link**: Navigates to the Password Reset Page.
-4. **Register Link**: Navigates to the Registration Page.
 
 ### Behavior:
 
+- Login Fields:  + Forgot Password Link
+- Registration Fields: Full Name, Birthday, email, password and confirm password
 - Successful login navigates to 'Create New Character or Continue Adventure' screen.
 - Forgot Password Link navigates to the Password Reset Page.
-- Register Link navigates to the Registration Page.
-
----
-
-## 3- Registration Page
-
-### Components:
-
-1. **Registration Form**: Fields for username, password, email, and 'Confirm Password'.
-2. **Register Button**: Submits the registration form.
-3. **Login Link**: Navigates back to the Login Page.
-
-### Behavior:
-
 - Register button submits the form and triggers an email verification process.
-- Login Link navigates back to the Login Page.
-
 ---
 
-## 4- Email Verification Page
+*As it clear above, the first page is a dynamic page which can lead to 3 different pages, the email verfication page, the password reset page and the character creation/continue adventure page*
+
+## 2- Email Verification Page
 
 ### Components:
 
-1. **Email Field**: To enter the email for verification.
 2. **Verification Code Field**: To enter the code received via email.
 3. **Verify Button**: Submits the verification code.
 
@@ -61,7 +35,7 @@
 
 ---
 
-## 5- Password Reset Page
+## 3- Password Reset Page 1
 
 ### Components:
 
@@ -73,6 +47,22 @@
 
 - Send Reset Link Button sends an email with the reset link and navigates to a confirmation screen.
 - Back to Login Link navigates back to the Login Page.
+
+---
+
+
+## 4- Password Reset Page 2 - (confirmation screen)
+
+### Components:
+
+1. **new passordd Field**: To enter the new password.
+2. **confirm password field**:  To confirm the new password.
+3. **Confirm change**: To confirm the changes
+
+### Behavior:
+
+- Choose new password and confirm it
+- Confirm the update of the users pw
 
 ---
 
