@@ -1,0 +1,340 @@
+{
+    "Ice": {
+        "name": "Ice",
+        "rarity": "Uncommon",
+        "description": "The Ice element is associated with control and adaptability, capable of slowing down enemies or creating defensive barriers.",
+        "synergizing_stats": [
+            "INT",
+            "WIS"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Frostbite",
+                "description": "Inflict your target with a freezing touch.",
+                "effect": "Slows down the enemy's movement by 10%."
+            },
+            "Tier 2": {
+                "name": "Icy Fortress",
+                "description": "Using Ice and Earth elements, create a protective ice barrier.",
+                "effect": "Grants temporary invulnerability to the user."
+            },
+            "Tier 3": {
+                "name": "Glacial Eruption",
+                "description": "Combining the Ice, Water and Earth elements, summon a glacial eruption.",
+                "effect": "Deals AoE damage and freezes enemies in place."
+            }
+        }
+    },
+    "Electricity": {
+        "name": "Electricity",
+        "rarity": "Uncommon",
+        "description": "The Electricity element is associated with speed and precision, offering high single-target damage and interrupting enemies.",
+        "synergizing_stats": [
+            "DEX",
+            "INT"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Static Shock",
+                "description": "Deliver a quick electrical jolt to your target.",
+                "effect": "Deals minor electric damage and interrupts enemy casting."
+            },
+            "Tier 2": {
+                "name": "Chain Lightning",
+                "description": "Using Electricity and Air elements, unleash a chain of electrical currents.",
+                "effect": "Deals moderate damage to multiple targets."
+            },
+            "Tier 3": {
+                "name": "Thunderstorm",
+                "description": "Combining the Electricity, Water and Air elements, summon a raging thunderstorm.",
+                "effect": "Deals major electric damage to all enemies and has a chance to stun."
+            }
+        }
+    },
+    "Metal": {
+        "name": "Metal",
+        "rarity": "Uncommon",
+        "description": "The Metal element is associated with defense and resilience, capable of creating metallic barriers or bladed weapons.",
+        "synergizing_stats": [
+            "STR",
+            "CON"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Iron Clad",
+                "description": "Fortify your armor with a layer of metal.",
+                "effect": "Increases AC by 2."
+            },
+            "Tier 2": {
+                "name": "Blade Dance",
+                "description": "Using Metal and Air elements, summon blades that whirl around you.",
+                "effect": "Deals moderate damage to nearby enemies."
+            },
+            "Tier 3": {
+                "name": "Impenetrable Fortress",
+                "description": "Combining the Metal, Earth and Fire elements, create an impenetrable metallic barrier.",
+                "effect": "Grants immunity to physical damage for a short duration."
+            }
+        }
+    },
+    "Wood": {
+        "name": "Wood",
+        "rarity": "Uncommon",
+        "description": "The Wood element is associated with growth and support, capable of healing allies or entangling enemies.",
+        "synergizing_stats": [
+            "WIS",
+            "CHA"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Budding Sprout",
+                "description": "Summon a small plant that provides minor healing.",
+                "effect": "Heals an ally for a small amount."
+            },
+            "Tier 2": {
+                "name": "Vine Snare",
+                "description": "Using Wood and Earth elements, entangle enemies in a snare of vines.",
+                "effect": "Restrains the target and deals minor damage over time."
+            },
+            "Tier 3": {
+                "name": "Forest's Embrace",
+                "description": "Combining the Wood, Water and Earth elements, surround allies in a protective grove.",
+                "effect": "Provides a healing over time effect and minor damage resistance to all allies in the area."
+            }
+        }
+    },
+    "Poison": {
+        "name": "Poison",
+        "rarity": "Rare",
+        "description": "The Poison element is associated with damage over time and debuffs, providing skills that gradually weaken enemies.",
+        "synergizing_stats": [
+            "INT",
+            "CHA"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Poison Dart",
+                "description": "Launch a poisonous dart at your enemy.",
+                "effect": "Inflicts poison status, causing minor damage over time."
+            },
+            "Tier 2": {
+                "name": "Toxic Cloud",
+                "description": "Using Poison and Air elements, create a cloud of toxic gas.",
+                "effect": "Deals moderate damage over time and reduces enemy accuracy."
+            },
+            "Tier 3": {
+                "name": "Venomous Bite",
+                "description": "Combining Poison, Water and Earth elements, unleash a venomous attack.",
+                "effect": "Inflicts multiple debuffs and significant damage over time."
+            }
+        }
+    },
+    "Ink": {
+        "name": "Ink",
+        "rarity": "Rare",
+        "description": "The Ink element is associated with obscuring vision and controlling the battlefield, offering utility and area denial.",
+        "synergizing_stats": [
+            "DEX",
+            "INT"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Ink Splash",
+                "description": "Splash ink at a target area.",
+                "effect": "Reduces enemy visibility and accuracy."
+            },
+            "Tier 2": {
+                "name": "Dark Mist",
+                "description": "Using Ink and Air elements, create a mist that obscures vision.",
+                "effect": "Grants stealth to allies and blinds enemies."
+            },
+            "Tier 3": {
+                "name": "Abyssal Zone",
+                "description": "Combining Ink, Water and Shadow elements, create a zone of impenetrable darkness.",
+                "effect": "Negates all enemy actions in the area for a short time."
+            }
+        }
+    },
+    "Sound": {
+        "name": "Sound",
+        "rarity": "Rare",
+        "description": "The Sound element is associated with disruption and manipulation, offering skills that can interrupt and disorient enemies.",
+        "synergizing_stats": [
+            "WIS",
+            "CHA"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Sonic Wave",
+                "description": "Emit a wave of disruptive sound.",
+                "effect": "Interrupts enemy actions and causes minor damage."
+            },
+            "Tier 2": {
+                "name": "Harmonic Resonance",
+                "description": "Using Sound and Light elements, create a harmonious aura.",
+                "effect": "Buffs allies' attack and defense."
+            },
+            "Tier 3": {
+                "name": "Symphony of Destruction",
+                "description": "Combining Sound, Fire and Electricity elements, unleash a devastating sonic attack.",
+                "effect": "Deals major damage and disorients all enemies."
+            }
+        }
+    },
+    "Magnetism": {
+        "name": "Magnetism",
+        "rarity": "Rare",
+        "description": "The Magnetism element is associated with attraction and repulsion, offering control and positioning capabilities.",
+        "synergizing_stats": [
+            "INT",
+            "STR"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Magnetic Pull",
+                "description": "Pull an enemy towards you.",
+                "effect": "Repositions one enemy."
+            },
+            "Tier 2": {
+                "name": "Iron Shield",
+                "description": "Using Magnetism and Metal elements, create a magnetic shield.",
+                "effect": "Deflects all ranged attacks."
+            },
+            "Tier 3": {
+                "name": "Polar Vortex",
+                "description": "Combining Magnetism, Ice and Electricity elements, create a polar vortex.",
+                "effect": "Attracts all enemies and deals significant damage."
+            }
+        }
+    },
+    "Nanotechnology": {
+        "name": "Nanotechnology",
+        "rarity": "Legendary",
+        "description": "The Nanotechnology element is associated with precise manipulation and control, offering unparalleled utility and adaptability.",
+        "synergizing_stats": [
+            "INT",
+            "DEX"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Nano Heal",
+                "description": "Deploy nanobots to repair tissue.",
+                "effect": "Restores a moderate amount of health over time."
+            },
+            "Tier 2": {
+                "name": "Nano Shield",
+                "description": "Using Nanotechnology and Metal elements, create a nanobot shield.",
+                "effect": "Absorbs all forms of damage for a short duration."
+            },
+            "Tier 3": {
+                "name": "Swarm Attack",
+                "description": "Combining Nanotechnology, Electricity, and Poison elements, release a swarm of attack nanobots.",
+                "effect": "Deals major damage and applies multiple debuffs."
+            }
+        }
+    },
+    "Spirit": {
+        "name": "Spirit",
+        "rarity": "Legendary",
+        "description": "The Spirit element is associated with life force and ethereal energy, offering skills that manipulate the spiritual realm.",
+        "synergizing_stats": [
+            "WIS",
+            "CHA"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Spirit Bond",
+                "description": "Form a spiritual link with an ally.",
+                "effect": "Shares healing and buffs between linked individuals."
+            },
+            "Tier 2": {
+                "name": "Ethereal Gate",
+                "description": "Using Spirit and Air elements, open a gateway to the spirit realm.",
+                "effect": "Allows for quick travel between two points on the map."
+            },
+            "Tier 3": {
+                "name": "Soul Nova",
+                "description": "Combining Spirit, Light, and Shadow elements, unleash a burst of spiritual energy.",
+                "effect": "Heals allies and deals significant damage to enemies."
+            }
+        }
+    },
+    "Chaos": {
+        "name": "Chaos",
+        "rarity": "Mythical",
+        "description": "The Chaos element is associated with unpredictability and change, offering skills that can create random effects.",
+        "synergizing_stats": [
+            "CHA",
+            "INT"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Chaos Bolt",
+                "description": "Launch a bolt of chaotic energy.",
+                "effect": "Randomly chooses an effect from any other Tier 1 skill."
+            },
+            "Tier 2": {
+                "name": "Warp Reality",
+                "description": "Using Chaos and Time elements, distort the fabric of reality.",
+                "effect": "Randomizes the positions of all units on the battlefield."
+            },
+            "Tier 3": {
+                "name": "Pandemonium",
+                "description": "Combining Chaos, Fire, and Ice elements, unleash pure chaos.",
+                "effect": "Creates random areas of effect with different elemental damages."
+            }
+        }
+    },
+    "Gravity": {
+        "name": "Gravity",
+        "rarity": "Mythical",
+        "description": "The Gravity element is associated with control and force, offering skills that manipulate the gravitational field.",
+        "synergizing_stats": [
+            "INT",
+            "STR"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Gravitational Pull",
+                "description": "Attract objects or enemies toward you.",
+                "effect": "Moves enemies or objects closer."
+            },
+            "Tier 2": {
+                "name": "Gravity Well",
+                "description": "Using Gravity and Earth elements, create a gravitational sinkhole.",
+                "effect": "Enemies are pulled into the center and receive moderate damage."
+            },
+            "Tier 3": {
+                "name": "Black Hole",
+                "description": "Combining Gravity, Space, and Time elements, summon a black hole.",
+                "effect": "Sucks in all enemies and deals massive damage over time."
+            }
+        }
+    },
+    "Time": {
+        "name": "Time",
+        "rarity": "Mythical",
+        "description": "The Time element is associated with manipulation of time itself, offering skills that can speed up allies or slow down enemies.",
+        "synergizing_stats": [
+            "WIS",
+            "INT"
+        ],
+        "skills": {
+            "Tier 1": {
+                "name": "Time Slow",
+                "description": "Slow down time for a specific target.",
+                "effect": "Target receives a penalty to speed and reaction times."
+            },
+            "Tier 2": {
+                "name": "Temporal Loop",
+                "description": "Using Time and Light elements, create a loop that repeats actions.",
+                "effect": "Allows an ally to repeat their last action."
+            },
+            "Tier 3": {
+                "name": "Time Stop",
+                "description": "Combining Time, Air, and Electricity elements, stop time for everyone but yourself.",
+                "effect": "You get an extra turn while all others are frozen."
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+Character Creation Onboarding Schema
+
+1- Game Introduction
+	"Your adventure takes place in the world of Agartha, a medieavel nordic and celtic themed world, where elemental magic is present in every living being and corner of the world."
+	"In this world, you will progress through 2 major systems. The profession system, which defines your role in the magical society, and the elemental system, which will define your character magical abilities"
+	"You will also be selecting 2 weapons to have mastery over and distributing your initial stats"
+	[Proceed to Profession Selection]
+
+2.1- Profession Selection
+	"choose one of the 25 professions bellow"
+	scrollable list with all 25 professions:
+		- profession name + profession stat + profession description 
+	- select profession on single click
+	[View Selected Profession Details]
+	[Proceed to Weapons Selection]
+
+2.2- Profession Details 
+	scrollable list with all 10 skills, name and effects, from the selected profession.
+	[Proceed to Weapons Selection]
+	[Back to Profession Selection]
+
+3- Weapons Selection
+	scrollable list with icons for all 25 weapons and a description of the weapon.
+		- weapon name + weapon stat + weapon description
+	select weapons on single click, 2 selectable weapons. 
+
+3.2- Weapons Details 
+	each weapon has max 3 actions associated to each, we want to have a detailed display of all weapons actions in one container for each selected weapon
+	[Proceed to Stat Distribution and Character Description]
+	[Back to Weapons Selection]
+
+4- Stat Distribution and Character Description
+	an UI with several elements:
+		1- a interactable stats bar with the 6 classical D&D stats with (+) and (-) buttons to add or subtract points from the stats
+		2- a visual indicator of the available points too spend
+		3- a text box with 100characters for the player do describe its character phisically, focusing on facial traits.
+		
+5- Avatar and Final Character Description
+	- container with generated character avatar (backend generated)
+	- container with final character description (backend generated)
+	[procced to Element Roll and Selection]
+	[Back to Stat Distribution]
+
+6- Element Roll 
+    [Dice Roll Button]
+	[Dice Roll Animation]
+	transition to list with available elements acordingly to the roll
+	list with name + element description
+	select element on click
+	[describe how you intend to use your element, considering your profession and weapons mastery]
+	
+7- ElementDescriptionInput
+	- container for uer input
+	[Begin Adventure]
+	
