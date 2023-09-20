@@ -8,11 +8,11 @@ Character Creation Onboarding Schema
 
 2.1- Profession Selection
 	"choose one of the 25 professions bellow"
-	scrollable list with all 25 professions:
+	scrollable listview with all 25 professions:
 		- profession name + profession stat + profession description 
 	- select profession on single click
-	[View Selected Profession Details]
-	[Proceed to Weapons Selection]
+	[View Selected Profession Details] button
+	[Proceed to Weapons Selection] button
 
 2.2- Profession Details 
 	scrollable list with all 10 skills, name and effects, from the selected profession.

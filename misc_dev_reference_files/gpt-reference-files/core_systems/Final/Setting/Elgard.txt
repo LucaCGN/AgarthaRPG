@@ -1,0 +1,52 @@
+├── fixed_game_data (Collection)
+│   ├── setting (Sub-Collection)
+│   │   ├── Elgard(Document)
+│   │   │   └── setting_details (Fields)
+│   │   │       ├── Name (String): "Elgard"
+│   │   │       ├── Type (String): "City"
+│   │   │       ├── Location (String): "Elgard is nestled within the lush Agarthan heartlands, surrounded by ancient forests and pristine lakes."
+│   │   │       ├── Population (Integer): 150000
+│   │   │       └── Climate (String): "Elgard enjoys a temperate climate with warm summers and mild winters, making it a year-round haven for travelers."
+│   │   │
+│   │   │   ├── NPC (Sub-Collection)
+│   │   │   │   ├── Sample_NPC1 (Document)
+│   │   │   │   │   └── Name (String)
+│   │   │   │   │   └── Role (String)
+│   │   │   │   │   └── Description (String)
+│   │   │   │
+│   │   │   ├── Environment (Sub-Collection)
+│   │   │   │   ├── Famous_Landmarks1 (Document)
+│   │   │   │   │   └── Name (String): "The Elemental Spire"
+│   │   │   │   │   └── Description (String): "A towering crystal monument in the city center, channeling the essence of all elemental forces."
+│   │   │   │   │
+│   │   │   │   └── Famous_Landmarks2 (Document)
+│   │   │   │       └── Name (String): "The Sapphire Plaza"
+│   │   │   │       └── Description (String): "A bustling market square adorned with intricate fountains and lined with stalls selling elemental artifacts."
+│   │   │   │
+│   │   │   └── Lore (Sub-Collection)
+│   │   │       ├── Local_Cuisine1 (Document)
+│   │   │       │   └── Type (String): "Cuisine"
+│   │   │       │   └── Name (String): "Crystalized Blueleaf Salad"
+│   │   │       │   └── Description (String): "A refreshing dish made from rare blueleaf herbs found in the nearby forests."
+│   │   │       │
+│   │   │       ├── City_Legends1 (Document)
+│   │   │       │   └── Type (String): "Legend"
+│   │   │       │   └── Name (String): "The Tale of the Whispering Crystal"
+│   │   │       │   └── Description (String): "Elgardns believe that a hidden crystal deep within the Elemental Spire holds the city's destiny."
+│   │   │       │
+│   │   │       ├── Entertainment1 (Document)
+│   │   │       │   └── Type (String): "Entertainment"
+│   │   │       │   └── Name (String): "The Crystal Opera"
+│   │   │       │   └── Description (String): "A renowned theater where elemental magic is seamlessly woven into captivating performances."
+│   │   │       │
+│   │   │       ├── City_Quirks1 (Document)
+│   │   │       │   └── Type (String): "Quirk"
+│   │   │       │   └── Name (String): "Floating Luminous Orbs"
+│   │   │       │   └── Description (String): "Mystical orbs drift through the city at night, providing gentle illumination and adding to its enchanting atmosphere."
+│   │   │       │
+│   │   │       └── Mysterious_Factions1 (Document)
+│   │   │           └── Type (String): "Faction"
+│   │   │           └── Name (String): "The Shroudcloaks"
+│   │   │           └── Description (String): "Enigmatic elementalists who wear cloaks of shifting colors to conceal their true intentions."
+│   │   │
+│   │   └── ...

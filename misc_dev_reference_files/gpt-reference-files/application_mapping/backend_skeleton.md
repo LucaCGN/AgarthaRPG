@@ -19,6 +19,7 @@ RPG_Game_Database
 │   │       │   │   ├── Titles (Array)
 │   │       │   │   ├── Level
 │   │       │   │   ├── Stats (Map)
+│   │       │   │   ├── Available_Stat_Points
 │   │       │   │   ├── Profession
 │   │       │   │   ├── Weapon1
 │   │       │   │   ├── Weapon2
@@ -142,6 +143,3 @@ RPG_Game_Database
 │   │   │   └── quest_details (Fields)
 │   │   └── ... (Other quests)
 │   │
-│
-└── llm_backend (Collection)
-    └── prompts (Sub-Collection)

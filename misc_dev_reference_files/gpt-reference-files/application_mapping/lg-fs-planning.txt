@@ -1,0 +1,74 @@
+# Game Development Plan
+
+## Phase 1: Database Design and Initial Data Loading
+
+### Tasks:
+
+1. **Design Firestore Schema**
+    - Define collections and documents for game data (e.g., quests, items, NPCs).
+    - Define collections and documents for user-specific data (e.g., character stats, inventory).
+
+2. **Initial Data for Testing**
+    - Create JSON files or scripts to populate Firestore with initial game data for main features, introduction, and Act 1.
+
+3. **Content Creation and Loading**
+    - Generate any missing game content (e.g., quest descriptions, NPC dialogues).
+    - Load this content into Firestore.
+
+### Considerations:
+
+- **Security Rules**: Implement Firestore security rules to protect game data.
+- **Optimization**: Use compound queries for efficient data retrieval.
+
+---
+
+## Phase 2: User-Specific Document Mapping
+
+### Tasks:
+
+1. **Character Creation Documents**
+    - Define the logic for generating documents during character creation (e.g., stats, inventory).
+
+2. **LLM Chain-Generated Documents**
+    - Map out which documents will be generated or modified by the LLM chains and when (e.g., quest progress, dialog history).
+
+3. **Data Fetching and Processing**
+    - Identify when to fetch data using Python logic.
+    - Identify when to fetch and process data using LLM chains.
+
+### Considerations:
+
+- **Real-time Updates**: Use Firestore’s real-time listeners for features like chat and stats updates.
+- **Error Handling**: Implement try-catch blocks in Cloud Functions and log errors.
+
+---
+
+## Phase 3: Application Flow Mapping
+
+1. **User-LLM-Database Interaction**
+    - Create a flowchart or state diagram to map the interactions between the user, LLM chains, and Firestore.
+
+---
+
+## Phase 4: Backend Development
+
+### Tasks:
+
+1. **LLM Chain Coding**
+    - Implement each LLM chain in Python to read/write to Firestore according to the mapped functions.
+
+2. **Prompt Fetching**
+    - Fetch the prompt for the main chains, allowing the LLM to call functions and summarize outputs before returning to the user.
+
+### Considerations:
+
+- **Monitoring**: Use Firebase Analytics and Cloud Monitoring for performance tracking.
+- **Deployment**: Automate Cloud Function deployments via Firebase CLI or GitHub Actions.
+
+---
+
+## Phase 5: Terminal-Based Testing
+
+1. **Test Environment Setup**
+    - Develop a terminal version of the game connected to Firestore for testing and tuning game mechanics.
+
