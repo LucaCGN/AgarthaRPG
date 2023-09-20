@@ -1,4 +1,3 @@
-├── fixed_game_data (Collection)
 │   ├── setting (Sub-Collection)
 │   │   ├── Elgard(Document)
 │   │   │   └── setting_details (Fields)

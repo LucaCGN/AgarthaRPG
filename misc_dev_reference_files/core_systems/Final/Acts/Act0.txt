@@ -1,0 +1,69 @@
+# Act 0: The Journey Begins
+
+## Act Details
+
+### Act Name
+- **Act Name**: "The Journey Begins"
+
+### Act Overview
+- **Act Overview**: "The player wakes up on Ylvast Island the day after their 18th birthday, with only three hours before the boat to Elgard departs. This act serves as an introduction to the game's world, mechanics, and characters, setting the stage for the player's journey to discover their elemental affinity."
+
+### Backdrop
+- **Backdrop**: "The small island of Ylvast in the middle of Lake Ylv, which is located to the south of Elgard."
+
+### Conflict
+- **Conflict**: "The player must navigate through various challenges, including interactions with villagers, a boat ride fraught with danger, and a cave rescue mission, to reach Elgard and discover their elemental affinity."
+
+### Integration
+- **Integration**: "The act introduces game mechanics, elemental magic, key NPCs, and sets the stage for future conflicts and alliances."
+
+### Central NPCs
+
+#### NPC 1: Novak
+- **NPC Name**: "Novak"
+- **NPC Role**: "Experienced Village Seaman"
+- **NPC Description**: "Novak is a seasoned seaman who guides the player during their boat journey to Elgard. He wields a magical trident capable of channeling elemental forces."
+
+#### NPC 2: Sylas
+- **NPC Name**: "Sylas"
+- **NPC Role**: "Young Adult, Potential Ally or Rival"
+- **NPC Description**: "Sylas is another young adult who has just turned 18. Their dream profession is randomized in each session. Sylas can become either an ally or a rival based on player choices."
+
+## Quests
+
+### Quest 0.1: Moments Before Leaving Home
+- **Quest Name**: "Moments Before Leaving Home"
+- **Quest Location**: "Player's Home in Ylvast"
+- **Quest Steps**:
+  1. **Step Name**: "Choose Your Legacy"
+    - **Step Description**: "Select your initial weapons, which are heirlooms left by your late father. Also, pick up a bag of profession items that once belonged to your grandpa. Your family died in a shipwreck, and these items are all you have left of them."
+
+### Quest 0.2: Interactions with Villagers
+- **Quest Name**: "Interactions with Villagers"
+- **Quest Location**: "Ylvast Village"
+- **Quest Steps**:
+  1. **Step Name**: "Meet the Locals"
+    - **Step Description**: "Interact with fishermen, seamen, cooks, and merchants to get a feel for the village life and learn about the game's mechanics."
+
+### Quest 0.3: The Boat Travel
+- **Quest Name**: "The Boat Travel"
+- **Quest Location**: "Lake Ylv"
+- **Quest Steps**:
+  1. **Step Name**: "Survive the Serpent Attack"
+    - **Step Description**: "While traveling with Novak and Sylas, your boat is attacked by a massive elemental serpent. Novak uses his elemental magic, channeling wind, water and lighting magig with trident to face off the creature while he propels you and Sylas towards the shore."
+
+### Quest 0.4: Elemental Awakening
+- **Quest Name**: "Elemental Awakening"
+- **Quest Location**: "Shore near Elgard"
+- **Quest Steps**:
+  1. **Step Name**: "Discover Your Elemental Affinity"
+    - **Step Description**: "After the crash, you wake up near a cave. You focus on a mysterious magic circle that Novak cast, which triggers the awakening of your elemental affinity."
+
+### Quest 0.5: The Cave Incident
+- **Quest Name**: "The Cave Incident"
+- **Quest Location**: "Cave near Elgard"
+- **Quest Steps**:
+  1. **Step Name**: "Rescue the Children"
+    - **Step Description**: "You hear cries from inside the cave and find two children cornered by a poison wolf. Engage in combat to rescue them. The cave fills with poison, causing you and Sylas to faint. You wake up later in Elgard, setting the stage for the adventures to come."
+
+

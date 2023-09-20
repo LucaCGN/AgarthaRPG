@@ -1,0 +1,127 @@
+│   ├── setting (Sub-Collection)
+│   │   ├── Ylvast_Village (Document)
+│   │   │   └── setting_details (Fields)
+│   │   │       ├── Name (String): "Ylvast Village"
+│   │   │       ├── Type (String): "Village"
+│   │   │       ├── Location (String): "Ylvast Village is situated on a small island in the middle of Lake Ylv, a refuge for travelers and merchants."
+│   │   │       ├── Population (Integer): 20
+│   │   │       └── Climate (String): "The village experiences a maritime climate with frequent storms and mild temperatures."
+│   │   │
+│   │   │   ├── NPC (Sub-Collection)
+│   │   │   │   ├── Novak (Document)
+│   │   │   │   │   └── Name (String): "Novak"
+│   │   │   │   │   └── Role (String): "Village Elder and Seaman"
+│   │   │   │   │   └── Description (String): "A wise and experienced seaman who oversees the village's safety and navigational activities."
+│   │   │   │   ├── Sylas (Document)
+│   │   │   │   │   └── Name (String): "Sylas"
+│   │   │   │   │   └── Role (String): "Young Adult"
+│   │   │   │   │   └── Description (String): "A young adult who just turned 18, eager to explore the world and discover their elemental affinity."
+│   │   │   │   ├── NPC1 (Document)
+│   │   │   │   │   └── Name (String): "Alma"
+│   │   │   │   │   └── Role (String): "Fisherman"
+│   │   │   │   │   └── Description (String): "A skilled fisherman who knows the lake like the back of his hand."
+│   │   │   │   ├── NPC2 (Document)
+│   │   │   │   │   └── Name (String): "Beryl"
+│   │   │   │   │   └── Role (String): "Merchant"
+│   │   │   │   │   └── Description (String): "A savvy merchant who specializes in trading goods between the island and the mainland."
+│   │   │   │   ├── NPC3 (Document)
+│   │   │   │   │   └── Name (String): "Cedric"
+│   │   │   │   │   └── Role (String): "Cook"
+│   │   │   │   │   └── Description (String): "The village cook known for his delicious seafood dishes."
+│   │   │   │   ├── NPC4 (Document)
+│   │   │   │   │   └── Name (String): "Dara"
+│   │   │   │   │   └── Role (String): "Seaman"
+│   │   │   │   │   └── Description (String): "A seasoned seaman responsible for guiding boats safely through the lake."
+│   │   │   │   ├── NPC5 (Document)
+│   │   │   │   │   └── Name (String): "Elin"
+│   │   │   │   │   └── Role (String): "Healer"
+│   │   │   │   │   └── Description (String): "The village healer skilled in herbal medicine and basic elemental healing."
+│   │   │   │   ├── NPC6 (Document)
+│   │   │   │   │   └── Name (String): "Fen"
+│   │   │   │   │   └── Role (String): "Blacksmith"
+│   │   │   │   │   └── Description (String): "The village blacksmith, known for crafting basic weapons and tools."
+│   │   │   │   ├── NPC7 (Document)
+│   │   │   │   │   └── Name (String): "Gilda"
+│   │   │   │   │   └── Role (String): "Innkeeper"
+│   │   │   │   │   └── Description (String): "The warm and welcoming innkeeper of the village's only inn."
+│   │   │   │   ├── NPC8 (Document)
+│   │   │   │   │   └── Name (String): "Holt"
+│   │   │   │   │   └── Role (String): "Carpenter"
+│   │   │   │   │   └── Description (String): "The village carpenter responsible for maintaining buildings and crafting furniture."
+│   │   │   │   ├── NPC9 (Document)
+│   │   │   │   │   └── Name (String): "Isla"
+│   │   │   │   │   └── Role (String): "Teacher"
+│   │   │   │   │   └── Description (String): "The village teacher who educates the children in basic skills and elemental lore."
+│   │   │   │   ├── NPC10 (Document)
+│   │   │   │   │   └── Name (String): "Joss"
+│   │   │   │   │   └── Role (String): "Fisherman"
+│   │   │   │   │   └── Description (String): "Another skilled fisherman who often competes with Alma for the biggest catch."
+│   │   │   │   ├── NPC11 (Document)
+│   │   │   │   │   └── Name (String): "Kara"
+│   │   │   │   │   └── Role (String): "Merchant"
+│   │   │   │   │   └── Description (String): "A merchant who specializes in exotic goods from the mainland."
+│   │   │   │   ├── NPC12 (Document)
+│   │   │   │   │   └── Name (String): "Lena"
+│   │   │   │   │   └── Role (String): "Cook"
+│   │   │   │   │   └── Description (String): "Cedric's assistant who is learning the art of cooking."
+│   │   │   │   ├── NPC13 (Document)
+│   │   │   │   │   └── Name (String): "Milo"
+│   │   │   │   │   └── Role (String): "Seaman"
+│   │   │   │   │   └── Description (String): "A young seaman who is under Dara's mentorship."
+│   │   │   │   ├── NPC14 (Document)
+│   │   │   │   │   └── Name (String): "Nina"
+│   │   │   │   │   └── Role (String): "Healer"
+│   │   │   │   │   └── Description (String): "Elin's apprentice, learning the ways of healing."
+│   │   │   │   ├── NPC15 (Document)
+│   │   │   │   │   └── Name (String): "Orin"
+│   │   │   │   │   └── Role (String): "Blacksmith"
+│   │   │   │   │   └── Description (String): "Fen's assistant who is learning the craft of blacksmithing."
+│   │   │   │   ├── NPC16 (Document)
+│   │   │   │   │   └── Name (String): "Pia"
+│   │   │   │   │   └── Role (String): "Innkeeper"
+│   │   │   │   │   └── Description (String): "Gilda's daughter who helps run the inn."
+│   │   │   │   ├── NPC17 (Document)
+│   │   │   │   │   └── Name (String): "Quinn"
+│   │   │   │   │   └── Role (String): "Carpenter"
+│   │   │   │   │   └── Description (String): "Holt's assistant, skilled in woodworking."
+│   │   │   │   ├── NPC18 (Document)
+│   │   │   │   │   └── Name (String): "Rhea"
+│   │   │   │   │   └── Role (String): "Teacher"
+│   │   │   │   │   └── Description (String): "Isla's assistant who is passionate about teaching."
+│   │   │   │   ├── NPC19 (Document)
+│   │   │   │   │   └── Name (String): "Seth"
+│   │   │   │   │   └── Role (String): "Fisherman"
+│   │   │   │   │   └── Description (String): "A young fisherman who is eager to learn from the more experienced fishermen."
+│   │   │   │   └── NPC20 (Document)
+│   │   │   │       └── Name (String): "Tara"
+│   │   │   │       └── Role (String): "Merchant"
+│   │   │   │       └── Description (String): "A young merchant who is learning the ropes from Beryl and Kara."
+│   │   │   │
+│   │   │   ├── Environment (Sub-Collection)
+│   │   │   │   ├── Landmark1 (Document)
+│   │   │   │   │   └── Name (String): "Stormwatch Tower"
+│   │   │   │   │   └── Description (String): "A tall wooden tower used for monitoring weather conditions and incoming boats."
+│   │   │   │   ├── Landmark2 (Document)
+│   │   │   │   │   └── Name (String): "Moonlit Pier"
+│   │   │   │   │   └── Description (String): "A serene pier that glows under the moonlight, popular for night fishing."
+│   │   │   │   └── Landmark3 (Document)
+│   │   │   │       └── Name (String): "The Fisherman's Shrine"
+│   │   │   │       └── Description (String): "A small shrine dedicated to the elemental spirits of the lake, believed to bring good luck to fishermen."
+│   │   │   │
+│   │   │   └── Lore (Sub-Collection)
+│   │   │       ├── Local_Cuisine1 (Document)
+│   │   │       │   └── Type (String): "Cuisine"
+│   │   │       │   └── Name (String): "Lakefish Stew"
+│   │   │       │   └── Description (String): "A hearty stew made from freshly caught lake fish and local herbs."
+│   │   │       ├── Village_Legends1 (Document)
+│   │   │       │   └── Type (String): "Legend"
+│   │   │       │   └── Name (String): "The Whispering Waves"
+│   │   │       │   └── Description (String): "A local legend that says the lake whispers secrets to those who listen closely."
+│   │   │       ├── Entertainment1 (Document)
+│   │   │       │   └── Type (String): "Entertainment"
+│   │   │       │   └── Name (String): "Moonlit Dance"
+│   │   │       │   └── Description (String): "A monthly dance held on the Moonlit Pier, celebrating the full moon."
+│   │   │       └── Village_Quirks1 (Document)
+│   │   │           └── Type (String): "Quirk"
+│   │   │           └── Name (String): "Woven Fishnets"
+│   │   │           └── Description (String): "The village has a unique tradition of weaving elemental threads into their fishing nets to attract more fish."

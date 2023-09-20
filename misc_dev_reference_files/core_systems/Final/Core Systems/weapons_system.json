@@ -576,78 +576,6 @@
             "description": "The Trident Whip is known for its CHA-based attacks."
         },
         {
-            "weapons": [
-                {
-                    "name": "Orb",
-                    "stat": "WIS",
-                    "actions": [
-                        {
-                            "name": "Multicast",
-                            "effect": "Allows the user to multicast. The number of different magics scales with WIS."
-                        }
-                    ]
-                },
-                {
-                    "name": "Fairy Staff",
-                    "stat": "WIS",
-                    "actions": [
-                        {
-                            "name": "Summon Elemental Spirit",
-                            "effect": "Materializes elemental energy as a spirit that fights by the user's side. Its attack counts as a bonus action, and its efficiency scales with WIS."
-                        },
-                        {
-                            "name": "Spirit Attack",
-                            "damage": "1d6 (elemental)",
-                            "effect": "The summoned spirit attacks a target."
-                        },
-                        {
-                            "name": "Spiritual Bond",
-                            "effect": "Enhances the connection with the summoned spirit, increasing its abilities."
-                        }
-                    ]
-                },
-                {
-                    "name": "Wood Staff",
-                    "stat": "WIS",
-                    "actions": [
-                        {
-                            "name": "Potency Boost",
-                            "effect": "Adds a bonus on attack rolls, scaling with WIS."
-                        },
-                        {
-                            "name": "Damage Boost",
-                            "effect": "Adds bonus damage from the staff, scaling with WIS."
-                        }
-                    ]
-                },
-                {
-                    "name": "Nature Staff",
-                    "stat": "WIS",
-                    "actions": [
-                        {
-                            "name": "Mana Restore",
-                            "effect": "Restores mana, scaling with WIS."
-                        },
-                        {
-                            "name": "Life Points Restore",
-                            "effect": "Restores life points, scaling with WIS."
-                        }
-                    ]
-                },
-                {
-                    "name": "Grimoire",
-                    "stat": "WIS",
-                    "actions": [
-                        {
-                            "name": "Store Magic",
-                            "effect": "Allows the user to store magic. The level and quantity of stored magic scale with WIS."
-                        }
-                    ]
-                }
-            ],
-            "description": "The Unknown Weapon is known for its versatility-based attacks."
-        },
-        {
             "name": "Bracer",
             "stat": "CON",
             "passive": {
@@ -691,6 +619,75 @@
                 }
             ],
             "description": "The Kite Shield is known for its CON-based attacks."
-        }
+        },
+		{
+			"name": "Staff of Wisdom",
+			"stat": "WIS",
+			"base_damage": "1d8 (magical)",
+			"actions": [
+				{
+					"name": "Arcane Blast",
+					"damage": "1d10 (magical)",
+					"effect": "Ranged attack (30 feet)."
+				},
+				{
+					"name": "Healing Touch",
+					"damage": null,
+					"effect": "Heals an ally for 1d6 HP."
+				},
+				{
+					"name": "Mana Shield",
+					"damage": null,
+					"effect": "Grants a shield that absorbs up to 1d4 damage for 3 turns."
+				}
+			],
+			"description": "The Staff of Wisdom is a versatile weapon that allows its wielder to both deal damage and support allies."
+		},
+		{
+			"name": "Divine Scepter",
+			"stat": "WIS",
+			"base_damage": "1d6 (divine)",
+			"actions": [
+				{
+					"name": "Smite",
+					"damage": "1d8 (divine)",
+					"effect": "Single target attack."
+				},
+				{
+					"name": "Bless",
+					"damage": null,
+					"effect": "Grants an ally advantage on their next attack."
+				},
+				{
+					"name": "Purge",
+					"damage": null,
+					"effect": "Removes a debuff from an ally."
+				}
+			],
+			"description": "The Divine Scepter is a powerful artifact that channels divine energy for both offense and support."
+		},
+		{
+			"name": "Nature's Wand",
+			"stat": "WIS",
+			"base_damage": "1d6 (nature)",
+			"actions": [
+				{
+					"name": "Entangling Roots",
+					"damage": null,
+					"effect": "Restrains an enemy for 2 turns."
+				},
+				{
+					"name": "Thorn Burst",
+					"damage": "1d8 (nature)",
+					"effect": "Hits all enemies in a 10-foot radius."
+				},
+				{
+					"name": "Regrowth",
+					"damage": null,
+					"effect": "Heals an ally for 1d4 HP each turn for 3 turns."
+				}
+			],
+			"description": "Nature's Wand is imbued with the essence of the earth, allowing for control over natural elements."
+		}
     ]
 }

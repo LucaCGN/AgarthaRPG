@@ -1,0 +1,50 @@
+│   ├── setting (Sub-Collection)
+│   │   ├── Cave_Dungeon (Document)
+│   │   │   └── setting_details (Fields)
+│   │   │       ├── Name (String): "Cave of Whispers"
+│   │   │       ├── Type (String): "Dungeon"
+│   │   │       ├── Location (String): "Located about a mile from Elgard, near the shore of Lake Ylv."
+│   │   │       ├── Size (String): "Approximately 300 square feet"
+│   │   │       ├── Depth (String): "One main chamber with a few branching tunnels"
+│   │   │       ├── Traps (Array of Maps)
+│   │   │       │   └── Trap1 (Map)
+│   │   │       │       ├── Type (String): "Pitfall"
+│   │   │       │       └── Description (String): "A hidden pit covered by leaves and twigs."
+│   │   │       ├── Puzzles (Array of Maps)
+│   │   │       │   └── Puzzle1 (Map)
+│   │   │       │       ├── Type (String): "Elemental Rune Lock"
+│   │   │       │       └── Description (String): "A door with elemental runes that need to be activated in a specific sequence."
+│   │   │       ├── Paths (Array of Maps)
+│   │   │       │   └── Path1 (Map)
+│   │   │       │       ├── Type (String): "Main Path"
+│   │   │       │       └── Description (String): "Leads directly to the chamber where the children are cornered."
+│   │   │       │   └── Path2 (Map)
+│   │   │       │       ├── Type (String): "Side Tunnel"
+│   │   │       │       └── Description (String): "A narrow tunnel that loops back to the main path, bypassing the trap."
+│   │   │       ├── Enemies (Array of Maps)
+│   │   │       │   └── Enemy1 (Map)
+│   │   │       │       ├── Type (String): "Poison Wolf"
+│   │   │       │       └── Description (String): "A wolf with poisonous fangs and the ability to release a toxic cloud."
+│   │   │       │       └── Level (Integer): 1
+│   │   │       │       └── HP (Integer): 30
+│   │   │       │       └── STR (Integer): 6
+│   │   │       │       └── DEX (Integer): 4
+│   │   │       │       └── CON (Integer): 5
+│   │   │       │       └── INT (Integer): 3
+│   │   │       │       └── WIS (Integer): 2
+│   │   │       │       └── CHA (Integer): 1
+│   │   │       │       └── Mana (Integer): 30
+│   │   │       ├── Skill_Actions (Array of Maps)
+│   │   │       │   └── Poison_Cloud (Map)
+│   │   │       │       ├── Type (String): "Magic"
+│   │   │       │       ├── Damage (Integer): 4
+│   │   │       │       └── Mana_Cost (Integer): 10
+│   │   │       ├── Imbued_Attack_Actions (Array of Maps)
+│   │   │       │   └── Poison_Bite (Map)
+│   │   │       │       ├── Type (String): "Physical + Magic"
+│   │   │       │       ├── Damage (Integer): 12 (8 Physical + 4 Magic)
+│   │   │       │       └── Mana_Cost (Integer): 8
+│   │   │       └── NPCs (Array of Maps)
+│   │   │           └── NPC1 (Map)
+│   │   │               ├── Type (String): "Children"
+│   │   │               └── Description (String): "Two young children cornered by the Poison Wolf, in need of rescue."

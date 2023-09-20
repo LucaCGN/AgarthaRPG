@@ -1,0 +1,41 @@
+│   ├── setting (Sub-Collection)
+│   │   ├── Lake_Ylv (Document)
+│   │   │   └── setting_details (Fields)
+│   │   │       ├── Name (String): "Lake Ylv"
+│   │   │       ├── Type (String): "Lake"
+│   │   │       ├── Location (String): "Lake Ylv surrounds Ylvast Village and is situated to the southeast of the Koloni Mountains. It serves as both a natural barrier and a source of livelihood for the village."
+│   │   │       ├── Size (String): "Approximately 50 square miles"
+│   │   │       ├── Depth (String): "Varies from 20 to 200 feet"
+│   │   │       ├── Nearby_Locations (Map)
+│   │   │       │   ├── North (String): "Elgard, the largest city in the southeast corner of the known world."
+│   │   │       │   ├── West (String): "Dendronia Forest, a vast expanse of woodland."
+│   │   │       │   └── Southeast (String): "Koloni Mountains, a mountain range that marks the extreme southeast of the known world."
+│   │   │
+│   │   │   ├── NPC (Sub-Collection)  // These are hostile elemental beasts
+│   │   │   │   ├── Elemental_Beast1 (Document)
+│   │   │   │   │   └── Name (String): "Water Serpent"
+│   │   │   │   │   └── Element (String): "Water"
+│   │   │   │   │   └── Description (String): "A serpentine creature that can manipulate water currents to trap its prey."
+│   │   │   │   ├── Elemental_Beast2 (Document)
+│   │   │   │   │   └── Name (String): "Storm Roc"
+│   │   │   │   │   └── Element (String): "Air"
+│   │   │   │   │   └── Description (String): "A large bird-like creature that can summon storms to disorient sailors."
+│   │   │   │   ├── Elemental_Beast3 (Document)
+│   │   │   │   │   └── Name (String): "Mud Crawler"
+│   │   │   │   │   └── Element (String): "Earth"
+│   │   │   │   │   └── Description (String): "A beast that lurks in the muddy banks, capable of quicksand-like attacks."
+│   │   │   │   └── Elemental_Beast4 (Document)
+│   │   │   │       └── Name (String): "Flame Koi"
+│   │   │   │       └── Element (String): "Fire"
+│   │   │   │       └── Description (String): "A fiery fish that can heat the water to scalding temperatures."
+│   │   │   │
+│   │   │   └── Environment (Sub-Collection)
+│   │   │       ├── Landmark1 (Document)
+│   │   │       │   └── Name (String): "Serpent's Cove"
+│   │   │       │   └── Description (String): "A secluded cove known for frequent Water Serpent sightings."
+│   │   │       ├── Landmark2 (Document)
+│   │   │       │   └── Name (String): "Stormwatch Point"
+│   │   │       │   └── Description (String): "A high vantage point used to monitor weather conditions and Storm Roc activities."
+│   │   │       └── Landmark3 (Document)
+│   │   │           └── Name (String): "Mudbank Shore"
+│   │   │           └── Description (String): "A muddy area of the lake where Mud Crawlers are often found."

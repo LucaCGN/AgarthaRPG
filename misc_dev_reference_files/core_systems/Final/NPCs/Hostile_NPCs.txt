@@ -1,0 +1,251 @@
+├── fixed_game_data (Collection)
+│   └── npc (Sub-Collection)
+│       ├── Elemental_Beast1 (Document)
+│       │   └── npc_details (Fields)
+│       │       ├── Type (String): "Water Serpent"
+│       │       ├── Element (String): "Water"
+│       │       ├── Description (String): "A serpentine creature that can manipulate water currents to trap its prey."
+│       │       ├── Level (Integer): 2
+│       │       ├── HP (Integer): 40
+│       │       ├── STR (Integer): 5
+│       │       ├── DEX (Integer): 6
+│       │       ├── CON (Integer): 4
+│       │       ├── INT (Integer): 3
+│       │       ├── WIS (Integer): 2
+│       │       ├── CHA (Integer): 1
+│       │       └── Mana (Integer): 30
+│       │       ├── Skill_Actions (Array of Maps)
+│       │       │   └── Water_Whirlpool (Map)
+│       │       │       ├── Type (String): "Magic"
+│       │       │       ├── Damage (Integer): 6
+│       │       │       └── Mana_Cost (Integer): 12
+│       │       ├── Imbued_Attack_Actions (Array of Maps)
+│       │       │   └── Water_Slash (Map)
+│       │       │       ├── Type (String): "Physical + Magic"
+│       │       │       ├── Damage (Integer): 14 (8 Physical + 6 Magic)
+│       │       │       └── Mana_Cost (Integer): 10
+│       │
+│       ├── Elemental_Beast2 (Document)
+│       │   └── npc_details (Fields)
+│       │       ├── Type (String): "Storm Roc"
+│       │       ├── Element (String): "Air"
+│       │       ├── Description (String): "A large bird-like creature that can summon storms to disorient sailors."
+│       │       ├── Level (Integer): 3
+│       │       ├── HP (Integer): 45
+│       │       ├── STR (Integer): 4
+│       │       ├── DEX (Integer): 7
+│       │       ├── CON (Integer): 3
+│       │       ├── INT (Integer): 4
+│       │       ├── WIS (Integer): 3
+│       │       ├── CHA (Integer): 2
+│       │       └── Mana (Integer): 40
+│       │       ├── Skill_Actions (Array of Maps)
+│       │       │   └── Storm_Call (Map)
+│       │       │       ├── Type (String): "Magic"
+│       │       │       ├── Damage (Integer): 8
+│       │       │       └── Mana_Cost (Integer): 16
+│       │       ├── Imbued_Attack_Actions (Array of Maps)
+│       │       │   └── Wind_Slash (Map)
+│       │       │       ├── Type (String): "Physical + Magic"
+│       │       │       ├── Damage (Integer): 16 (8 Physical + 8 Magic)
+│       │       │       └── Mana_Cost (Integer): 12
+│       │
+│       ├── Elemental_Beast3 (Document)
+│       │   └── npc_details (Fields)
+│       │       ├── Type (String): "Mud Crawler"
+│       │       ├── Element (String): "Earth"
+│       │       ├── Description (String): "A beast that lurks in the muddy banks, capable of quicksand-like attacks."
+│       │       ├── Level (Integer): 1
+│       │       ├── HP (Integer): 35
+│       │       ├── STR (Integer): 6
+│       │       ├── DEX (Integer): 3
+│       │       ├── CON (Integer): 5
+│       │       ├── INT (Integer): 2
+│       │       ├── WIS (Integer): 1
+│       │       ├── CHA (Integer): 1
+│       │       └── Mana (Integer): 20
+│       │       ├── Skill_Actions (Array of Maps)
+│       │       │   └── Mud_Trap (Map)
+│       │       │       ├── Type (String): "Magic"
+│       │       │       ├── Damage (Integer): 4
+│       │       │       └── Mana_Cost (Integer): 8
+│       │       ├── Imbued_Attack_Actions (Array of Maps)
+│       │       │   └── Earth_Smash (Map)
+│       │       │       ├── Type (String): "Physical + Magic"
+│       │       │       ├── Damage (Integer): 12 (8 Physical + 4 Magic)
+│       │       │       └── Mana_Cost (Integer): 6
+│       │
+│       ├── Elemental_Beast4 (Document)
+│       │   └── npc_details (Fields)
+│       │       ├── Type (String): "Flame Koi"
+│       │       ├── Element (String): "Fire"
+│       │       ├── Description (String): "A fiery fish that can heat the water to scalding temperatures."
+│       │       ├── Level (Integer): 4
+│       │       ├── HP (Integer): 50
+│       │       ├── STR (Integer): 3
+│       │       ├── DEX (Integer): 5
+│       │       ├── CON (Integer): 4
+│       │       ├── INT (Integer): 5
+│       │       ├── WIS (Integer): 3
+│       │       ├── CHA (Integer): 2
+│       │       └── Mana (Integer): 50
+│       │       ├── Skill_Actions (Array of Maps)
+│       │       │   └── Fire_Blast (Map)
+│       │       │       ├── Type (String): "Magic"
+│       │       │       ├── Damage (Integer): 10
+│       │       │       └── Mana_Cost (Integer): 20
+│       │       ├── Imbued_Attack_Actions (Array of Maps)
+│       │       │   └── Flame_Swipe (Map)
+│       │       │       ├── Type (String): "Physical + Magic"
+│       │       │       ├── Damage (Integer): 18 (8 Physical + 10 Magic)
+│       │       │       └── Mana_Cost (Integer): 14
+│       │
+│       ├── Elemental_Beast5 (Document)
+│       │   └── npc_details (Fields)
+│       │       ├── Type (String): "Ice Lynx"
+│       │       ├── Element (String): "Ice"
+│       │       ├── Description (String): "A feline creature capable of freezing its prey with a touch."
+│       │       ├── Level (Integer): 1
+│       │       ├── HP (Integer): 30
+│       │       ├── STR (Integer): 5
+│       │       ├── DEX (Integer): 5
+│       │       ├── CON (Integer): 4
+│       │       ├── INT (Integer): 2
+│       │       ├── WIS (Integer): 1
+│       │       ├── CHA (Integer): 1
+│       │       └── Mana (Integer): 20
+│       │       ├── Skill_Actions (Array of Maps)
+│       │       │   └── Ice_Shard (Map)
+│       │       │       ├── Type (String): "Magic"
+│       │       │       ├── Damage (Integer): 4
+│       │       │       └── Mana_Cost (Integer): 8
+│       │       ├── Imbued_Attack_Actions (Array of Maps)
+│       │       │   └── Frost_Bite (Map)
+│       │       │       ├── Type (String): "Physical + Magic"
+│       │       │       ├── Damage (Integer): 12 (8 Physical + 4 Magic)
+│       │       │       └── Mana_Cost (Integer): 6
+│       │
+│       ├── Elemental_Beast6 (Document)
+│       │   └── npc_details (Fields)
+│       │       ├── Type (String): "Thunder Boar"
+│       │       ├── Element (String): "Electric"
+│       │       ├── Description (String): "A boar-like creature that can generate electric shocks."
+│       │       ├── Level (Integer): 5
+│       │       ├── HP (Integer): 60
+│       │       ├── STR (Integer): 7
+│       │       ├── DEX (Integer): 3
+│       │       ├── CON (Integer): 6
+│       │       ├── INT (Integer): 4
+│       │       ├── WIS (Integer): 2
+│       │       ├── CHA (Integer): 1
+│       │       └── Mana (Integer): 40
+│       │       ├── Skill_Actions (Array of Maps)
+│       │       │   └── Thunder_Shock (Map)
+│       │       │       ├── Type (String): "Magic"
+│       │       │       ├── Damage (Integer): 12
+│       │       │       └── Mana_Cost (Integer): 24
+│       │       ├── Imbued_Attack_Actions (Array of Maps)
+│       │       │   └── Electric_Charge (Map)
+│       │       │       ├── Type (String): "Physical + Magic"
+│       │       │       ├── Damage (Integer): 20 (12 Physical + 8 Magic)
+│       │       │       └── Mana_Cost (Integer): 16
+│       │
+│       ├── Elemental_Beast7 (Document)
+│       │   └── npc_details (Fields)
+│       │       ├── Type (String): "Wind Fox"
+│       │       ├── Element (String): "Air"
+│       │       ├── Description (String): "A fox-like creature that can manipulate wind currents to evade attacks."
+│       │       ├── Level (Integer): 2
+│       │       ├── HP (Integer): 35
+│       │       ├── STR (Integer): 3
+│       │       ├── DEX (Integer): 7
+│       │       ├── CON (Integer): 3
+│       │       ├── INT (Integer): 4
+│       │       ├── WIS (Integer): 3
+│       │       ├── CHA (Integer): 2
+│       │       └── Mana (Integer): 40
+│       │       ├── Skill_Actions (Array of Maps)
+│       │       │   └── Wind_Dash (Map)
+│       │       │       ├── Type (String): "Magic"
+│       │       │       ├── Damage (Integer): 0 (Evasion Skill)
+│       │       │       └── Mana_Cost (Integer): 12
+│       │       ├── Imbued_Attack_Actions (Array of Maps)
+│       │       │   └── Wind_Slash (Map)
+│       │       │       ├── Type (String): "Physical + Magic"
+│       │       │       ├── Damage (Integer): 14 (8 Physical + 6 Magic)
+│       │       │       └── Mana_Cost (Integer): 10
+│       │
+│       ├── Elemental_Beast8 (Document)
+│       │   └── npc_details (Fields)
+│       │       ├── Type (String): "Stone Turtle"
+│       │       ├── Element (String): "Earth"
+│       │       ├── Description (String): "A turtle-like creature with a rock-hard shell that can withstand most physical attacks."
+│       │       ├── Level (Integer): 3
+│       │       ├── HP (Integer): 50
+│       │       ├── STR (Integer): 5
+│       │       ├── DEX (Integer): 2
+│       │       ├── CON (Integer): 7
+│       │       ├── INT (Integer): 3
+│       │       ├── WIS (Integer): 2
+│       │       ├── CHA (Integer): 1
+│       │       └── Mana (Integer): 30
+│       │       ├── Skill_Actions (Array of Maps)
+│       │       │   └── Stone_Shield (Map)
+│       │       │       ├── Type (String): "Magic"
+│       │       │       ├── Damage (Integer): 0 (Defensive Skill)
+│       │       │       └── Mana_Cost (Integer): 10
+│       │       ├── Imbued_Attack_Actions (Array of Maps)
+│       │       │   └── Rock_Smash (Map)
+│       │       │       ├── Type (String): "Physical + Magic"
+│       │       │       ├── Damage (Integer): 16 (10 Physical + 6 Magic)
+│       │       │       └── Mana_Cost (Integer): 12
+│       │
+│       ├── Elemental_Beast9 (Document)
+│       │   └── npc_details (Fields)
+│       │       ├── Type (String): "Frost Owl"
+│       │       ├── Element (String): "Ice"
+│       │       ├── Description (String): "An owl-like creature that can freeze its prey from a distance."
+│       │       ├── Level (Integer): 4
+│       │       ├── HP (Integer): 45
+│       │       ├── STR (Integer): 3
+│       │       ├── DEX (Integer): 6
+│       │       ├── CON (Integer): 4
+│       │       ├── INT (Integer): 5
+│       │       ├── WIS (Integer): 4
+│       │       ├── CHA (Integer): 2
+│       │       └── Mana (Integer): 50
+│       │       ├── Skill_Actions (Array of Maps)
+│       │       │   └── Frost_Beam (Map)
+│       │       │       ├── Type (String): "Magic"
+│       │       │       ├── Damage (Integer): 10
+│       │       │       └── Mana_Cost (Integer): 20
+│       │       ├── Imbued_Attack_Actions (Array of Maps)
+│       │       │   └── Ice_Talons (Map)
+│       │       │       ├── Type (String): "Physical + Magic"
+│       │       │       ├── Damage (Integer): 18 (8 Physical + 10 Magic)
+│       │       │       └── Mana_Cost (Integer): 14
+│       │
+│       └── Elemental_Beast10 (Document)
+│           └── npc_details (Fields)
+│               ├── Type (String): "Lightning Lizard"
+│               ├── Element (String): "Electric"
+│               ├── Description (String): "A lizard-like creature that can generate electric shocks to stun its prey."
+│               ├── Level (Integer): 5
+│               ├── HP (Integer): 55
+│               ├── STR (Integer): 4
+│               ├── DEX (Integer): 5
+│               ├── CON (Integer): 5
+│               ├── INT (Integer): 6
+│               ├── WIS (Integer): 3
+│               ├── CHA (Integer): 1
+│               └── Mana (Integer): 60
+│               ├── Skill_Actions (Array of Maps)
+│               │   └── Lightning_Bolt (Map)
+│               │       ├── Type (String): "Magic"
+│               │       ├── Damage (Integer): 12
+│               │       └── Mana_Cost (Integer): 24
+│               ├── Imbued_Attack_Actions (Array of Maps)
+│               │   └── Electric_Bite (Map)
+│               │       ├── Type (String): "Physical + Magic"
+│               │       ├── Damage (Integer): 20 (12 Physical + 8 Magic)
+│               │       └── Mana_Cost (Integer): 16
