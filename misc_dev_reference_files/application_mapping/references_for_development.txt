@@ -1,0 +1,34 @@
+
+### **Getting Started**
+- [GPT-3 vs. Open Source LLMs - LangChain #1](https://www.youtube.com/watch?v=nE2skSRWTTs&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=1&pp=iAQB)
+- [LangChain Introduction](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/00-langchain-intro.ipynb)
+
+### **Prompt Templates & Chains**
+- [Prompt Templates for GPT 3.5 and other LLMs - LangChain #2](https://www.youtube.com/watch?v=RflBcK0oDH0&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=2&pp=iAQB)
+- [LLM Chains using GPT 3.5 and other LLMs — LangChain #3](https://www.youtube.com/watch?v=S8j9Tk0lZHU&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=3)
+- [LangChain Prompt Templates](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/01-langchain-prompt-templates.ipynb)
+- [LangChain Chains](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/02-langchain-chains.ipynb)
+
+### **Chatbot Memory & Conversations**
+- [Chatbot Memory for Chat-GPT, Davinci + other LLMs - LangChain #4](https://www.youtube.com/watch?v=X05uK0TZozM&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=5)
+- [Chat with OpenAI in LangChain - #5](https://www.youtube.com/watch?v=CnAgB3A5OlU&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=6)
+- [LangChain Conversational Memory](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/03-langchain-conversational-memory.ipynb)
+- [LangChain Chat](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/04-langchain-chat.ipynb)
+
+### **Advanced Techniques & Tools**
+- [Fixing LLM Hallucinations with Retrieval Augmentation in LangChain #6](https://www.youtube.com/watch?v=kvdVduIJsc8&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=7)
+- [LangChain Agents Deep Dive with GPT 3.5 — LangChain #7](https://www.youtube.com/watch?v=jSP-gSEyVeI&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=8)
+- [Create Custom Tools for Chatbots in LangChain — LangChain #8](https://www.youtube.com/watch?v=q-HNphrWsDE&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=9)
+- [LangChain Retrieval Augmentation](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/05-langchain-retrieval-augmentation.ipynb)
+- [LangChain Agents](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/06-langchain-agents.ipynb)
+- [LangChain Tools](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/07-langchain-tools.ipynb)
+
+### **Data Handling & Retrieval**
+- [LangChain Data Loaders, Tokenizers, Chunking, and Datasets - Data Prep 101](https://www.youtube.com/watch?v=eqOfr4AGLk8&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=4)
+- [Build Conversational Agents with Vector DBs - LangChain #9](https://www.youtube.com/watch?v=H6bCqqw9xyI&list=PLIUOU7oqGTLieV9uTIFMm6_4PXg-hlN6F&index=10)
+- [LangChain Retrieval Agent](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/08-langchain-retrieval-agent.ipynb)
+- [LangChain Chunking](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/xx-langchain-chunking.ipynb)
+
+### **Additional Resources**
+- [LangChain Conversational Memory Summary](https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/)
+- [Quick Guide](https://github.com/pinecone-io/examples/blob/master/learn/generation/langchain/handbook/xx-quick-)

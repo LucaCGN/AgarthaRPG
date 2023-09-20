@@ -1,0 +1,42 @@
+# Game System Design Summary
+
+## 1. Elemental Affinity System
+- **Elemental Selection:** Players start by rolling for their first element. At level 5, they roll for their second element, and at level 10, they roll for their third element. By level 10, each player will have three elements.
+- **Elemental Skill Tree:** 
+  - *Inner Circle (Tier 1):* Basic skills tailored for characters with a single-element affinity, focusing on one archetype.
+  - *Midward Circle (Tier 2):* Advanced skills designed for characters with dual-element affinity, combining two archetypes.
+  - *Outward Circle (Tier 3):* Specialized skills for characters with triple-element affinity, integrating all three archetypes and granting access to powerful "Ultimate" skills.
+- **Elemental Combat Integration:** 
+  - Weapon attacks can be imbued with magic if the spell specifies.
+  - Spells can be multicast as long as the player has enough mana.
+  - Ultimate skills, available to those with triple-element affinity, offer potent effects that can turn the tide of battle.
+
+
+## 2. Profession System
+- **Profession Selection:** Players choose a profession based on their desired gameplay. Each profession starts in a different game context and offers unique skills.
+- **Professions Include:** Artisan, Blacksmith, Artist, Merchant, and more.
+- **Profession Skills:** Utility skills related to the chosen profession. These can be exclusive production systems or bonuses in profession-related tests.
+
+## 3. Weapon Mastery System
+- **Weapon Selection:** Players choose two weapons to master, which will define their basic combat actions.
+- **Weapon Skills:** Each weapon offers three unique combat actions that can be combined with elemental skills.
+- **Weapon List:** Axe, Bladed Fan, Bone Spear, Boomerang, Chain Dual Club, Claws, Compound Bow, Daggers, Dual-Handed Sword, Dual Scissors Blades, Fuuma Shuriken, Long Bow, Long Dagger, Martial Artist, Nan-Chaku, One-Handed Sword, Rapier, Ring Blade, Schyte, Shurikens, Spiked Brass Knuckle, Spiked Whip, Trident, Trident Whip, Two-Handed Bladed Staff.
+
+## 4. Stat Distribution System
+- **Stat Points:** Players distribute their stat points among the classical D&D stats.
+- **Intelligence (INT):** Unique role in determining the mana pool. Each INT point provides the player with 10 mana.
+
+## 5. Combat System
+- **Weapon Imbued Magic:** Combat actions with weapons can be combined with magic if the spell allows it. This counts as a single action.
+- **Magic Multicast:** When casting magic without a weapon, players can combine as many spells in one action as they have mana for.
+
+## 6. Campaign System
+- **Macro Scale:** The world has a general lore that players can influence. However, there are major events, such as wars, godly interventions, and natural disasters, that form the overarching campaign narrative.
+- **Micro Scale:** Each profession has a specific campaign tailored to it. As players progress, their chosen profession can rise to legendary status, with a unique storyline guiding them through their journey.
+
+## 7. Additional Considerations
+- **Balancing:** Ensure that professions, elements, and weapons are balanced to promote diverse character builds.
+- **Integration:** Deeply integrate game mechanics with world lore, economy, and social structures to provide a rich gameplay experience.
+
+## Conclusion
+The game system offers a unique blend of elemental magic, professions, and weapon mastery. Players have the freedom to customize their characters and influence the world around them. However, there are also fixed campaigns on both macro and micro scales to guide players through epic narratives and personal journeys. This design ensures a rich and engaging gameplay experience with numerous possibilities for character development and strategic depth.
