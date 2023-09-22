@@ -6,36 +6,115 @@
 │   │   │       ├── Location (String): "Lake Ylv surrounds Ylvast Village and is situated to the southeast of the Koloni Mountains. It serves as both a natural barrier and a source of livelihood for the village."
 │   │   │       ├── Size (String): "Approximately 50 square miles"
 │   │   │       ├── Depth (String): "Varies from 20 to 200 feet"
+│   │   │       ├── Act0_Specifics (Map)
+│   │   │       │   ├── Tutorial_Area (String): "Central Part around Ylvast"
+│   │   │       │   ├── Monster_Tier (String): "Tier 1"
+│   │   │       │   └── Points_of_Interest (Array): ["Serpent's Cove", "Mudbank Shore"]
 │   │   │       ├── Nearby_Locations (Map)
 │   │   │       │   ├── North (String): "Elgard, the largest city in the southeast corner of the known world."
 │   │   │       │   ├── West (String): "Dendronia Forest, a vast expanse of woodland."
-│   │   │       │   └── Southeast (String): "Koloni Mountains, a mountain range that marks the extreme southeast of the known world."
-│   │   │
-│   │   │   ├── NPC (Sub-Collection)  // These are hostile elemental beasts
-│   │   │   │   ├── Elemental_Beast1 (Document)
-│   │   │   │   │   └── Name (String): "Water Serpent"
-│   │   │   │   │   └── Element (String): "Water"
-│   │   │   │   │   └── Description (String): "A serpentine creature that can manipulate water currents to trap its prey."
-│   │   │   │   ├── Elemental_Beast2 (Document)
-│   │   │   │   │   └── Name (String): "Storm Roc"
-│   │   │   │   │   └── Element (String): "Air"
-│   │   │   │   │   └── Description (String): "A large bird-like creature that can summon storms to disorient sailors."
-│   │   │   │   ├── Elemental_Beast3 (Document)
-│   │   │   │   │   └── Name (String): "Mud Crawler"
-│   │   │   │   │   └── Element (String): "Earth"
-│   │   │   │   │   └── Description (String): "A beast that lurks in the muddy banks, capable of quicksand-like attacks."
-│   │   │   │   └── Elemental_Beast4 (Document)
-│   │   │   │       └── Name (String): "Flame Koi"
-│   │   │   │       └── Element (String): "Fire"
-│   │   │   │       └── Description (String): "A fiery fish that can heat the water to scalding temperatures."
-│   │   │   │
-│   │   │   └── Environment (Sub-Collection)
-│   │   │       ├── Landmark1 (Document)
-│   │   │       │   └── Name (String): "Serpent's Cove"
-│   │   │       │   └── Description (String): "A secluded cove known for frequent Water Serpent sightings."
-│   │   │       ├── Landmark2 (Document)
-│   │   │       │   └── Name (String): "Stormwatch Point"
-│   │   │       │   └── Description (String): "A high vantage point used to monitor weather conditions and Storm Roc activities."
-│   │   │       └── Landmark3 (Document)
-│   │   │           └── Name (String): "Mudbank Shore"
-│   │   │           └── Description (String): "A muddy area of the lake where Mud Crawlers are often found."
+│   │   │       │   ├── Southeast (String): "Koloni Mountains, a mountain range that marks the extreme southeast of the known world."
+│   │   │       │   ├── Northwest (String): "Solari Desert, a desolate desert that is a possible destination during Act 1."
+│   │   │       │   ├── Northeast (String): "Koloni Mountains, a mountain chain that is a possible destination during Act 1."
+│   │   │       │   ├── South (String): "Schorchia City, a city with Persian vibes between the desert and lake."
+│   │   │       │   └── Southwest (String): "Dendronia Forest, an ancient forest that is a possible destination for post Act 2 and 3 gameplay."
+│   │   │       ├── Travel_System (Map)
+│   │   │       │   ├── Common_Transport (String): "Small Ship"
+│   │   │       │   ├── Travel_Points (Array): ["Ylvast", "Elgard", "Serpent's Cove", "Stormwatch Point", "Mudbank Shore"]
+│   │   │       │   └── Travel_Time (Map)
+│   │   │       │       ├── Ylvast_to_Elgard (String): "3 hours"
+│   │   │       │       ├── Ylvast_to_SerpentCove (String): "1 hour"
+│   │   │       │       └── Ylvast_to_StormwatchPoint (String): "2 hours"
+│   │   │       ├── Random_Encounters (Map)
+│   │   │       │   ├── Encounter_Rate (String): "Medium"
+│   │   │       │   └── Rolls_Needed (Number): 2
+│   │   │       ├── NPC (Sub-Collection)  // These are hostile elemental beasts
+│   │   │       │   ├── Elemental_Beast1 (Document)
+│   │   │       │   │   └── Name (String): "Water Serpent"
+│   │   │       │   │   └── Element (String): "Water"
+│   │   │       │   │   └── Level (Number): 5
+│   │   │       │   │   └── Description (String): "A serpentine creature that can manipulate water currents to trap its prey."
+│   │   │       │   ├── Elemental_Beast2 (Document)
+│   │   │       │   │   └── Name (String): "Storm Roc"
+│   │   │       │   │   └── Element (String): "Air"
+│   │   │       │   │   └── Level (Number): 7
+│   │   │       │   │   └── Description (String): "A large bird-like creature that can summon storms to disorient sailors."
+│   │   │       │   ├── Elemental_Beast3 (Document)
+│   │   │       │   │   └── Name (String): "Mud Crawler"
+│   │   │       │   │   └── Element (String): "Earth"
+│   │   │       │   │   └── Level (Number): 4
+│   │   │       │   │   └── Description (String): "A beast that lurks in the muddy banks, capable of quicksand-like attacks."
+│   │   │       │   ├── Elemental_Beast4 (Document)
+│   │   │       │   │   └── Name (String): "Flame Koi"
+│   │   │       │   │   └── Element (String): "Fire"
+│   │   │       │   │   └── Level (Number): 6
+│   │   │       │   │   └── Description (String): "A fiery fish that can heat the water to scalding temperatures."
+│   │   │       │   ├── Elemental_Beast5 (Document)
+│   │   │       │   │   └── Name (String): "Triple Element Serpent"
+│   │   │       │   │   └── Element (String): "Water, Earth, Ice"
+│   │   │       │   │   └── Level (Number): 15
+│   │   │       │   │   └── Description (String): "A titanoboa-like creature with branches of wood forming its body, water veins, and ice fangs and spikes. Towering like a menace upon your ship."
+│   │   │       │   ├── Elemental_Beast6 (Document)
+│   │   │       │   │   └── Name (String): "Wind Wolf"
+│   │   │       │   │   └── Element (String): "Air, Earth"
+│   │   │       │   │   └── Level (Number): 8
+│   │   │       │   │   └── Description (String): "A wolf-like creature that can manipulate wind and earth to create dust storms."
+│   │   │       │   │── Elemental_Beast7 (Document)
+│   │   │       │   │   └── Name (String): "Lava Crab"
+│   │   │       │   │   └── Element (String): "Fire, Earth"
+│   │   │       │   │   └── Level (Number): 9
+│   │   │       │   │   └── Description (String): "A crab-like creature that can manipulate lava and create rocky barriers."
+│   │   │       │   ├── Elemental_Beast8 (Document)
+│   │   │       │   │   └── Name (String): "Frost Wyrm"
+│   │   │       │   │   └── Element (String): "Ice"
+│   │   │       │   │   └── Level (Number): 10
+│   │   │       │   │   └── Description (String): "A dragon-like creature that can freeze the water around it, trapping ships in ice."
+│   │   │       │   ├── Elemental_Beast9 (Document)
+│   │   │       │   │   └── Name (String): "Thunder Eel"
+│   │   │       │   │   └── Element (String): "Water, Air"
+│   │   │       │   │   └── Level (Number): 11
+│   │   │       │   │   └── Description (String): "An eel-like creature that can generate electric shocks and manipulate water currents."
+│   │   │       │   ├── Elemental_Beast10 (Document)
+│   │   │       │   │   └── Name (String): "Stone Gargoyle"
+│   │   │       │   │   └── Element (String): "Earth, Air"
+│   │   │       │   │   └── Level (Number): 12
+│   │   │       │   │   └── Description (String): "A gargoyle that can fly and hurl rocks from above, making it a menace in both air and land."
+│   │   │       │   ├── Elemental_Beast11 (Document)
+│   │   │       │   │   └── Name (String): "Magma Serpent"
+│   │   │       │   │   └── Element (String): "Fire, Earth"
+│   │   │       │   │   └── Level (Number): 13
+│   │   │       │   │   └── Description (String): "A serpent that can manipulate molten rock and create barriers of lava."
+│   │   │       │   └── Elemental_Beast12 (Document)
+│   │   │       │       └── Name (String): "Tornado Hawk"
+│   │   │       │       └── Element (String): "Air"
+│   │   │       │       └── Level (Number): 14
+│   │   │       │       └── Description (String): "A hawk-like creature that can summon tornadoes, lifting boats out of the water."
+│   │   │       └── Environment (Sub-Collection)
+│   │   │           ├── Landmark1 (Document)
+│   │   │           │   └── Name (String): "Serpent's Cove"
+│   │   │           │   └── Description (String): "A secluded cove known for frequent Water Serpent sightings."
+│   │   │           ├── Landmark2 (Document)
+│   │   │           │   └── Name (String): "Stormwatch Point"
+│   │   │           │   └── Description (String): "A high vantage point used to monitor weather conditions and Storm Roc activities."
+│   │   │           ├── Landmark3 (Document)
+│   │   │           │   └── Name (String): "Mudbank Shore"
+│   │   │           │   └── Description (String): "A muddy area of the lake where Mud Crawlers are often found."
+│   │   │           ├── Landmark4 (Document)
+│   │   │           │   └── Name (String): "Solari Desert"
+│   │   │           │   └── Description (String): "A desolate desert in the northwest, a possible destination during Act 1."
+│   │   │           ├── Landmark5 (Document)
+│   │   │           │   └── Name (String): "Koloni Mountains"
+│   │   │           │   └── Description (String): "A mountain chain in the edge of the mapped world, a possible destination during Act 1."
+│   │   │           ├── Landmark6 (Document)
+│   │   │           │   └── Name (String): "Schorchia City"
+│   │   │           │   └── Description (String): "A city with Persian vibes between the desert and lake, a possible destination during Act 1."
+│   │   │           │── Landmark7 (Document)
+│   │   │           │   └── Name (String): "WolfCave"
+│   │   │           │   └── Description (String): "The first dungeon, meant as an initial locked experience during Act 0."
+│   │   │           ├── Landmark8 (Document)
+│   │   │           │   └── Name (String): "Ylvast Village"
+│   │   │           │   └── Description (String): "A small island and village in the middle of Lake Ylv, meant as the initial locked city for the tutorial Act 0 experience."
+│   │   │           └── Landmark9 (Document)
+│   │   │               └── Name (String): "Elgard City"
+│   │   │               └── Description (String): "The first city, situated in the Koloni region northeast of Lake Ylv. Meant as the initial locked city for the tutorial Act 0 final experience and introduction to Act 1."
+

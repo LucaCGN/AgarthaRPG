@@ -1,69 +1,83 @@
-# Act 0: The Journey Begins
-
-## Act Details
-
-### Act Name
-- **Act Name**: "The Journey Begins"
-
-### Act Overview
-- **Act Overview**: "The player wakes up on Ylvast Island the day after their 18th birthday, with only three hours before the boat to Elgard departs. This act serves as an introduction to the game's world, mechanics, and characters, setting the stage for the player's journey to discover their elemental affinity."
-
-### Backdrop
-- **Backdrop**: "The small island of Ylvast in the middle of Lake Ylv, which is located to the south of Elgard."
-
-### Conflict
-- **Conflict**: "The player must navigate through various challenges, including interactions with villagers, a boat ride fraught with danger, and a cave rescue mission, to reach Elgard and discover their elemental affinity."
-
-### Integration
-- **Integration**: "The act introduces game mechanics, elemental magic, key NPCs, and sets the stage for future conflicts and alliances."
-
-### Central NPCs
-
-#### NPC 1: Novak
-- **NPC Name**: "Novak"
-- **NPC Role**: "Experienced Village Seaman"
-- **NPC Description**: "Novak is a seasoned seaman who guides the player during their boat journey to Elgard. He wields a magical trident capable of channeling elemental forces."
-
-#### NPC 2: Sylas
-- **NPC Name**: "Sylas"
-- **NPC Role**: "Young Adult, Potential Ally or Rival"
-- **NPC Description**: "Sylas is another young adult who has just turned 18. Their dream profession is randomized in each session. Sylas can become either an ally or a rival based on player choices."
-
-## Quests
-
-### Quest 0.1: Moments Before Leaving Home
-- **Quest Name**: "Moments Before Leaving Home"
-- **Quest Location**: "Player's Home in Ylvast"
-- **Quest Steps**:
-  1. **Step Name**: "Choose Your Legacy"
-    - **Step Description**: "Select your initial weapons, which are heirlooms left by your late father. Also, pick up a bag of profession items that once belonged to your grandpa. Your family died in a shipwreck, and these items are all you have left of them."
-
-### Quest 0.2: Interactions with Villagers
-- **Quest Name**: "Interactions with Villagers"
-- **Quest Location**: "Ylvast Village"
-- **Quest Steps**:
-  1. **Step Name**: "Meet the Locals"
-    - **Step Description**: "Interact with fishermen, seamen, cooks, and merchants to get a feel for the village life and learn about the game's mechanics."
-
-### Quest 0.3: The Boat Travel
-- **Quest Name**: "The Boat Travel"
-- **Quest Location**: "Lake Ylv"
-- **Quest Steps**:
-  1. **Step Name**: "Survive the Serpent Attack"
-    - **Step Description**: "While traveling with Novak and Sylas, your boat is attacked by a massive elemental serpent. Novak uses his elemental magic, channeling wind, water and lighting magig with trident to face off the creature while he propels you and Sylas towards the shore."
-
-### Quest 0.4: Elemental Awakening
-- **Quest Name**: "Elemental Awakening"
-- **Quest Location**: "Shore near Elgard"
-- **Quest Steps**:
-  1. **Step Name**: "Discover Your Elemental Affinity"
-    - **Step Description**: "After the crash, you wake up near a cave. You focus on a mysterious magic circle that Novak cast, which triggers the awakening of your elemental affinity."
-
-### Quest 0.5: The Cave Incident
-- **Quest Name**: "The Cave Incident"
-- **Quest Location**: "Cave near Elgard"
-- **Quest Steps**:
-  1. **Step Name**: "Rescue the Children"
-    - **Step Description**: "You hear cries from inside the cave and find two children cornered by a poison wolf. Engage in combat to rescue them. The cave fills with poison, causing you and Sylas to faint. You wake up later in Elgard, setting the stage for the adventures to come."
-
-
+│   ├── Act0 (Document)
+│   │   └── act_details (Fields)
+│   │       ├── act_name (String): "The Journey Begins"
+│   │       ├── act_overview (String): "The player wakes up on Ylvast Island the day after their 18th birthday, with only three hours before the boat to Elgard departs."
+│   │       ├── backdrop (String): "The small island of Ylvast in the middle of Lake Ylv, which is located to the southwest of Elgard."
+│   │       ├── conflict (String): "The player must navigate through various challenges, including interactions with villagers, a boat ride fraught with danger, and a cave rescue mission."
+│   │       ├── integration (String): "The act introduces game mechanics like weapon mastery and professions skills, elemental magic, key NPCs, and sets the stage for future conflicts and alliances."
+│   │       ├── act_theme (String): "Coming of Age"
+│   │       ├── act_mood (String): "Adventure, Mystery"
+│   │       ├── act_music (String): "Ylvast Dawn, Elgard Theme"
+│   │       ├── act_weather (String): "Partly Cloudy, Storm during the boat ride"
+│   │       ├── key_locations (Array of Maps)
+│   │       │   └── location1 (Map)
+│   │       │       ├── location_name (String): "Lake Ylv"
+│   │       │       └── location_importance (String): "Lake Ylv serves as a crucial checkpoint for ships coming from Elgard. It's a place filled with elemental magic and is home to various elemental creatures."
+│   │       ├── key_items (Array of Maps)
+│   │       │   └── item1 (Map)
+│   │       │       ├── item_name (String): "Novak's Trident"
+│   │       │       └── item_description (String): "A magical trident that can channel elemental forces. It's Novak's signature weapon."
+│   │       ├── key_events (Array of Maps)
+│   │       │   └── event1 (Map)
+│   │       │       ├── event_name (String): "Serpent Attack"
+│   │       │       └── event_description (String): "A massive elemental serpent attacks the boat. This event serves as a tutorial for combat mechanics and introduces the player to elemental magic."
+│   │       ├── central_npcs (Array of Maps)
+│   │       │   └── npc1 (Map)
+│   │       │       ├── npc_name (String): "Novak"
+│   │       │       ├── npc_role (String): "Experienced Village Seaman"
+│   │       │       ├── npc_description (String): "Novak is a seasoned seaman who guides the player during their boat journey to Elgard. He wields a magical trident capable of channeling elemental forces."
+│   │       │       ├── npc_backstory (String): "Novak was once a sailor from Elgard who decided to settle in Ylvast Village. He has been taking young adults to Elgard for years."
+│   │       │       ├── npc_impactful_moments (Array of Strings): ["His speech about the importance of the journey", "His elemental magic display during the serpent attack"]
+│   │       │       └── npc_magic_visuals (String): "Novak's magic manifests as a combination of wind, water, and lightning, channeled through his trident."
+│   │       │   └── npc2 (Map)
+│   │       │       ├── npc_name (String): "Sylas"
+│   │       │       ├── npc_role (String): "Young Adult, Potential Ally or Rival"
+│   │       │       ├── npc_description (String): "Sylas is another young adult who has just turned 18. Her dream profession is randomized in each session. Sylas can become either an ally or a rival based on player choices."
+│   │       │       └── npc_backstory (String): "Sylas grew up in Ylvast Village and has always been fascinated by the stories of Elgard. They see this journey as their big chance."
+│   │       └── quests (Array of Maps)
+│   │           └── quest1 (Map)
+│   │               ├── quest_name (String): "Moments Before Leaving Home"
+│   │               ├── quest_location (String): "Player's Home in Ylvast"
+│   │               ├── quest_importance (String): "This quest serves as an introduction to the game's inventory and choice-making mechanics."
+│   │               └── quest_steps (Array of Maps)
+│   │                   └── step1 (Map)
+│   │                       ├── step_name (String): "Choose Your Legacy"
+│   │                       └── step_description (String): "Select your initial weapons, which are heirlooms left by your late father. Also, pick up a bag of profession items that once belonged to your grandpa."
+│   │           └── quest2 (Map)
+│   │               ├── quest_name (String): "Interactions with Villagers"
+│   │               ├── quest_location (String): "Ylvast Village"
+│   │               ├── quest_importance (String): "This quest introduces the player to the daily life of Ylvast and serves as a tutorial for interaction mechanics."
+│   │               └── quest_steps (Array of Maps)
+│   │                   └── step1 (Map)
+│   │                       ├── step_name (String): "Meet the Locals"
+│   │                       └── step_description (String): "Interact with fishermen, seamen, cooks, and merchants to get a feel for the village life and learn about the game's profession mechanics."
+│   │           └── quest3 (Map)
+│   │               ├── quest_name (String): "The Boat Travel"
+│   │               ├── quest_location (String): "Lake Ylv"
+│   │               ├── quest_importance (String): "This quest serves as a dusplay for combat and elemental magic actions at higher levels by displaying how novaks defends from and atacks the elemental beast"
+│   │               └── quest_steps (Array of Maps)
+│   │                   └── step1 (Map)
+│   │                       ├── step_name (String): "Survive the Serpent Attack"
+│   │                       └── step_description (String): "While traveling with Novak and Sylas, your boat is attacked by a massive triple element serpent. It looks like a titanoboa, with branchs of wood forming its body, water veins and ice fangs and spikes. Towering like a menace upon your ship"
+│   │                   └── step2 (Map)
+│   │                       ├── step_name (String): "The Misteryous Rune"
+│   │                       └── step_description (String): With one hand, Novak hold his Trident with one hand with putting one feet on the stern of the ship. With the other hand, he forms a open hand and points at you and siila. a celtic not circled by nordic runes of a translucend energy forms in his hands"
+│   │                   └── step3 (Map)
+│   │                       ├── step_name (String): "Sendoff"
+│   │                       └── step_description (String): "Your vision gets blurred, and you have a confusing view of novak jumping, standing in the water, and using magic to full send you towards the rocky shore with a wave and strong winds using his magic."
+│   │           └── quest4 (Map)
+│   │               ├── quest_name (String): "Elemental Awakening"
+│   │               ├── quest_location (String): "Shore near Elgard"
+│   │               ├── quest_importance (String): "This quest serves as the player's introduction to their elemental affinity and sets the stage for future magical abilities."
+│   │               └── quest_steps (Array of Maps)
+│   │                   └── step1 (Map)
+│   │                       ├── step_name (String): "Discover Your Elemental Affinity"
+│   │                       └── step_description (String): "After the crash, you wake up near a cave. You focus on a mysterious magic circle that Novak cast, which triggers the awakening of your elemental affinity."
+│   │           └── quest5 (Map)
+│   │               ├── quest_name (String): "The Cave Incident"
+│   │               ├── quest_location (String): "Cave near Elgard"
+│   │               ├── quest_importance (String): "This quest serves as a tutorial for combat mechanics and introduces the player to the stakes of the world they are entering."
+│   │               └── quest_steps (Array of Maps)
+│   │                   └── step1 (Map)
+│   │                       ├── step_name (String): "Rescue the Children"
+│   │                       └── step_description (String): "You hear cries from inside the cave and find two children cornered by a poison wolf. Engage in combat to rescue them. The cave fills with poison, causing you and Sylas to faint. You wake up later in Elgard, setting the stage for the adventures to come."

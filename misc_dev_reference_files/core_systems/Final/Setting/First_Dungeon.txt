@@ -1,26 +1,73 @@
 │   ├── setting (Sub-Collection)
 │   │   ├── Cave_Dungeon (Document)
-│   │   │   └── setting_details (Fields)
-│   │   │       ├── Name (String): "Cave of Whispers"
-│   │   │       ├── Type (String): "Dungeon"
-│   │   │       ├── Location (String): "Located about a mile from Elgard, near the shore of Lake Ylv."
-│   │   │       ├── Size (String): "Approximately 300 square feet"
-│   │   │       ├── Depth (String): "One main chamber with a few branching tunnels"
-│   │   │       ├── Traps (Array of Maps)
+│   │   │   └── First_Encounter (Fields)
+│   │   │       ├── Encounter_Name (String): "Rescue the Children"
+│   │   │       ├── Encounter_Type (String): "Combat Tutorial"
+│   │   │       ├── Dungeon_Name (String): "Cave of Whispers"
+│   │   │       ├── Dungeon_Type (String): "Dungeon"
+│   │   │       ├── Dungeon_Location (String): "Located about a mile from Elgard, near the shore of Lake Ylv."
+│   │   │       ├── Dungeon_Size (String): "Approximately 300 square feet"
+│   │   │       ├── Dungeon_Depth (String): "One main chamber with a few branching tunnels"
+│   │   │       ├── Dungeon_General_Map (String): "A layout description linking all elements: Main Path splits into Trap1 Path and Stream Path -> Trap1 leads to Puzzle1 -> Both paths lead to Enemy1."
+│   │   │       ├── Dungeon_Traps (Array of Maps)
 │   │   │       │   └── Trap1 (Map)
 │   │   │       │       ├── Type (String): "Pitfall"
-│   │   │       │       └── Description (String): "A hidden pit covered by leaves and twigs."
-│   │   │       ├── Puzzles (Array of Maps)
+│   │   │       │       └── Description (String): "A hidden pit covered by leaves and twigs that leads to a concealed tunnel."
+│   │   │       │       └── Perception_Check (Map)
+│   │   │       │           ├── General_Perception_DC (Integer): 12
+│   │   │       │   └── Trap2 (Map)
+│   │   │       │       ├── Type (String): "SoundWave"
+│   │   │       │       └── Description (String): "Sound cutting waves are emitted when the ring is removed from the altar."
+│   │   │       │       └── Trap_Effect (String): "Sound cutting waves causing 2d10 damage."
+│   │   │       │       └── Perception_Check (Map)
+│   │   │       │           ├── General_Perception_DC (Integer): 15
+│   │   │       │           ├── Magical_Overpower_DC (Integer): 20
+│   │   │       │           └── If_Sound_Element_DC (Integer): 10
+│   │   │       ├── Dungeon_Puzzles (Array of Maps)
 │   │   │       │   └── Puzzle1 (Map)
 │   │   │       │       ├── Type (String): "Elemental Rune Lock"
-│   │   │       │       └── Description (String): "A door with elemental runes that need to be activated in a specific sequence."
-│   │   │       ├── Paths (Array of Maps)
+│   │   │       │       └── Description (String): "A door emitting a mythical sound, requiring sound element channeling to open."
+│   │   │       │       └── Perception_Check (Map)
+│   │   │       │           ├── General_Perception_DC (Integer): 15
+│   │   │       │           ├── Magical_Overpowering_DC (Integer): 19
+│   │   │       │           └── Sound_Ability_DC (Integer): 0
+│   │   │       ├── Dungeon_Paths (Array of Maps)
 │   │   │       │   └── Path1 (Map)
 │   │   │       │       ├── Type (String): "Main Path"
-│   │   │       │       └── Description (String): "Leads directly to the chamber where the children are cornered."
-│   │   │       │   └── Path2 (Map)
-│   │   │       │       ├── Type (String): "Side Tunnel"
-│   │   │       │       └── Description (String): "A narrow tunnel that loops back to the main path, bypassing the trap."
+│   │   │       │       └── Description (String): "Splits into Trap1 Path and Stream Path. Both paths lead to the chamber where the children are cornered."
+│   │   │       ├── Dungeon_Enemies (Array of Maps)
+│   │   │       │   └── Enemy1 (Map)
+│   │   │       │       ├── Type (String): "Poison Wolf"
+│   │   │       │       └── Description (String): "A wolf with poisonous fangs and the ability to release a toxic cloud."
+│   │   │       ├── Dungeon_Loot (Array of Maps)
+│   │   │       │   └── Loot1 (Map)
+│   │   │       │       ├── Type (String): "Ring"
+│   │   │       │       └── Description (String): "A Celtic ring with a 3-sided knot, engraved with a 3-element healing spell."
+│   │   │       │       └── Activation_Cost (Integer): "50% of total Mana"
+│   │   │       │       └── Cooldown (String): "24 hours"
+│   │   │       │       └── Activation_Effect (String): "Resets user to any time in the previous 24 hours, restoring full Mana."
+│   │   │       ├── Player_Level (Integer): 2
+│   │   │       ├── NPC_Level (Integer): 2 (Sylas)
+│   │   │       ├── Enemy_Level (Integer): 3 (Poison Wolf)
+│   │   │       ├── Player_Weapons (String): "[#FETCH#]"
+│   │   │       ├── Player_Elements (String): "[#FETCH#]"
+│   │   │       ├── NPC_Elements (String): "[#FETCH#]"
+│   │   │       ├── Combat_Items (String): "[#FETCH#]"
+│   │   │       ├── Main_Objective (String): "Ensure the safety of the children cornered by the Poison Wolf."
+│   │   │       ├── Bonus_Objective (String): "Defeat the Poison Wolf as quickly and safely as possible for extra points."
+│   │   │       ├── Environmental_Factors (Array of Maps)
+│   │   │       │   └── Factor1 (Map)
+│   │   │       │       ├── Type (String): "Boulder"
+│   │   │       │       └── Description (String): "A large boulder that can be used for cover or as a weapon with Earth magic."
+│   │   │       │   └── Factor2 (Map)
+│   │   │       │       ├── Type (String): "Lake"
+│   │   │       │       └── Description (String): "A small lake that can be used for Water magic."
+│   │   │       ├── NPC_Actions (String): "[#FETCH#]"
+│   │   │       ├── Combat_Prompt (String): "You and Sylas find yourselves in a dimly lit small-medium cave. Two children are cornered by a Poison Wolf, which have its back to both of you and its full focus on the kids. A boulder is to your right, and a small lake is to your left. What do you do?"
+│   │   │       │── Combat_Logic_Parameters (Map)
+│   │   │       │   ├── Element_Interaction_Rules (String): "Refer to Elemental Rules Section"
+│   │   │       │   ├── NPC_Interaction_Rules (String): "Based on affinity, charisma, and context, Sylas may or may not follow the player's suggestions."
+│   │   │       │   └── Resource_Management_Rules (String): "Players must manage their Mana and HP. Using too much Mana for powerful spells may leave them vulnerable."
 │   │   │       ├── Enemies (Array of Maps)
 │   │   │       │   └── Enemy1 (Map)
 │   │   │       │       ├── Type (String): "Poison Wolf"
@@ -34,17 +81,44 @@
 │   │   │       │       └── WIS (Integer): 2
 │   │   │       │       └── CHA (Integer): 1
 │   │   │       │       └── Mana (Integer): 30
-│   │   │       ├── Skill_Actions (Array of Maps)
-│   │   │       │   └── Poison_Cloud (Map)
-│   │   │       │       ├── Type (String): "Magic"
-│   │   │       │       ├── Damage (Integer): 4
-│   │   │       │       └── Mana_Cost (Integer): 10
+│   │   │       │       └── Basic_Attack (Map)
+│   │   │       │       │   └── Bite (Map)
+│   │   │       │       │       ├── Type (String): "Physical"
+│   │   │       │       │       └── Damage (Integer): 6
+│   │   │       │       │       └── Mana_Cost (Integer): 0
+│   │   │       │       └── Loot_Table (Array of Maps)
+│   │   │       │           └── Loot1 (Map)
+│   │   │       │               ├── Type (String): "Wolf Pelt"
+│   │   │       │               └── Rarity (String): "Common"
+│   │   │       │           └── Loot2 (Map)
+│   │   │       │               ├── Type (String): "Wolf Fang"
+│   │   │       │               └── Rarity (String): "Uncommon"
+│   │   │       │           └── Loot3 (Map)
+│   │   │       │               ├── Type (String): "Poison Gland"
+│   │   │       │               └── Rarity (String): "Rare"
+│   │   │       │           └── Loot4 (Map)
+│   │   │       │               ├── Type (String): "Poison Element Crystal"
+│   │   │       │               └── Rarity (String): "Legendary"
+│   │   │       │           └── Loot5 (Map)
+│   │   │       │               ├── Type (String): "Leather Sack with 10 Diamonds"
+│   │   │       │               └── Rarity (String): "Mythical"
 │   │   │       ├── Imbued_Attack_Actions (Array of Maps)
 │   │   │       │   └── Poison_Bite (Map)
 │   │   │       │       ├── Type (String): "Physical + Magic"
 │   │   │       │       ├── Damage (Integer): 12 (8 Physical + 4 Magic)
 │   │   │       │       └── Mana_Cost (Integer): 8
+│   │   │       │   └── Poison_Cloud (Map)
+│   │   │       │       ├── Type (String): "Magic"
+│   │   │       │       ├── Damage (Integer): 4
+│   │   │       │       └── Mana_Cost (Integer): 10
 │   │   │       └── NPCs (Array of Maps)
 │   │   │           └── NPC1 (Map)
 │   │   │               ├── Type (String): "Children"
 │   │   │               └── Description (String): "Two young children cornered by the Poison Wolf, in need of rescue."
+│   │   │               └── HP (Integer): 10
+│   │   │               └── Stats (Map)
+│   │   │                   └── Courage (Integer): 3
+│   │   │                   └── Fear_Level (Integer): 7
+│   │   │               └── Reaction_Parameters (Map)
+│   │   │                   └── Flee_Condition (String): "When they feel safe or when the wolf is distracted."
+│   │   │                   └── Help_Condition (String): "Will assist if player performs a comforting action."

@@ -4,7 +4,7 @@
 │   │   │       ├── Name (String): "Elgard"
 │   │   │       ├── Type (String): "City"
 │   │   │       ├── Location (String): "Elgard is nestled within the lush Agarthan heartlands, surrounded by ancient forests and pristine lakes."
-│   │   │       ├── Population (Integer): 150000
+│   │   │       ├── Population (Integer): 1000
 │   │   │       └── Climate (String): "Elgard enjoys a temperate climate with warm summers and mild winters, making it a year-round haven for travelers."
 │   │   │
 │   │   │   ├── NPC (Sub-Collection)

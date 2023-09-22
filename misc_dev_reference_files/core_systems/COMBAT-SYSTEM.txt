@@ -1,0 +1,52 @@
+# Unified Combat System for Elemental Fantasy Game
+
+## Table of Contents
+1. [Elemental Rules](#elemental-rules)
+2. [Combat Collection](#combat-collection)
+3. [Prompting](#prompting)
+4. [Langchain Evaluation](#langchain-evaluation)
+
+---
+
+## Elemental Rules
+This section outlines the fundamental rules governing elemental interactions, manifestations, and their "scientific" basis in the game world.
+
+### Subsections
+1. **Elemental Interactions**: Defines the five types of interactions between elements (e.g., amplification, nullification).
+2. **Elemental Manifestations**: Describes how elements manifest physically or as energy.
+3. **Elemental Science**: Explains the limitations and "science" behind each element (e.g., Light cannot be used for time travel).
+
+---
+
+## Combat Collection
+This section contains individual combat documents under the user's main document. Each combat document is divided into four subsections.
+
+### Subsections
+1. **Enemy Details**: Information fetched or generated for the enemies involved in combat.
+2. **Character Details**: Information fetched from the user's main document.
+3. **Setting and Context**: Describes the motivation for combat, conditions for ending combat, and relevant environmental details.
+4. **Combat Log**: A log of all user actions and the resulting combat resolutions.
+
+---
+
+## Prompting
+This section focuses on the game logic for combat encounters, tailored to the player's gameplay style.
+
+### Mechanics
+1. **Design According to Gameplay Style**: The system considers the player's preferred gameplay style when designing encounters.
+2. **Fast Combat Resolution**: Resolves as many actions as possible in one go to speed up combat.
+3. **Challenge Creation**: Uses all available mechanics to create a challenging narrative puzzle for the player.
+
+---
+
+## Langchain Evaluation
+This section uses Langchain code to evaluate player actions subjectively, based on a database of past encounters and player responses.
+
+### Features
+1. **Encounter Database**: Stores past encounters, player responses, and a score for each response.
+2. **Scoring Logic**: Defines the logic used to assign scores to player actions.
+3. **Arbitrary Bonuses**: Allows the Master to provide quantitative bonuses like double damage, advantage on rolls, or bypassing resistances based on the score.
+
+---
+
+By integrating these four sections, we create a unified combat system that offers both strategic depth and creative freedom, tailored to individual gameplay styles.

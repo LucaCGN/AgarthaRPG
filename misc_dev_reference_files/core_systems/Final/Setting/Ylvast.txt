@@ -4,98 +4,269 @@
 │   │   │       ├── Name (String): "Ylvast Village"
 │   │   │       ├── Type (String): "Village"
 │   │   │       ├── Location (String): "Ylvast Village is situated on a small island in the middle of Lake Ylv, a refuge for travelers and merchants."
+│   │   │       ├── Combat (Integer): "Combat with any NPC is not allowed during the tutorial, if the player did not complete Act0"	
 │   │   │       ├── Population (Integer): 20
-│   │   │       └── Climate (String): "The village experiences a maritime climate with frequent storms and mild temperatures."
+│   │   │       ├── Climate (String): "The village experiences a maritime climate with frequent storms and mild temperatures."
+│   │   │       ├── Economy (Map)
+│   │   │       │   ├── Main_Industries (Array): ["Fishing", "Craftsmanship"]
+│   │   │       │   └── Currency (String): "Gold Coins"
+│   │   │       ├── Governance (Map)
+│   │   │       │   ├── Leader (String): "Elder Morwen"
+│   │   │       │   └── Government_Type (String): "Elders Council"
+│   │   │       ├── Culture (Map)
+│   │   │       │   ├── Festivals (Array): ["Harvest Festival", "Lake Day"]
+│   │   │       │   └── Languages (Array): ["Common", "Elvish"]
+│   │   │       ├── Points_of_Interest (Array): ["Lake Ylv", "Craftsmen Square"]
+│   │   │       └── History (String): "Founded 200 years ago by settlers seeking refuge from mainland conflicts."
 │   │   │
 │   │   │   ├── NPC (Sub-Collection)
 │   │   │   │   ├── Novak (Document)
 │   │   │   │   │   └── Name (String): "Novak"
 │   │   │   │   │   └── Role (String): "Village Elder and Seaman"
-│   │   │   │   │   └── Description (String): "A wise and experienced seaman who oversees the village's safety and navigational activities."
+│   │   │   │   │   └── Age (Number): 50
+│   │   │   │   │   └── Height (String): "6'2"
+│   │   │   │   │   └── PhysicalDescription (String): "Strong build, one blue eye and one eyepatch, wears a leather jacket and black pants, carries a trident."
+│   │   │   │   │   └── Alignment (String): "Lawful Neutral"
+│   │   │   │   │   └── OffLimitsTopics (Array): ["Past"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Seafaring", "Weaponry"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Sylas", "Alma"], "Negative": ["Beryl"]}
+│   │   │   │   │   └── Mentorship (String): "Taught the player character how to fight with their deceased father's weapons."
+│   │   │   │   │   └── TimeInVillage (Number): 18
+│   │   │   │   │   └── Origin (String): "Nordic"
 │   │   │   │   ├── Sylas (Document)
 │   │   │   │   │   └── Name (String): "Sylas"
 │   │   │   │   │   └── Role (String): "Young Adult"
-│   │   │   │   │   └── Description (String): "A young adult who just turned 18, eager to explore the world and discover their elemental affinity."
-│   │   │   │   ├── NPC1 (Document)
+│   │   │   │   │   └── Age (Number): 18
+│   │   │   │   │   └── Height (String): "5'9"
+│   │   │   │   │   └── PhysicalDescription (String): "Blonde hair, green eyes, casual attire."
+│   │   │   │   │   └── Alignment (String): "Chaotic Good"
+│   │   │   │   │   └── AffinityTopics (Array): ["Adventure", "Elemental Lore"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Novak", "Alma"], "Negative": ["Cedric"]}
+│   │   │   │   │   └── Childhood (String): "Grew up with the main character on the island."
+│   │   │   │   │   └── Aspirations (String): "Wants to explore the world and discover her elemental affinity."
+│   │   │   │   ├── Alma (Document)
 │   │   │   │   │   └── Name (String): "Alma"
 │   │   │   │   │   └── Role (String): "Fisherman"
-│   │   │   │   │   └── Description (String): "A skilled fisherman who knows the lake like the back of his hand."
-│   │   │   │   ├── NPC2 (Document)
+│   │   │   │   │   └── Age (Number): 40
+│   │   │   │   │   └── Height (String): "5'11"
+│   │   │   │   │   └── PhysicalDescription (String): "Rugged, tanned skin, brown hair."
+│   │   │   │   │   └── Alignment (String): "Neutral Good"
+│   │   │   │   │   └── Services (Array): ["Fishing Lessons", "Bait"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Fishing", "Lake Ecology"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Sylas", "Novak"], "Negative": ["Beryl"]}
+│   │   │   │   │   └── ProfessionalSkills (String): "Expert in lake fishing and bait crafting."
+│   │   │   │   ├── Beryl (Document)
 │   │   │   │   │   └── Name (String): "Beryl"
 │   │   │   │   │   └── Role (String): "Merchant"
-│   │   │   │   │   └── Description (String): "A savvy merchant who specializes in trading goods between the island and the mainland."
-│   │   │   │   ├── NPC3 (Document)
+│   │   │   │   │   └── Age (Number): 35
+│   │   │   │   │   └── Height (String): "5'6"
+│   │   │   │   │   └── PhysicalDescription (String): "Slim build, black hair, always seen in merchant attire."
+│   │   │   │   │   └── Alignment (String): "True Neutral"
+│   │   │   │   │   └── Services (Array): ["Trading Goods"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Trade", "Economics"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Cedric", "Alma"], "Negative": ["Novak"]}
+│   │   │   │   │   └── BusinessStrategy (String): "Specializes in trading exotic goods."
+│   │   │   │   ├── Cedric (Document)
 │   │   │   │   │   └── Name (String): "Cedric"
 │   │   │   │   │   └── Role (String): "Cook"
-│   │   │   │   │   └── Description (String): "The village cook known for his delicious seafood dishes."
-│   │   │   │   ├── NPC4 (Document)
+│   │   │   │   │   └── Age (Number): 28
+│   │   │   │   │   └── Height (String): "5'8"
+│   │   │   │   │   └── PhysicalDescription (String): "Medium build, brown hair, always seen in a chef's apron."
+│   │   │   │   │   └── Alignment (String): "Neutral Good"
+│   │   │   │   │   └── Services (Array): ["Seafood Dishes"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Cooking", "Seafood"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Beryl", "Alma"], "Negative": ["Sylas"]}
+│   │   │   │   │   └── CulinarySkills (String): "Known for his delicious seafood dishes."
+│   │   │   │   ├── Dara (Document)
 │   │   │   │   │   └── Name (String): "Dara"
 │   │   │   │   │   └── Role (String): "Seaman"
-│   │   │   │   │   └── Description (String): "A seasoned seaman responsible for guiding boats safely through the lake."
-│   │   │   │   ├── NPC5 (Document)
+│   │   │   │   │   └── Age (Number): 45
+│   │   │   │   │   └── Height (String): "5'10"
+│   │   │   │   │   └── PhysicalDescription (String): "Weathered face, gray beard, and a sailor's cap."
+│   │   │   │   │   └── Alignment (String): "Lawful Neutral"
+│   │   │   │   │   └── Services (Array): ["Boat Guidance", "Navigation Lessons"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Sailing", "Lake Safety"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Novak", "Alma"], "Negative": ["Elin"]}
+│   │   │   │   │   └── NauticalSkills (String): "Expert in lake navigation and boat safety."
+│   │   │   │   ├── Elin (Document)
 │   │   │   │   │   └── Name (String): "Elin"
 │   │   │   │   │   └── Role (String): "Healer"
-│   │   │   │   │   └── Description (String): "The village healer skilled in herbal medicine and basic elemental healing."
-│   │   │   │   ├── NPC6 (Document)
+│   │   │   │   │   └── Age (Number): 33
+│   │   │   │   │   └── Height (String): "5'4"
+│   │   │   │   │   └── PhysicalDescription (String): "Long blonde hair, blue eyes, often seen in healer's robes."
+│   │   │   │   │   └── Alignment (String): "Neutral Good"
+│   │   │   │   │   └── Services (Array): ["Herbal Medicine", "Elemental Healing"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Herbalism", "Elemental Magic"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Gilda", "Sylas"], "Negative": ["Dara"]}
+│   │   │   │   │   └── HealingSkills (String): "Skilled in herbal medicine and basic elemental healing."
+│   │   │   │   ├── Fen (Document)
 │   │   │   │   │   └── Name (String): "Fen"
 │   │   │   │   │   └── Role (String): "Blacksmith"
-│   │   │   │   │   └── Description (String): "The village blacksmith, known for crafting basic weapons and tools."
-│   │   │   │   ├── NPC7 (Document)
+│   │   │   │   │   └── Age (Number): 45
+│   │   │   │   │   └── Height (String): "5'10"
+│   │   │   │   │   └── PhysicalDescription (String): "Muscular build, bald, beard, always in blacksmith attire."
+│   │   │   │   │   └── Alignment (String): "Lawful Good"
+│   │   │   │   │   └── Services (Array): ["Weapon Crafting", "Tool Repair"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Metalwork", "Craftsmanship"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Orin", "Cedric"], "Negative": ["Alma"]}
+│   │   │   │   │   └── Expertise (String): "Known for crafting basic weapons and tools."
+│   │   │   │   │   └── BusinessHours (String): "9 AM - 5 PM"
+│   │   │   │   ├── Gilda (Document)
 │   │   │   │   │   └── Name (String): "Gilda"
 │   │   │   │   │   └── Role (String): "Innkeeper"
-│   │   │   │   │   └── Description (String): "The warm and welcoming innkeeper of the village's only inn."
-│   │   │   │   ├── NPC8 (Document)
+│   │   │   │   │   └── Age (Number): 50
+│   │   │   │   │   └── Height (String): "5'7"
+│   │   │   │   │   └── PhysicalDescription (String): "Curly red hair, green eyes, always seen in traditional innkeeper attire."
+│   │   │   │   │   └── Alignment (String): "Lawful Good"
+│   │   │   │   │   └── Services (Array): ["Room Rental", "Food and Drinks"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Hospitality", "Local History"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Novak", "Sylas"], "Negative": ["Fen"]}
+│   │   │   │   │   └── BusinessHours (String): "Open 24/7"
+│   │   │   │   │   └── SpecialOffers (String): "Free sake bottle for regular customers."
+│   │   │   │   ├── Holt (Document)
 │   │   │   │   │   └── Name (String): "Holt"
 │   │   │   │   │   └── Role (String): "Carpenter"
-│   │   │   │   │   └── Description (String): "The village carpenter responsible for maintaining buildings and crafting furniture."
-│   │   │   │   ├── NPC9 (Document)
+│   │   │   │   │   └── Age (Number): 38
+│   │   │   │   │   └── Height (String): "6'0"
+│   │   │   │   │   └── PhysicalDescription (String): "Short brown hair, blue eyes, often seen in carpenter's attire."
+│   │   │   │   │   └── Alignment (String): "Neutral Good"
+│   │   │   │   │   └── Services (Array): ["Building Repair", "Furniture Crafting"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Woodworking", "Architecture"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Gilda", "Alma"], "Negative": ["Beryl"]}
+│   │   │   │   │   └── BusinessHours (String): "8 AM - 6 PM"
+│   │   │   │   │   └── Expertise (String): "Specializes in maintaining village buildings and crafting furniture."
+│   │   │   │   ├── Isla (Document)
 │   │   │   │   │   └── Name (String): "Isla"
 │   │   │   │   │   └── Role (String): "Teacher"
-│   │   │   │   │   └── Description (String): "The village teacher who educates the children in basic skills and elemental lore."
-│   │   │   │   ├── NPC10 (Document)
+│   │   │   │   │   └── Age (Number): 29
+│   │   │   │   │   └── Height (String): "5'6"
+│   │   │   │   │   └── PhysicalDescription (String): "Short black hair, brown eyes, often seen in scholarly attire."
+│   │   │   │   │   └── Alignment (String): "Lawful Good"
+│   │   │   │   │   └── Services (Array): ["Education"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Education", "Elemental Lore"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Elin", "Gilda"], "Negative": ["Joss"]}
+│   │   │   │   │   └── TeachingSkills (String): "Expert in basic skills education and elemental lore."
+│   │   │   │   ├── Joss (Document)
 │   │   │   │   │   └── Name (String): "Joss"
 │   │   │   │   │   └── Role (String): "Fisherman"
-│   │   │   │   │   └── Description (String): "Another skilled fisherman who often competes with Alma for the biggest catch."
-│   │   │   │   ├── NPC11 (Document)
+│   │   │   │   │   └── Age (Number): 37
+│   │   │   │   │   └── Height (String): "5'9"
+│   │   │   │   │   └── PhysicalDescription (String): "Muscular build, bald, and a beard."
+│   │   │   │   │   └── Alignment (String): "Chaotic Neutral"
+│   │   │   │   │   └── Services (Array): ["Fishing Gear"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Fishing", "Competitions"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Alma", "Dara"], "Negative": ["Isla"]}
+│   │   │   │   │   └── FishingSkills (String): "Known for his competitive spirit in fishing."
+│   │   │   │   ├── Kara (Document)
 │   │   │   │   │   └── Name (String): "Kara"
 │   │   │   │   │   └── Role (String): "Merchant"
-│   │   │   │   │   └── Description (String): "A merchant who specializes in exotic goods from the mainland."
-│   │   │   │   ├── NPC12 (Document)
+│   │   │   │   │   └── Age (Number): 40
+│   │   │   │   │   └── Height (String): "5'7"
+│   │   │   │   │   └── PhysicalDescription (String): "Straight brown hair, hazel eyes, often seen in merchant attire."
+│   │   │   │   │   └── Alignment (String): "True Neutral"
+│   │   │   │   │   └── Services (Array): ["Exotic Goods"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Trade", "Exotic Items"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Beryl", "Holt"], "Negative": ["Gilda"]}
+│   │   │   │   │   └── BusinessStrategy (String): "Specializes in exotic goods from the mainland."
+│   │   │   │   ├── Lena (Document)
 │   │   │   │   │   └── Name (String): "Lena"
 │   │   │   │   │   └── Role (String): "Cook"
-│   │   │   │   │   └── Description (String): "Cedric's assistant who is learning the art of cooking."
-│   │   │   │   ├── NPC13 (Document)
+│   │   │   │   │   └── Age (Number): 22
+│   │   │   │   │   └── Height (String): "5'3"
+│   │   │   │   │   └── PhysicalDescription (String): "Short brown hair, green eyes, often seen in a cooking apron."
+│   │   │   │   │   └── Alignment (String): "Neutral Good"
+│   │   │   │   │   └── Services (Array): ["Cooking Assistance"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Cooking", "Learning"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Cedric", "Gilda"], "Negative": ["Milo"]}
+│   │   │   │   │   └── CulinarySkills (String): "Learning the art of cooking under Cedric's mentorship."
+│   │   │   │   ├── Milo (Document)
 │   │   │   │   │   └── Name (String): "Milo"
 │   │   │   │   │   └── Role (String): "Seaman"
-│   │   │   │   │   └── Description (String): "A young seaman who is under Dara's mentorship."
-│   │   │   │   ├── NPC14 (Document)
+│   │   │   │   │   └── Age (Number): 19
+│   │   │   │   │   └── Height (String): "5'7"
+│   │   │   │   │   └── PhysicalDescription (String): "Slim build, short black hair, often seen in seaman's attire."
+│   │   │   │   │   └── Alignment (String): "Lawful Neutral"
+│   │   │   │   │   └── Services (Array): ["Boat Maintenance"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Sailing", "Learning"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Dara", "Lena"], "Negative": ["Nina"]}
+│   │   │   │   │   └── NauticalSkills (String): "Learning navigation and boat safety under Dara's guidance."
+│   │   │   │   ├── Nina (Document)
 │   │   │   │   │   └── Name (String): "Nina"
 │   │   │   │   │   └── Role (String): "Healer"
-│   │   │   │   │   └── Description (String): "Elin's apprentice, learning the ways of healing."
-│   │   │   │   ├── NPC15 (Document)
+│   │   │   │   │   └── Age (Number): 20
+│   │   │   │   │   └── Height (String): "5'5"
+│   │   │   │   │   └── PhysicalDescription (String): "Long red hair, brown eyes, often seen in healer's robes."
+│   │   │   │   │   └── Alignment (String): "Neutral Good"
+│   │   │   │   │   └── Services (Array): ["Basic Healing"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Herbalism", "Learning"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Elin", "Milo"], "Negative": ["Orin"]}
+│   │   │   │   │   └── HealingSkills (String): "Learning herbal medicine and elemental healing from Elin."
+│   │   │   │   ├── Orin (Document)
 │   │   │   │   │   └── Name (String): "Orin"
 │   │   │   │   │   └── Role (String): "Blacksmith"
-│   │   │   │   │   └── Description (String): "Fen's assistant who is learning the craft of blacksmithing."
-│   │   │   │   ├── NPC16 (Document)
+│   │   │   │   │   └── Age (Number): 25
+│   │   │   │   │   └── Height (String): "6'0"
+│   │   │   │   │   └── PhysicalDescription (String): "Muscular build, bald, often seen in blacksmith attire."
+│   │   │   │   │   └── Alignment (String): "Lawful Neutral"
+│   │   │   │   │   └── Services (Array): ["Tool Repair"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Blacksmithing", "Learning"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Fen", "Nina"], "Negative": ["Pia"]}
+│   │   │   │   │   └── BlacksmithingSkills (String): "Learning the craft of blacksmithing from Fen."
+│   │   │   │   ├── Pia (Document)
 │   │   │   │   │   └── Name (String): "Pia"
 │   │   │   │   │   └── Role (String): "Innkeeper"
-│   │   │   │   │   └── Description (String): "Gilda's daughter who helps run the inn."
-│   │   │   │   ├── NPC17 (Document)
+│   │   │   │   │   └── Age (Number): 18
+│   │   │   │   │   └── Height (String): "5'4"
+│   │   │   │   │   └── PhysicalDescription (String): "Medium-length blonde hair, blue eyes, often seen in innkeeper attire."
+│   │   │   │   │   └── Alignment (String): "Neutral Good"
+│   │   │   │   │   └── Services (Array): ["Room Cleaning"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Hospitality", "Learning"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Gilda", "Orin"], "Negative": ["Quinn"]}
+│   │   │   │   │   └── InnkeepingSkills (String): "Learning the art of innkeeping from her mother, Gilda."
+│   │   │   │   ├── Quinn (Document)
 │   │   │   │   │   └── Name (String): "Quinn"
 │   │   │   │   │   └── Role (String): "Carpenter"
-│   │   │   │   │   └── Description (String): "Holt's assistant, skilled in woodworking."
-│   │   │   │   ├── NPC18 (Document)
+│   │   │   │   │   └── Age (Number): 23
+│   │   │   │   │   └── Height (String): "5'9"
+│   │   │   │   │   └── PhysicalDescription (String): "Short brown hair, green eyes, often seen in carpenter attire."
+│   │   │   │   │   └── Alignment (String): "True Neutral"
+│   │   │   │   │   └── Services (Array): ["Woodworking"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Woodworking", "Learning"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Holt", "Pia"], "Negative": ["Rhea"]}
+│   │   │   │   │   └── CarpentrySkills (String): "Skilled in woodworking, learning from Holt."
+│   │   │   │   ├── Rhea (Document)
 │   │   │   │   │   └── Name (String): "Rhea"
 │   │   │   │   │   └── Role (String): "Teacher"
-│   │   │   │   │   └── Description (String): "Isla's assistant who is passionate about teaching."
-│   │   │   │   ├── NPC19 (Document)
+│   │   │   │   │   └── Age (Number): 21
+│   │   │   │   │   └── Height (String): "5'6"
+│   │   │   │   │   └── PhysicalDescription (String): "Long black hair, brown eyes, often seen in scholarly attire."
+│   │   │   │   │   └── Alignment (String): "Lawful Good"
+│   │   │   │   │   └── Services (Array): ["Tutoring"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Education", "Learning"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Isla", "Quinn"], "Negative": ["Seth"]}
+│   │   │   │   │   └── TeachingSkills (String): "Passionate about teaching, learning from Isla."
+│   │   │   │   ├── Seth (Document)
 │   │   │   │   │   └── Name (String): "Seth"
 │   │   │   │   │   └── Role (String): "Fisherman"
-│   │   │   │   │   └── Description (String): "A young fisherman who is eager to learn from the more experienced fishermen."
-│   │   │   │   └── NPC20 (Document)
+│   │   │   │   │   └── Age (Number): 17
+│   │   │   │   │   └── Height (String): "5'8"
+│   │   │   │   │   └── PhysicalDescription (String): "Slim build, short blonde hair, often seen in fishing attire."
+│   │   │   │   │   └── Alignment (String): "Chaotic Good"
+│   │   │   │   │   └── Services (Array): ["Fishing Assistance"]
+│   │   │   │   │   └── AffinityTopics (Array): ["Fishing", "Learning"]
+│   │   │   │   │   └── Relationships (Map): {"Positive": ["Alma", "Rhea"], "Negative": ["Tara"]}
+│   │   │   │   │   └── FishingSkills (String): "Eager to learn from more experienced fishermen."
+│   │   │   │   └── Tara (Document)
 │   │   │   │       └── Name (String): "Tara"
 │   │   │   │       └── Role (String): "Merchant"
-│   │   │   │       └── Description (String): "A young merchant who is learning the ropes from Beryl and Kara."
+│   │   │   │       └── Age (Number): 24
+│   │   │   │       └── Height (String): "5'7"
+│   │   │   │       └── PhysicalDescription (String): "Medium-length brown hair, blue eyes, often seen in merchant attire."
+│   │   │   │       └── Alignment (String): "True Neutral"
+│   │   │   │       └── Services (Array): ["Basic Goods"]
+│   │   │   │       └── AffinityTopics (Array): ["Trade", "Learning"]
+│   │   │   │       └── Relationships (Map): {"Positive": ["Beryl", "Kara"], "Negative": ["Seth"]}
+│   │   │   │       └── BusinessStrategy (String): "Learning the ropes of trading from Beryl and Kara."
 │   │   │   │
 │   │   │   ├── Environment (Sub-Collection)
 │   │   │   │   ├── Landmark1 (Document)
@@ -104,9 +275,98 @@
 │   │   │   │   ├── Landmark2 (Document)
 │   │   │   │   │   └── Name (String): "Moonlit Pier"
 │   │   │   │   │   └── Description (String): "A serene pier that glows under the moonlight, popular for night fishing."
-│   │   │   │   └── Landmark3 (Document)
-│   │   │   │       └── Name (String): "The Fisherman's Shrine"
-│   │   │   │       └── Description (String): "A small shrine dedicated to the elemental spirits of the lake, believed to bring good luck to fishermen."
+│   │   │   │   ├── Landmark3 (Document)
+│   │   │   │   │   └── Name (String): "The Fisherman's Shrine"
+│   │   │   │   │   └── Description (String): "A small shrine dedicated to the elemental spirits of the lake, believed to bring good luck to fishermen."
+│   │   │   │   ├── Player's House (Document)
+│   │   │   │   │   └── Name (String): "Player's House"
+│   │   │   │   │   └── Rooms (Sub-Collection)
+│   │   │   │   │       ├── Living Room (Document)
+│   │   │   │   │       │   ├── Furniture (String): "Sofa, coffee table, bookshelf."
+│   │   │   │   │       │   ├── Fireplace (String): "Stone fireplace with a wooden mantle."
+│   │   │   │   │       │   └── Decor (String): "Family portraits, a rug."
+│   │   │   │   │       ├── Bedroom (Document)
+│   │   │   │   │       │   ├── Bed (String): "Queen-sized bed with a wooden frame."
+│   │   │   │   │       │   ├── Wardrobe (String): "Oak wardrobe filled with clothes."
+│   │   │   │   │       │   └── Ceiling (String): "Wooden ceiling with a single chandelier."
+│   │   │   │   │       └── Kitchen (Document)
+│   │   │   │   │           ├── Appliances (String): "Stove, refrigerator, sink."
+│   │   │   │   │           └── Pantry (String): "Shelves filled with food supplies."
+│   │   │   │   ├── Village Square (Document)
+│   │   │   │   │   └── Name (String): "Village Square"
+│   │   │   │   │   └── Description (String): "The heart of the village where villagers gather for events and markets."
+│   │   │   │   ├── Seafarer's Inn (Document)
+│   │   │   │   ├── Seafarer's Inn (Document)
+│   │   │   │   │   └── Name (String): "Seafarer's Inn"
+│   │   │   │   │   └── Rooms (Sub-Collection)
+│   │   │   │   │       ├── Lobby (Document)
+│   │   │   │   │       │   ├── Reception (String): "Wooden counter with a guest book."
+│   │   │   │   │       │   └── SeatingArea (String): "Chairs and tables for guests."
+│   │   │   │   │       ├── Guest Room1 (Document)
+│   │   │   │   │       │   ├── Bed (String): "Single bed with a nightstand."
+│   │   │   │   │       │   └── View (String): "Window overlooking the village square."
+│   │   │   │   │       └── Guest Room2 (Document)
+│   │   │   │   │           ├── Beds (String): "Two single beds."
+│   │   │   │   │           └── Balcony (String): "Small balcony with a view of the sea."
+│   │   │   │   ├── Blacksmith's Forge (Document)
+│   │   │   │   │   └── Name (String): "Blacksmith's Forge"
+│   │   │   │   │   └── Areas (Sub-Collection)
+│   │   │   │   │       ├── Workshop (Document)
+│   │   │   │   │       │   ├── Forge (String): "Large forge for metalworking."
+│   │   │   │   │       │   └── Tools (String): "Anvils, hammers, tongs."
+│   │   │   │   │       └── Storage (Document)
+│   │   │   │   │           ├── Materials (String): "Metal ingots, leather strips."
+│   │   │   │   │           └── Security (String): "Locked metal cabinet for valuable items."
+│   │   │   │   ├── Herbal Hut (Document)
+│   │   │   │   │   └── Name (String): "Herbal Hut"
+│   │   │   │   │   └── Areas (Sub-Collection)
+│   │   │   │   │       ├── Consultation Room (Document)
+│   │   │   │   │       │   ├── Herbs (String): "Dried herbs hanging from the walls."
+│   │   │   │   │       │   └── Books (String): "Bookshelves filled with herbal lore."
+│   │   │   │   │       └── Herb Storage (Document)
+│   │   │   │   │           ├── Jars (String): "Jars of herbs and potions."
+│   │   │   │   │           └── ElementalCrystals (String): "Crystals for elemental healing."
+│   │   │   │   ├── Fisherman's Dock (Document)
+│   │   │   │   │   └── Name (String): "Fisherman's Dock"
+│   │   │   │   │   └── Description (String): "A bustling area where fishermen like Alma and Joss bring in their daily catch."
+│   │   │   │   │   └── Name (String): "Carpenter's Workshop"
+│   │   │   │   │   └── Areas (Sub-Collection)
+│   │   │   │   │       ├── Workshop (Document)
+│   │   │   │   │       │   ├── Workbench (String): "Sturdy workbench with various woodworking tools."
+│   │   │   │   │       │   └── Blueprints (String): "Rolled-up blueprints for various projects."
+│   │   │   │   │       └── Lumber Storage (Document)
+│   │   │   │   │           ├── WoodTypes (String): "Oak, pine, and cherry wood stacks."
+│   │   │   │   │           └── Security (String): "Locked area to prevent unauthorized access."
+│   │   │   │   ├── Village School (Document)
+│   │   │   │   │   └── Name (String): "Village School"
+│   │   │   │   │   └── Rooms (Sub-Collection)
+│   │   │   │   │       ├── Classroom (Document)
+│   │   │   │   │       │   ├── Blackboard (String): "Large blackboard for lessons."
+│   │   │   │   │       │   └── StudentDesks (String): "Wooden desks arranged in rows."
+│   │   │   │   │       └── Library (Document)
+│   │   │   │   │           ├── Bookshelves (String): "Shelves filled with educational books."
+│   │   │   │   │           └── ReadingArea (String): "Quiet area with comfortable chairs."
+│   │   │   │   ├── Marketplace (Document)
+│   │   │   │   │   └── Name (String): "Marketplace"
+│   │   │   │   │   └── Description (String): "A place where merchants like Beryl and Kara sell goods from the mainland and local produce."
+│   │   │   │   ├── Village Hall (Document)
+│   │   │   │   │   └── Name (String): "Village Hall"
+│   │   │   │   │   └── Rooms (Sub-Collection)
+│   │   │   │   │       ├── Council Room (Document)
+│   │   │   │   │       │   ├── MeetingTable (String): "Large wooden table for council meetings."
+│   │   │   │   │       │   └── VillageMap (String): "Map of the village on the wall."
+│   │   │   │   │       └── Archive Room (Document)
+│   │   │   │   │           ├── Documents (String): "Historical documents and records."
+│   │   │   │   │           └── Security (String): "Locked cabinets for sensitive information."
+│   │   │   │   ├── Village Hall (Document)
+│   │   │   │   │   └── Name (String): "Village Hall"
+│   │   │   │   │   └── Rooms (Sub-Collection)
+│   │   │   │   │       ├── Council Room (Document)
+│   │   │   │   │       │   ├── MeetingTable (String): "Large wooden table for council meetings."
+│   │   │   │   │       │   └── VillageMap (String): "Map of the village on the wall."
+│   │   │   │   │       └── Archive Room (Document)
+│   │   │   │   │           ├── Documents (String): "Historical documents and records."
+│   │   │   │   │           └── Security (String): "Locked cabinets for sensitive information."
 │   │   │   │
 │   │   │   └── Lore (Sub-Collection)
 │   │   │       ├── Local_Cuisine1 (Document)
