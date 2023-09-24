@@ -20,15 +20,71 @@
 │   │   │       │   └── Southwest (String): "Dendronia Forest, an ancient forest that is a possible destination for post Act 2 and 3 gameplay."
 │   │   │       ├── Travel_System (Map)
 │   │   │       │   ├── Common_Transport (String): "Small Ship"
-│   │   │       │   ├── Travel_Points (Array): ["Ylvast", "Elgard", "Serpent's Cove", "Stormwatch Point", "Mudbank Shore"]
-│   │   │       │   └── Travel_Time (Map)
-│   │   │       │       ├── Ylvast_to_Elgard (String): "3 hours"
-│   │   │       │       ├── Ylvast_to_SerpentCove (String): "1 hour"
-│   │   │       │       └── Ylvast_to_StormwatchPoint (String): "2 hours"
-│   │   │       ├── Random_Encounters (Map)
-│   │   │       │   ├── Encounter_Rate (String): "Medium"
-│   │   │       │   └── Rolls_Needed (Number): 2
-│   │   │       ├── NPC (Sub-Collection)  // These are hostile elemental beasts
+│   │   │       │   ├── Regional_Factors (Map)
+│   │   │       │   │   ├── Ylvast (Map)
+│   │   │       │   │   │   ├── Weather_Condition (String): "Calm"
+│   │   │       │   │   │   ├── Local_Fauna (String): "Friendly"
+│   │   │       │   │   │   └── Navigational_Hazards (String): "Few"
+│   │   │       │   │   ├── Elgard (Map)
+│   │   │       │   │   │   ├── Weather_Condition (String): "Unpredictable"
+│   │   │       │   │   │   ├── Local_Fauna (String): "Aggressive"
+│   │   │       │   │   │   └── Navigational_Hazards (String): "Moderate"
+│   │   │       │   │   ├── Schorchia (Map)
+│   │   │       │   │   │   ├── Weather_Condition (String): "Hot"
+│   │   │       │   │   │   ├── Local_Fauna (String): "Neutral"
+│   │   │       │   │   │   └── Navigational_Hazards (String): "Few"
+│   │   │       │   │   ├── Serpent's Cove (Map)
+│   │   │       │   │   │   ├── Weather_Condition (String): "Stormy"
+│   │   │       │   │   │   ├── Local_Fauna (String): "Hostile"
+│   │   │       │   │   │   └── Navigational_Hazards (String): "Many"
+│   │   │       │   │   └── Stormwatch Point (Map)
+│   │   │       │   │       ├── Weather_Condition (String): "Windy"
+│   │   │       │   │       ├── Local_Fauna (String): "Rare"
+│   │   │       │   │       └── Navigational_Hazards (String): "Moderate"
+│   │   │       │   └── Travel_Routes (Array)
+│   │   │       │       ├── Route1 (Map)
+│   │   │       │       │   ├── Start_Point (String): "Ylvast"
+│   │   │       │       │   ├── End_Point (String): "Elgard"
+│   │   │       │       │   ├── Travel_Time (String): "3 hours"
+│   │   │       │       │   └── Random_Encounters (Map)
+│   │   │       │       │       ├── Encounter_Rate (String): "Medium"
+│   │   │       │       │       └── Rolls_Needed (Number): 3
+│   │   │       │       ├── Route2 (Map)
+│   │   │       │       │   ├── Start_Point (String): "Ylvast"
+│   │   │       │       │   ├── End_Point (String): "Serpent's Cove"
+│   │   │       │       │   ├── Travel_Time (String): "1 hour"
+│   │   │       │       │   └── Random_Encounters (Map)
+│   │   │       │       │       ├── Encounter_Rate (String): "High"
+│   │   │       │       │       └── Rolls_Needed (Number): 2
+│   │   │       │       ├── Route3 (Map)
+│   │   │       │       │   ├── Start_Point (String): "Ylvast"
+│   │   │       │       │   ├── End_Point (String): "Stormwatch Point"
+│   │   │       │       │   ├── Travel_Time (String): "2 hours"
+│   │   │       │       │   └── Random_Encounters (Map)
+│   │   │       │       │       ├── Encounter_Rate (String): "Low"
+│   │   │       │       │       └── Rolls_Needed (Number): 1
+│   │   │       │       ├── Route4 (Map)
+│   │   │       │       │   ├── Start_Point (String): "Ylvast"
+│   │   │       │       │   ├── End_Point (String): "Schorchia"
+│   │   │       │       │   ├── Travel_Time (String): "2.5 hours"
+│   │   │       │       │   └── Random_Encounters (Map)
+│   │   │       │       │       ├── Encounter_Rate (String): "Medium"
+│   │   │       │       │       └── Rolls_Needed (Number): 2
+│   │   │       │       ├── Route5 (Map)
+│   │   │       │       │   ├── Start_Point (String): "Elgard"
+│   │   │       │       │   ├── End_Point (String): "Schorchia"
+│   │   │       │       │   ├── Travel_Time (String): "1.5 hours"
+│   │   │       │       │   └── Random_Encounters (Map)
+│   │   │       │       │       ├── Encounter_Rate (String): "Low"
+│   │   │       │       │       └── Rolls_Needed (Number): 1
+│   │   │       │       └── Route6 (Map)
+│   │   │       │           ├── Start_Point (String): "Serpent's Cove"
+│   │   │       │           ├── End_Point (String): "Elgard"
+│   │   │       │           ├── Travel_Time (String): "2 hours"
+│   │   │       │           └── Random_Encounters (Map)
+│   │   │       │               ├── Encounter_Rate (String): "High"
+│   │   │       │               └── Rolls_Needed (Number): 3
+│   │   │       ├── NPC (Sub-Collection)  
 │   │   │       │   ├── Elemental_Beast1 (Document)
 │   │   │       │   │   └── Name (String): "Water Serpent"
 │   │   │       │   │   └── Element (String): "Water"

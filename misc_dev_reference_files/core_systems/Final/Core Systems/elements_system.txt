@@ -1,0 +1,537 @@
+│   ├── elements_system (Sub-Collection)
+│   │   ├── Water (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Water"
+│   │   │       ├── rarity (String) - "Common"
+│   │   │       ├── description (String) - "The Water element is associated with healing and adaptability, offering skills that restore health and change form."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['INT', 'WIS']
+│   │   │       ├── element_type (String) - "Materialization"
+│   │   │       ├── element_rarity_roll (String) - "1-5"
+│   │   │       ├── element_context (String) - "Water magic is often used by healers and elemental mages."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Fire"]
+│   │   │           ├── Amplification (Array of Strings) - ["Earth", "Air"]
+│   │   │           ├── Neutral (Array of Strings) - ["Light", "Shadow"]
+│   │   │           ├── Counter (Array of Strings) - ["Electricity"]
+│   │   │           └── Transformation (Array of Strings) - ["Air + Earth = Mud"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Healing Rain"
+│   │   │           │      ├── description: "Summon a rain of healing water."
+│   │   │           │      ├── effect: "Restores minor health to allies in the area."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Tidal Wave"
+│   │   │           │      ├── description: "Unleash a wave of water to wash away enemies."
+│   │   │           │      ├── effect: "Deals moderate damage and pushes enemies back."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Aqua Shield"
+│   │   │           │      ├── description: "Create a protective barrier of water."
+│   │   │           │      ├── effect: "Absorbs a significant amount of damage."
+│   │   │
+│   │   ├── Fire (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Fire"
+│   │   │       ├── rarity (String) - "Common"
+│   │   │       ├── description (String) - "The Fire element is associated with damage and destruction, offering skills that deal immediate harm."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['INT', 'STR']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "6-10"
+│   │   │       ├── element_context (String) - "Fire magic is often used by battle mages and pyromancers."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Water"]
+│   │   │           ├── Amplification (Array of Strings) - ["Air", "Metal"]
+│   │   │           ├── Neutral (Array of Strings) - ["Earth", "Shadow"]
+│   │   │           ├── Counter (Array of Strings) - ["Wood"]
+│   │   │           └── Transformation (Array of Strings) - ["Air + Metal = Spark"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Fireball"
+│   │   │           │      ├── description: "Launch a ball of fire at your enemy."
+│   │   │           │      ├── effect: "Deals minor fire damage."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Inferno"
+│   │   │           │      ├── description: "Create a wall of fire."
+│   │   │           │      ├── effect: "Deals moderate damage to enemies passing through."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Meteor Strike"
+│   │   │           │      ├── description: "Summon a meteor to strike the battlefield."
+│   │   │           │      ├── effect: "Deals significant area damage."
+│   │   │
+│   │   ├── Earth (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Earth"
+│   │   │       ├── rarity (String) - "Common"
+│   │   │       ├── description (String) - "The Earth element is associated with defense and stability, offering skills that protect and fortify."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['STR', 'WIS']
+│   │   │       ├── element_type (String) - "Materialization"
+│   │   │       ├── element_rarity_roll (String) - "11-15"
+│   │   │       ├── element_context (String) - "Earth magic is often used by druids and geomancers."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Air"]
+│   │   │           ├── Amplification (Array of Strings) - ["Water", "Metal"]
+│   │   │           ├── Neutral (Array of Strings) - ["Fire", "Light"]
+│   │   │           ├── Counter (Array of Strings) - ["Electricity"]
+│   │   │           └── Transformation (Array of Strings) - ["Water + Metal = Ore"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Stone Wall"
+│   │   │           │      ├── description: "Create a wall of stone."
+│   │   │           │      ├── effect: "Blocks enemy movement and projectiles."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Earthquake"
+│   │   │           │      ├── description: "Shake the ground to disrupt enemies."
+│   │   │           │      ├── effect: "Deals moderate damage and stuns enemies."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Boulder Smash"
+│   │   │           │      ├── description: "Summon a massive boulder to crush enemies."
+│   │   │           │      ├── effect: "Deals significant damage and knocks back enemies."
+│   │   │
+│   │   ├── Air (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Air"
+│   │   │       ├── rarity (String) - "Common"
+│   │   │       ├── description (String) - "The Air element is associated with speed and evasion, offering skills that increase mobility and dodge attacks."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['DEX', 'INT']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "16-20"
+│   │   │       ├── element_context (String) - "Air magic is often used by elementalists and rogues."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Earth"]
+│   │   │           ├── Amplification (Array of Strings) - ["Fire", "Water"]
+│   │   │           ├── Neutral (Array of Strings) - ["Metal", "Shadow"]
+│   │   │           ├── Counter (Array of Strings) - ["Wood"]
+│   │   │           └── Transformation (Array of Strings) - ["Fire + Water = Steam"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Wind Dash"
+│   │   │           │      ├── description: "Dash quickly to evade attacks."
+│   │   │           │      ├── effect: "Increases dodge chance for a short time."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Tornado"
+│   │   │           │      ├── description: "Summon a tornado to lift and damage enemies."
+│   │   │           │      ├── effect: "Deals moderate damage and lifts enemies into the air."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Gale Force"
+│   │   │           │      ├── description: "Unleash a powerful gust of wind."
+│   │   │           │      ├── effect: "Deals significant damage and pushes enemies back."
+│   │   │
+│   │   ├── Light (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Light"
+│   │   │       ├── rarity (String) - "Rare"
+│   │   │       ├── description (String) - "The Light element is associated with healing and enlightenment, offering skills that restore health and remove debuffs."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['WIS', 'CHA']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "21-25"
+│   │   │       ├── element_context (String) - "Light magic is often used by clerics and paladins."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Shadow"]
+│   │   │           ├── Amplification (Array of Strings) - ["Fire", "Water"]
+│   │   │           ├── Neutral (Array of Strings) - ["Earth", "Air"]
+│   │   │           ├── Counter (Array of Strings) - ["Electricity"]
+│   │   │           └── Transformation (Array of Strings) - ["Fire + Earth = Lava"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Purifying Light"
+│   │   │           │      ├── description: "Cast a purifying light to remove debuffs."
+│   │   │           │      ├── effect: "Removes all debuffs from allies in the area."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Divine Shield"
+│   │   │           │      ├── description: "Create a shield of light to protect allies."
+│   │   │           │      ├── effect: "Absorbs a moderate amount of damage."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Holy Smite"
+│   │   │           │      ├── description: "Unleash a beam of holy light to smite enemies."
+│   │   │           │      ├── effect: "Deals significant damage to undead and evil creatures."
+│   │   │
+│   │   ├── Shadow (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Shadow"
+│   │   │       ├── rarity (String) - "Rare"
+│   │   │       ├── description (String) - "The Shadow element is associated with stealth and deception, offering skills that hide and confuse."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['DEX', 'INT']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "26-30"
+│   │   │       ├── element_context (String) - "Shadow magic is often used by rogues and necromancers."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Light"]
+│   │   │           ├── Amplification (Array of Strings) - ["Fire", "Water"]
+│   │   │           ├── Neutral (Array of Strings) - ["Earth", "Air"]
+│   │   │           ├── Counter (Array of Strings) - ["Electricity"]
+│   │   │           └── Transformation (Array of Strings) - ["Fire + Air = Smoke"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Shadow Step"
+│   │   │           │      ├── description: "Step into the shadows to evade detection."
+│   │   │           │      ├── effect: "Become invisible for a short time."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Dark Illusion"
+│   │   │           │      ├── description: "Create an illusion to deceive enemies."
+│   │   │           │      ├── effect: "Distracts enemies, drawing their attention away."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Nightmare"
+│   │   │           │      ├── description: "Plunge enemies into a terrifying nightmare."
+│   │   │           │      ├── effect: "Inflicts fear and confusion, reducing enemy effectiveness."
+│   │   │
+│   │   ├── Ice (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Ice"
+│   │   │       ├── rarity (String) - "Uncommon"
+│   │   │       ├── description (String) - "The Ice element is associated with control and adaptability, capable of slowing down enemies or creating defensive barriers."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['INT', 'WIS']
+│   │   │       ├── element_type (String) - "Materialization"
+│   │   │       ├── element_rarity_roll (String) - "15-20"
+│   │   │       ├── element_context (String) - "In the world of Ylvast, Ice magic is often used by the northern tribes for both combat and survival."
+│   │   │       ├── element_relationships (Map)
+│   │   │       │      ├── Nullification (Array of Strings) - ["Fire"]
+│   │   │       │      ├── Amplification (Array of Strings) - ["Water", "Wind"]
+│   │   │       │      ├── Neutral (Array of Strings) - ["Earth", "Metal"]
+│   │   │       │      ├── Counter (Array of Strings) - ["Electricity"]
+│   │   │       │      ├── Transformation (Array of Strings) - ["Water + Wind = Storm"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Frostbite"
+│   │   │           │      ├── description: "Inflict your target with a freezing touch."
+│   │   │           │      ├── effect: "Slows down the enemy's movement by 10%."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Icy Fortress"
+│   │   │           │      ├── description: "Using Ice and Earth elements, create a protective ice barrier."
+│   │   │           │      ├── effect: "Grants temporary invulnerability to the user."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Glacial Eruption"
+│   │   │           │      ├── description: "Combining the Ice, Water and Earth elements, summon a glacial eruption."
+│   │   │           │      ├── effect: "Deals AoE damage and freezes enemies in place."
+│   │   │
+│   │   ├── Electricity (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Electricity"
+│   │   │       ├── rarity (String) - "Uncommon"
+│   │   │       ├── description (String) - "The Electricity element is associated with speed and precision, offering high single-target damage and interrupting enemies."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['DEX', 'INT']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "10-14"
+│   │   │       ├── element_context (String) - "Electricity magic is a rare skill, often found among the scholars of the Arcane University."
+│   │   │       ├── element_relationships (Map)
+│   │   │       │      ├── Nullification (Array of Strings) - ["Water"]
+│   │   │       │      ├── Amplification (Array of Strings) - ["Air", "Metal"]
+│   │   │       │      ├── Neutral (Array of Strings) - ["Fire", "Earth"]
+│   │   │       │      ├── Counter (Array of Strings) - ["Ice"]
+│   │   │       │      ├── Transformation (Array of Strings) - ["Air + Metal = Lightning"]
+│   │   │       └── skills (Map)  // Existing skills
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Static Shock"
+│   │   │           │      ├── description: "Deliver a quick electrical jolt to your target."
+│   │   │           │      ├── effect: "Deals minor electric damage and interrupts enemy casting."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Chain Lightning"
+│   │   │           │      ├── description: "Using Electricity and Air elements, unleash a chain of electrical currents."
+│   │   │           │      ├── effect: "Deals moderate damage to multiple targets."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Thunderstorm"
+│   │   │           │      ├── description: "Combining the Electricity, Water and Air elements, summon a raging thunderstorm."
+│   │   │           │      ├── effect: "Deals major electric damage to all enemies and has a chance to stun."
+│   │   │
+│   │   ├── Metal (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Metal"
+│   │   │       ├── rarity (String) - "Uncommon"
+│   │   │       ├── description (String) - "The Metal element is associated with defense and resilience, capable of creating metallic barriers or bladed weapons."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['STR', 'CON']
+│   │   │       ├── element_type (String) - "Materialization"
+│   │   │       ├── element_rarity_roll (String) - "5-9"
+│   │   │       ├── element_context (String) - "Metal magic is common among the dwarves and is used in both crafting and combat."
+│   │   │       ├── element_relationships (Map)
+│   │   │       │      ├── Nullification (Array of Strings) - ["Wood"]
+│   │   │       │      ├── Amplification (Array of Strings) - ["Earth", "Fire"]
+│   │   │       │      ├── Neutral (Array of Strings) - ["Water", "Air"]
+│   │   │       │      ├── Counter (Array of Strings) - ["Electricity"]
+│   │   │       │      ├── Transformation (Array of Strings) - ["Earth + Fire = Magma"]
+│   │   │       └── skills (Map)  // Existing skills
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Iron Clad"
+│   │   │           │      ├── description: "Fortify your armor with a layer of metal."
+│   │   │           │      ├── effect: "Increases AC by 2."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Blade Dance"
+│   │   │           │      ├── description: "Using Metal and Air elements, summon blades that whirl around you."
+│   │   │           │      ├── effect: "Deals moderate damage to nearby enemies."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Impenetrable Fortress"
+│   │   │           │      ├── description: "Combining the Metal, Earth and Fire elements, create an impenetrable metallic barrier."
+│   │   │           │      ├── effect: "Grants immunity to physical damage for a short duration."
+│   │   │
+│   │   ├── Wood (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Wood"
+│   │   │       ├── rarity (String) - "Uncommon"
+│   │   │       ├── description (String) - "The Wood element is associated with growth and support, capable of healing allies or entangling enemies."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['WIS', 'CHA']
+│   │   │       ├── element_type (String) - "Materialization"
+│   │   │       ├── element_rarity_roll (String) - "21-25"
+│   │   │       ├── element_context (String) - "Wood magic is commonly used by druids and forest dwellers."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Fire"]
+│   │   │           ├── Amplification (Array of Strings) - ["Earth", "Water"]
+│   │   │           ├── Neutral (Array of Strings) - ["Air", "Metal"]
+│   │   │           ├── Counter (Array of Strings) - ["Poison"]
+│   │   │           └── Transformation (Array of Strings) - ["Earth + Water = Mud"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Budding Sprout"
+│   │   │           │      ├── description: "Summon a small plant that provides minor healing."
+│   │   │           │      ├── effect: "Heals an ally for a small amount."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Vine Snare"
+│   │   │           │      ├── description: "Using Wood and Earth elements, entangle enemies in a snare of vines."
+│   │   │           │      ├── effect: "Restrains the target and deals minor damage over time."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Forest's Embrace"
+│   │   │           │      ├── description: "Combining the Wood, Water and Earth elements, surround allies in a protective grove."
+│   │   │           │      ├── effect: "Provides a healing over time effect and minor damage resistance to all allies in the area."
+│   │   │
+│   │   ├── Poison (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Poison"
+│   │   │       ├── rarity (String) - "Rare"
+│   │   │       ├── description (String) - "The Poison element is associated with damage over time and debuffs, providing skills that gradually weaken enemies."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['INT', 'CHA']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "26-30"
+│   │   │       ├── element_context (String) - "Poison magic is often associated with rogue-like characters and is considered dangerous."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Earth"]
+│   │   │           ├── Amplification (Array of Strings) - ["Water", "Air"]
+│   │   │           ├── Neutral (Array of Strings) - ["Fire", "Metal"]
+│   │   │           ├── Counter (Array of Strings) - ["Wood"]
+│   │   │           └── Transformation (Array of Strings) - ["Water + Air = Mist"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Poison Dart"
+│   │   │           │      ├── description: "Launch a poisonous dart at your enemy."
+│   │   │           │      ├── effect: "Inflicts poison status, causing minor damage over time."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Toxic Cloud"
+│   │   │           │      ├── description: "Using Poison and Air elements, create a cloud of toxic gas."
+│   │   │           │      ├── effect: "Deals moderate damage over time and reduces enemy accuracy."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Venomous Bite"
+│   │   │           │      ├── description: "Combining Poison, Water and Earth elements, unleash a venomous attack."
+│   │   │           │      ├── effect: "Inflicts multiple debuffs and significant damage over time."
+│   │   │
+│   │   ├── Ink (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Ink"
+│   │   │       ├── rarity (String) - "Rare"
+│   │   │       ├── description (String) - "The Ink element is associated with obscuring vision and controlling the battlefield, offering utility and area denial."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['DEX', 'INT']
+│   │   │       ├── element_type (String) - "Materialization"
+│   │   │       ├── element_rarity_roll (String) - "31-35"
+│   │   │       ├── element_context (String) - "Ink magic is a specialized form often used by sea-dwelling creatures and scholars."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Light"]
+│   │   │           ├── Amplification (Array of Strings) - ["Water", "Shadow"]
+│   │   │           ├── Neutral (Array of Strings) - ["Earth", "Metal"]
+│   │   │           ├── Counter (Array of Strings) - ["Fire"]
+│   │   │           └── Transformation (Array of Strings) - ["Water + Shadow = Abyss"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Ink Splash"
+│   │   │           │      ├── description: "Splash ink at a target area."
+│   │   │           │      ├── effect: "Reduces enemy visibility and accuracy."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Dark Mist"
+│   │   │           │      ├── description: "Using Ink and Air elements, create a mist that obscures vision."
+│   │   │           │      ├── effect: "Grants stealth to allies and blinds enemies."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Abyssal Zone"
+│   │   │           │      ├── description: "Combining Ink, Water and Shadow elements, create a zone of impenetrable darkness."
+│   │   │           │      ├── effect: "Negates all enemy actions in the area for a short time."
+│   │   │
+│   │   ├── Sound (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Sound"
+│   │   │       ├── rarity (String) - "Rare"
+│   │   │       ├── description (String) - "The Sound element is associated with disruption and manipulation, offering skills that can interrupt and disorient enemies."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['WIS', 'CHA']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "26-30"
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Earth"]
+│   │   │           ├── Amplification (Array of Strings) - ["Air", "Light"]
+│   │   │           ├── Neutral (Array of Strings) - ["Fire", "Water"]
+│   │   │           ├── Counter (Array of Strings) - ["Metal"]
+│   │   │           └── Transformation (Array of Strings) - ["Air + Light = Echo"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Sonic Wave"
+│   │   │           │      ├── description: "Emit a wave of disruptive sound."
+│   │   │           │      ├── effect: "Interrupts enemy actions and causes minor damage."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Harmonic Resonance"
+│   │   │           │      ├── description: "Using Sound and Light elements, create a harmonious aura."
+│   │   │           │      ├── effect: "Buffs allies' attack and defense."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Symphony of Destruction"
+│   │   │           │      ├── description: "Combining Sound, Fire and Electricity elements, unleash a devastating sonic attack."
+│   │   │           │      ├── effect: "Deals major damage and disorients all enemies."
+│   │   │
+│   │   ├── Magnetism (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Magnetism"
+│   │   │       ├── rarity (String) - "Rare"
+│   │   │       ├── description (String) - "The Magnetism element is associated with attraction and repulsion, offering control and positioning capabilities."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['INT', 'STR']
+│   │   │       ├── element_type (String) - "Materialization"
+│   │   │       ├── element_rarity_roll (String) - "21-25"
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Wood"]
+│   │   │           ├── Amplification (Array of Strings) - ["Metal", "Electricity"]
+│   │   │           ├── Neutral (Array of Strings) - ["Fire", "Water"]
+│   │   │           ├── Counter (Array of Strings) - ["Earth"]
+│   │   │           └── Transformation (Array of Strings) - ["Metal + Electricity = Electromagnet"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Magnetic Pull"
+│   │   │           │      ├── description: "Pull an enemy towards you."
+│   │   │           │      ├── effect: "Repositions one enemy."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Iron Shield"
+│   │   │           │      ├── description: "Using Magnetism and Metal elements, create a magnetic shield."
+│   │   │           │      ├── effect: "Deflects all ranged attacks."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Polar Vortex"
+│   │   │           │      ├── description: "Combining Magnetism, Ice and Electricity elements, create a polar vortex."
+│   │   │           │      ├── effect: "Attracts all enemies and deals significant damage."
+│   │   │
+│   │   ├── Nanotechnology (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Nanotechnology"
+│   │   │       ├── rarity (String) - "Legendary"
+│   │   │       ├── description (String) - "The Nanotechnology element is associated with precise manipulation and control, offering unparalleled utility and adaptability."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['INT', 'DEX']
+│   │   │       ├── element_type (String) - "Materialization"
+│   │   │       ├── element_rarity_roll (String) - "46-50"
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Magic"]
+│   │   │           ├── Amplification (Array of Strings) - ["Metal", "Electricity"]
+│   │   │           ├── Neutral (Array of Strings) - ["Fire", "Water"]
+│   │   │           ├── Counter (Array of Strings) - ["Spirit"]
+│   │   │           └── Transformation (Array of Strings) - ["Metal + Electricity = Cybernetics"]
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Nano Heal"
+│   │   │           │      ├── description: "Deploy nanobots to repair tissue."
+│   │   │           │      ├── effect: "Restores a moderate amount of health over time."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Nano Shield"
+│   │   │           │      ├── description: "Using Nanotechnology and Metal elements, create a nanobot shield."
+│   │   │           │      ├── effect: "Absorbs all forms of damage for a short duration."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Swarm Attack"
+│   │   │           │      ├── description: "Combining Nanotechnology, Electricity, and Poison elements, release a swarm of attack nanobots."
+│   │   │           │      ├── effect: "Deals major damage and applies multiple debuffs."
+│   │   │
+│   │   ├── Spirit (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Spirit"
+│   │   │       ├── rarity (String) - "Legendary"
+│   │   │       ├── description (String) - "The Spirit element is associated with life force and ethereal energy, offering skills that manipulate the spiritual realm."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['WIS', 'CHA']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "51-55"
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Shadow"]
+│   │   │           ├── Amplification (Array of Strings) - ["Light", "Air"]
+│   │   │           ├── Neutral (Array of Strings) - ["Earth", "Metal"]
+│   │   │           ├── Counter (Array of Strings) - ["Nanotechnology"]
+│   │   │           └── Transformation (Array of Strings) - ["Light + Air = Soul"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Spirit Bond"
+│   │   │           │      ├── description: "Form a spiritual link with an ally."
+│   │   │           │      ├── effect: "Shares healing and buffs between linked individuals."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Ethereal Gate"
+│   │   │           │      ├── description: "Using Spirit and Air elements, open a gateway to the spirit realm."
+│   │   │           │      ├── effect: "Allows for quick travel between two points on the map."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Soul Nova"
+│   │   │           │      ├── description: "Combining Spirit, Light, and Shadow elements, unleash a burst of spiritual energy."
+│   │   │           │      ├── effect: "Heals allies and deals significant damage to enemies."
+│   │   │
+│   │   ├── Chaos (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Chaos"
+│   │   │       ├── rarity (String) - "Mythical"
+│   │   │       ├── description (String) - "The Chaos element is associated with unpredictability and change, offering skills that can create random effects."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['CHA', 'INT']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "56-60"
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["Order"]
+│   │   │           ├── Amplification (Array of Strings) - ["Fire", "Water"]
+│   │   │           ├── Neutral (Array of Strings) - ["Earth", "Metal"]
+│   │   │           ├── Counter (Array of Strings) - ["Time"]
+│   │   │           └── Transformation (Array of Strings) - ["Fire + Water = Steam"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Chaos Bolt"
+│   │   │           │      ├── description: "Launch a bolt of chaotic energy."
+│   │   │           │      ├── effect: "Randomly chooses an effect from any other Tier 1 skill."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Warp Reality"
+│   │   │           │      ├── description: "Using Chaos and Time elements, distort the fabric of reality."
+│   │   │           │      ├── effect: "Randomizes the positions of all units on the battlefield."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Pandemonium"
+│   │   │           │      ├── description: "Combining Chaos, Fire, and Ice elements, unleash pure chaos."
+│   │   │           │      ├── effect: "Creates random areas of effect with different elemental damages."
+│   │   │
+│   │   ├── Gravity (Document)
+│   │   │   └── element_details (Fields)
+│   │   │       ├── name (String) - "Gravity"
+│   │   │       ├── rarity (String) - "Mythical"
+│   │   │       ├── description (String) - "The Gravity element is associated with control and force, offering skills that manipulate the gravitational field."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['INT', 'STR']
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Gravitational Pull"
+│   │   │           │      ├── description: "Attract objects or enemies toward you."
+│   │   │           │      ├── effect: "Moves enemies or objects closer."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Gravity Well"
+│   │   │           │      ├── description: "Using Gravity and Earth elements, create a gravitational sinkhole."
+│   │   │           │      ├── effect: "Enemies are pulled into the center and receive moderate damage."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Black Hole"
+│   │   │           │      ├── description: "Combining Gravity, Space, and Time elements, summon a black hole."
+│   │   │           │      ├── effect: "Sucks in all enemies and deals massive damage over time."
+│   │   │
+│   │   ├── Time (Document)
+│   │   │   └── element_details (Fields)	
+│   │   │       ├── name (String) - "Time"
+│   │   │       ├── rarity (String) - "Legendary"
+│   │   │       ├── description (String) - "The Time element is associated with control over the past, present, and future, offering unparalleled utility but at great risk."
+│   │   │       ├── synergizing_stats (Array of Strings) - ['INT', 'WIS']
+│   │   │       ├── element_type (String) - "Energetic"
+│   │   │       ├── element_rarity_roll (String) - "46-50"
+│   │   │       ├── element_context (String) - "Time magic is the rarest of all, often considered a myth."
+│   │   │       └── element_relationships (Map)
+│   │   │           ├── Nullification (Array of Strings) - ["All"]
+│   │   │           ├── Amplification (Array of Strings) - ["All"]
+│   │   │           ├── Neutral (Array of Strings) - ["All"]
+│   │   │           ├── Counter (Array of Strings) - ["None"]
+│   │   │           └── Transformation (Array of Strings) - ["All + All = Paradox"]
+│   │   │       └── skills (Map)
+│   │   │           ├── Tier 1 (Map)
+│   │   │           │      ├── name: "Time Slow"
+│   │   │           │      ├── description: "Slow down time for a specific target."
+│   │   │           │      ├── effect: "Target receives a penalty to speed and reaction times."
+│   │   │           ├── Tier 2 (Map)
+│   │   │           │      ├── name: "Temporal Loop"
+│   │   │           │      ├── description: "Using Time and Light elements, create a loop that repeats actions."
+│   │   │           │      ├── effect: "Allows an ally to repeat their last action."
+│   │   │           ├── Tier 3 (Map)
+│   │   │           │      ├── name: "Time Stop"
+│   │   │           │      ├── description: "Combining Time, Air, and Electricity elements, stop time for everyone but yourself."
+│   │   │           │      ├── effect: "You get an extra turn while all others are frozen."
+│   │   │

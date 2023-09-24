@@ -7,7 +7,6 @@
 │   │       ├── integration (String): "The act introduces game mechanics like weapon mastery and professions skills, elemental magic, key NPCs, and sets the stage for future conflicts and alliances."
 │   │       ├── act_theme (String): "Coming of Age"
 │   │       ├── act_mood (String): "Adventure, Mystery"
-│   │       ├── act_music (String): "Ylvast Dawn, Elgard Theme"
 │   │       ├── act_weather (String): "Partly Cloudy, Storm during the boat ride"
 │   │       ├── key_locations (Array of Maps)
 │   │       │   └── location1 (Map)
@@ -31,7 +30,7 @@
 │   │       │       └── npc_magic_visuals (String): "Novak's magic manifests as a combination of wind, water, and lightning, channeled through his trident."
 │   │       │   └── npc2 (Map)
 │   │       │       ├── npc_name (String): "Sylas"
-│   │       │       ├── npc_role (String): "Young Adult, Potential Ally or Rival"
+│   │       │       ├── npc_role (String): "Young Women, Potential Ally or Rival"
 │   │       │       ├── npc_description (String): "Sylas is another young adult who has just turned 18. Her dream profession is randomized in each session. Sylas can become either an ally or a rival based on player choices."
 │   │       │       └── npc_backstory (String): "Sylas grew up in Ylvast Village and has always been fascinated by the stories of Elgard. They see this journey as their big chance."
 │   │       └── quests (Array of Maps)
