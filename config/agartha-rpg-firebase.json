@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "agartha-rpg",
+  "private_key_id": "b1547429bf51da6a946ea2d600d4cb3849bd4339",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDeTOvG+boo78yM\nyfoxlF5G4JfPFTfgK62QczJMpFimTy3k4VTXSzoBCy5fOy8666wYRrREIVyRrJEn\noCtB3fiEjb4GXprE4BeBe9dqeqtHPaRAo8NoxF3xkhZlCPwz7smJLSOyy7D0paWM\nURN9jp13xpd48x+Wp9+wSSaE0LTEBkP0AyDm1YtWCXCvVggksBqo3/jr4ThNQTx6\nQLSCjpBL97DO9Uk/kBa6gFJnwd4elp+UTlHU2s35NtCZtkYbEm7bGgyqN/528zO1\ngVJ/xvTOyBhIQdDZZUrZaDUiZsa2T2aUFoZt+B647/IseI/D4yHEqC6CO9bTJcYD\nKAxrF1MVAgMBAAECggEAHEi4NRRgGcZNBdrLARTqG+WGmzwNZHHaPwdRLow4lUx8\nv+LlqxDwu+JCz64Vl88Vke8pD4QZJZXJ0DtiVZqa/K6WL3RJB+SlSP3LTkp2UXWn\n2OudOM7HTy2xuMA4apkmvlPmd2DQTohm9F/6dV64bV1wt1xjuAT7ApCEHKD7ZvdS\nVU4CHMzW7+W+/xTNzA8IXbMbVae2pCHxL3dHJPZi3bJR767dd0V/VOXrRObHmDqB\niaGGnQVpBJz1kcVFaRCpQbeQ1euGtd0YDocBpusj8/1Ej9oNEcdGMoO45AfO+iPC\nvIuw5HTKgR+F73Ir6kfhdvI2WOM4+SaXFHmNGOT7zwKBgQD6sj0jo/OcJ4H7In/8\nANOetPUeoCphcHVbY7WjAngZ3ZiOhpBSoP7aYaV/VHtYqlekMCHGRSymDNj6PzkT\nMYpQJ9UTQTLqV50/MeeGfOJWubWb63q335owrCHYnAmu8tl0ZLm7Hb2RARmJWj0V\nVy36xykt3cKCdDjJ8lRUcLPSmwKBgQDjAORLL6pL/7Rc02iOYLc/CPLJsZ/lhuR9\n3YhdAIJKKGX900a70qcTiIqBcmqQebkaLh99YD8f7MwMVYU4vC8nbE9B6TdJOR1/\nnc1WnPT0UT1EGWanJE28UKzvrqMfGkaX9fggrEO8AKDxImuDnvyZ7LJ+jzYdNH66\n+knakHu0DwKBgQCAhmaf4gsf0IVr+gkBam8T25QbamOv5tbTzq+tbbOjFx+CWmyd\nYBqoXQ1a1TYTg+lArMhz/LziOI345fbd5zUQ2Qr9PxzaVaaxYmVfZqEnczgvQq98\nmy9Sqr0DbyPrxGdFq+ooixvHvneYGmJckYBqJDbxY9K3zNvcdNdVHx6h5wKBgCVp\nczaU/3sRBHe7++JjPDAuWF03YgPhDG1WAnBZch+oss53cJPp7tFAUpts8PUoqoIP\nEe+G2kB3tVVfDtq/4QGdTx6swgjWWe87YakhqxlM/kzn5swrJoifvzCtVoL8wJ+w\n0RkJawxkCiJTquaBYF457V0AW0nK6gwEzgEwiMKvAoGBANvcwu8Xl13tLVbSYd+Z\nYEW9ZJTn5cKMeBdFY2gnFgPoD1W+Yfp+0C6eg+T0bwEbqe/mSH9OyiaWlAGOKbWw\n5r8s9+Cx1HwVvNuLklcYMkWIBTtcrL49C50CCE3yT7/OwAsKa0+1QN3yjwYXdYuk\naQilS6eJNbQuiRBy3ztrjajg\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-3jupd@agartha-rpg.iam.gserviceaccount.com",
+  "client_id": "112165513921519119306",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-3jupd%40agartha-rpg.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

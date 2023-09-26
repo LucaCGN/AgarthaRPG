@@ -1,0 +1,48 @@
+Document: fixed_game_systems
+  Subcollection: professions_system
+    Document: Alchemist
+    Document: Artist
+    Document: Blacksmith
+    Document: Carpenter
+    Document: Cartographer
+    Document: Cook
+    Document: Diplomat
+    Document: Farmer
+    Document: Fisherman
+    Document: Herbalist
+    Document: Jeweler
+    Document: Librarian
+    Document: Lumberjack
+    Document: Merchant
+    Document: Miner
+    Document: Seamen
+    Document: Shinobi
+    Document: Tanner
+    Document: Tavern Owner
+    Document: Taylor
+  Subcollection: weapons_system
+    Document: Axe
+    Document: Chain Dual Club
+    Document: Claws
+    Document: Compound Bow
+    Document: Daggers
+    Document: Dual-handed Sword
+    Document: Example_Items
+    Document: Fuuma Shuriken
+    Document: Kite Shield
+    Document: Long Bow
+    Document: Long Dagger
+    Document: Martial Artist
+    Document: Nan-chaku
+    Document: One-handed Sword
+    Document: Rapier
+    Document: Ring Blade
+    Document: Round Shield
+    Document: Scythe
+    Document: Shurikens
+    Document: Spear
+    Document: Trident
+    Document: War Hammer
+    Document: Weapon_Rarity
+    Document: Whip
+Document: initial_game_state

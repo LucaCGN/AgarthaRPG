@@ -1,0 +1,544 @@
+{
+    "Axe": {
+        "weapon_details": {
+            "Name": "Axe",
+            "Stat": "STR",
+            "Base_damage": "1d12 (slashing)",
+            "Description": "Wield the Axe, the epitome of raw strength. Unleash devastating cleaves and rending strikes to crush your foes. A perfect choice for those who live by the motto, 'The best defense is a good offense'.",
+            "Actions": [
+                {
+                    "name": "Cleave\", \"damage\": \"1d10 (slashing)",
+                    "effect": "Hits up to 2 adjacent enemies."
+                },
+                {
+                    "name": "Rending Strike\", \"damage\": \"1d8 (slashing)",
+                    "effect": "Target suffers a bleeding debuff, taking an additional 1d4 damage for 2 turns."
+                },
+                {
+                    "name": "Axe Throw\", \"damage\": \"1d12 (slashing)",
+                    "effect": "Ranged attack (20 feet). Must retrieve the axe next turn."
+                }
+            ]
+        }
+    },
+    "Spear": {
+        "weapon_details": {
+            "Name": "Bone Spear",
+            "Stat": "STR",
+            "Base_damage": "1d10 (piercing)",
+            "Description": "The Spear is the weapon of choice for the cunning. With its long reach and piercing thrusts, control the battlefield and pull your enemies into your deadly traps.",
+            "Actions": [
+                {
+                    "name": "Piercing Thrust\", \"damage\": \"1d10 (piercing)",
+                    "effect": "Single target attack with extra 5 feet reach."
+                },
+                {
+                    "name": "Pierce and Pull\", \"damage\": \"1d8 (piercing)",
+                    "effect": "Pulls target 10 feet closer."
+                },
+                {
+                    "name": "Spinning Shield\", \"damage\": \"1d6 (piercing)",
+                    "effect": "If you would dogde a projectile, reflect it instead"
+                }
+            ]
+        }
+    },
+    "Chain Dual Club": {
+        "weapon_details": {
+            "Name": "Chain Dual Club",
+            "Stat": "STR",
+            "Base_damage": "1d8 (bludgeoning)",
+            "Description": "The Chain Dual Club offers a unique blend of speed and power. Its whirlwind strikes can take down multiple foes at once, making it the perfect weapon for those who love to be in the thick of battle.",
+            "Actions": [
+                {
+                    "name": "Whirlwind Strike\", \"damage\": \"2d6 (bludgeoning)",
+                    "effect": "Hits all adjacent enemies."
+                },
+                {
+                    "name": "Chain Grapple\", \"damage\": \"None",
+                    "effect": "Grapples a target, immobilizing them for a turn."
+                },
+                {
+                    "name": "Crushing Blow\", \"damage\": \"1d10 (bludgeoning)",
+                    "effect": "Single target attack. Target is knocked prone."
+                }
+            ]
+        }
+    },
+    "Claws": {
+        "weapon_details": {
+            "Name": "Claws",
+            "Stat": "DEX",
+            "Base_damage": "1d6 (slashing)",
+            "Description": "The Claws is known for its DEX-based attacks.",
+            "Actions": [
+                {
+                    "name": "Rapid Swipes\", \"damage\": \"3d4 (slashing)",
+                    "effect": "Single target attack."
+                },
+                {
+                    "name": "Pounce and Rend\", \"damage\": \"2d6 (slashing)",
+                    "effect": "Leap 10 feet and attack. If hit, target is grappled."
+                },
+                {
+                    "name": "Eviscerate\", \"damage\": \"1d8 (slashing)",
+                    "effect": "Single target attack. If target is below half HP, deal additional 1d6 damage."
+                }
+            ]
+        }
+    },
+    "Compound Bow": {
+        "weapon_details": {
+            "Name": "Compound Bow",
+            "Stat": "DEX",
+            "Base_damage": "1d8 (piercing)",
+            "Description": "The Compound Bow is known for its DEX-based attacks.",
+            "Actions": [
+                {
+                    "name": "Precision Shot\", \"damage\": \"1d10 (piercing)",
+                    "effect": "Single target attack with advantage."
+                },
+                {
+                    "name": "Volley\", \"damage\": \"1d6 (piercing)",
+                    "effect": "Ranged attack hitting up to 3 targets in a 15-foot radius."
+                },
+                {
+                    "name": "Explosive Arrow\", \"damage\": \"1d8 (piercing) + 1d6 (fire)",
+                    "effect": "Single target attack. All adjacent enemies take 1d6 fire damage."
+                }
+            ]
+        }
+    },
+    "Daggers": {
+        "weapon_details": {
+            "Name": "Daggers",
+            "Stat": "DEX",
+            "Base_damage": "1d4 (piercing)",
+            "Description": "The Daggers is known for its DEX-based attacks.",
+            "Actions": [
+                {
+                    "name": "Twin Stab\", \"damage\": \"2d4 (piercing)",
+                    "effect": "Two rapid attacks on a single target."
+                },
+                {
+                    "name": "Throwing Knife\", \"damage\": \"1d4 (piercing)",
+                    "effect": "Ranged attack with a range of 20 feet."
+                },
+                {
+                    "name": "Backstab\", \"damage\": \"2d6 (piercing)",
+                    "effect": "Must be behind the target. If hit, target is surprised."
+                }
+            ]
+        }
+    },
+    "Dual-handed Sword": {
+        "weapon_details": {
+            "Name": "Dual-handed Sword",
+            "Stat": "STR",
+            "Base_damage": "2d6 (slashing)",
+            "Description": "The Dual-handed Sword is known for its STR-based attacks.",
+            "Actions": [
+                {
+                    "name": "Great Cleave\", \"damage\": \"2d8 (slashing)",
+                    "effect": "Hits up to 3 adjacent enemies."
+                },
+                {
+                    "name": "Charging Slash\", \"damage\": \"3d6 (slashing)",
+                    "effect": "Move up to 10 feet in a straight line and attack all in path."
+                },
+                {
+                    "name": "Guard Stance\", \"damage\": \"None",
+                    "effect": "Increases AC by 3 for the next turn, but can't attack."
+                }
+            ]
+        }
+    },
+    "Fuuma Shuriken": {
+        "weapon_details": {
+            "Name": "Fuuma Shuriken",
+            "Stat": "DEX",
+            "Base_damage": "1d8 (slashing)",
+            "Description": "The Fuuma Shuriken is known for its DEX-based attacks.",
+            "Actions": [
+                {
+                    "name": "Whirling Throw\", \"damage\": \"1d8 (slashing)",
+                    "effect": "Hits up to 3 enemies in a straight line."
+                },
+                {
+                    "name": "Shadow Strike\", \"damage\": \"1d10 (slashing)",
+                    "effect": "Single target attack with advantage if undetected."
+                },
+                {
+                    "name": "Returning Blade\", \"damage\": \"1d6 (slashing)",
+                    "effect": "Throw shuriken and it returns to the user, hitting the target twice."
+                }
+            ]
+        }
+    },
+    "Long Bow": {
+        "weapon_details": {
+            "Name": "Long Bow",
+            "Stat": "DEX",
+            "Base_damage": "1d10 (piercing)",
+            "Description": "The Long Bow is known for its DEX-based attacks.",
+            "Actions": [
+                {
+                    "name": "Arrow Rain\", \"damage\": \"1d6 (piercing)",
+                    "effect": "Hits all enemies in a 15-foot radius."
+                },
+                {
+                    "name": "Piercing Arrow\", \"damage\": \"1d12 (piercing)",
+                    "effect": "Ignores armor and shield bonuses."
+                },
+                {
+                    "name": "Quick Shot\", \"damage\": \"1d8 (piercing)",
+                    "effect": "Can shoot twice in one turn."
+                }
+            ]
+        }
+    },
+    "Long Dagger": {
+        "weapon_details": {
+            "Name": "Long Dagger",
+            "Stat": "DEX",
+            "Base_damage": "1d6 (piercing)",
+            "Description": "The Long Dagger is known for its DEX-based attacks.",
+            "Actions": [
+                {
+                    "name": "Lunge\", \"damage\": \"1d8 (piercing)",
+                    "effect": "Move up to 5 feet and attack."
+                },
+                {
+                    "name": "Parrying Stance\", \"damage\": \"None",
+                    "effect": "Next melee attack against you misses."
+                },
+                {
+                    "name": "Vital Strike\", \"damage\": \"1d6 (piercing)",
+                    "effect": "If hit, target is poisoned for 3 turns, taking 1d4 damage each turn."
+                }
+            ]
+        }
+    },
+    "Martial Artist": {
+        "weapon_details": {
+            "Name": "Martial Artist",
+            "Stat": "CON",
+            "Base_damage": "1d6 (bludgeoning)",
+            "Description": "The Martial Artist is known for its CON-based attacks.",
+            "Actions": [
+                {
+                    "name": "Flurry of Blows\", \"damage\": \"3d4 (bludgeoning)",
+                    "effect": "Rapid strikes on a single target."
+                },
+                {
+                    "name": "Chi Strike\", \"damage\": \"1d8 (bludgeoning)",
+                    "effect": "Next attack has increased damage."
+                },
+                {
+                    "name": "Meditative Stance\", \"damage\": \"None",
+                    "effect": "Heal for 1d6 HP."
+                }
+            ]
+        }
+    },
+    "Nan-chaku": {
+        "weapon_details": {
+            "Name": "Nan-chaku",
+            "Stat": "CON",
+            "Base_damage": "1d6 (bludgeoning)",
+            "Description": "The Nan-chaku is known for its CON-based attacks.",
+            "Actions": [
+                {
+                    "name": "Whirling Defense\", \"damage\": \"None",
+                    "effect": "Increases AC by 2 for the next turn."
+                },
+                {
+                    "name": "Double Strike\", \"damage\": \"2d6 (bludgeoning)",
+                    "effect": "Two rapid attacks on a single target."
+                },
+                {
+                    "name": "Stunning Blow\", \"damage\": \"1d4 (bludgeoning)",
+                    "effect": "Target is stunned for the next turn."
+                }
+            ]
+        }
+    },
+    "One-handed Sword": {
+        "weapon_details": {
+            "Name": "One-handed Sword",
+            "Stat": "STR",
+            "Base_damage": "1d8 (slashing)",
+            "Description": "The One-handed Sword is known for its STR-based attacks.",
+            "Actions": [
+                {
+                    "name": "Riposte\", \"damage\": \"1d8 (slashing)",
+                    "effect": "Counterattack after a successful parry."
+                },
+                {
+                    "name": "Sword Thrust\", \"damage\": \"1d10 (piercing)",
+                    "effect": "Single target attack with extra 5 feet reach."
+                },
+                {
+                    "name": "Blade Dance\", \"damage\": \"1d6 (slashing)",
+                    "effect": "Can attack two different targets."
+                }
+            ]
+        }
+    },
+    "Rapier": {
+        "weapon_details": {
+            "Name": "Rapier",
+            "Stat": "DEX",
+            "Base_damage": "1d8 (piercing)",
+            "Description": "The Rapier is known for its DEX-based attacks.",
+            "Actions": [
+                {
+                    "name": "Fencing Lunge\", \"damage\": \"1d10 (piercing)",
+                    "effect": "Single target attack with extra 5 feet reach."
+                },
+                {
+                    "name": "Evasive Parry\", \"damage\": \"None",
+                    "effect": "Dodge the next attack and counter with a basic attack."
+                },
+                {
+                    "name": "Precise Thrust\", \"damage\": \"1d8 (piercing)",
+                    "effect": "Ignores armor bonuses."
+                }
+            ]
+        }
+    },
+    "Scythe": {
+        "weapon_details": {
+            "Name": "Scythe",
+            "Stat": "STR",
+            "Base_damage": "1d10 (slashing)",
+            "Description": "The Scythe is known for its STR-based attacks.",
+            "Actions": [
+                {
+                    "name": "Reaper's Swing\", \"damage\": \"1d12 (slashing)",
+                    "effect": "Single target attack."
+                },
+                {
+                    "name": "Harvest\", \"damage\": \"1d8 (slashing)",
+                    "effect": "Hits all enemies in a 10-foot cone."
+                },
+                {
+                    "name": "Grim Pull\", \"damage\": \"None",
+                    "effect": "Pulls target 10 feet closer."
+                }
+            ]
+        }
+    },
+    "Shurikens": {
+        "weapon_details": {
+            "Name": "Shurikens",
+            "Stat": "DEX",
+            "Base_damage": "1d4 (piercing)",
+            "Description": "The Shurikens is known for its DEX-based attacks.",
+            "Actions": [
+                {
+                    "name": "Rapid Throw\", \"damage\": \"3d4 (piercing)",
+                    "effect": "Three rapid ranged attacks on a single target."
+                },
+                {
+                    "name": "Poisoned Tips\", \"damage\": \"1d4 (piercing)",
+                    "effect": "Target is poisoned for 3 turns, taking 1d4 damage each turn."
+                },
+                {
+                    "name": "Shadow Strike\", \"damage\": \"1d6 (piercing)",
+                    "effect": "Attack with advantage if undetected."
+                }
+            ]
+        }
+    },
+    "Trident": {
+        "weapon_details": {
+            "Name": "Trident",
+            "Stat": "STR",
+            "Base_damage": "1d8 (piercing)",
+            "Description": "The Trident is known for its STR-based attacks.",
+            "Actions": [
+                {
+                    "name": "Thrust\", \"damage\": \"1d8 (piercing)",
+                    "effect": "Single target attack."
+                },
+                {
+                    "name": "Sweeping Strike\", \"damage\": \"1d6 (piercing)",
+                    "effect": "Hits up to 3 enemies in a straight line."
+                },
+                {
+                    "name": "Ocean's Wrath\", \"damage\": \"1d10 (piercing)",
+                    "effect": "Water elemental damage added."
+                }
+            ]
+        }
+    },
+    "War Hammer": {
+        "weapon_details": {
+            "Name": "War Hammer",
+            "Stat": "STR",
+            "Base_damage": "1d10 (bludgeoning)",
+            "Description": "The War Hammer is known for its STR-based attacks.",
+            "Actions": [
+                {
+                    "name": "Smash\", \"damage\": \"1d12 (bludgeoning)",
+                    "effect": "Single target attack."
+                },
+                {
+                    "name": "Ground Slam\", \"damage\": \"1d8 (bludgeoning)",
+                    "effect": "Hits all enemies in a 5-foot radius."
+                },
+                {
+                    "name": "Stunning Blow\", \"damage\": \"1d6 (bludgeoning)",
+                    "effect": "Target is stunned for the next turn."
+                }
+            ]
+        }
+    },
+    "Ring Blade": {
+        "weapon_details": {
+            "Name": "Ring Blade",
+            "Stat": "CHA",
+            "Base_damage": "1d8 (slashing)",
+            "Description": "The Ring Blade is known for its CHA-based attacks.",
+            "Actions": [
+                {
+                    "name": "Circular Charm\", \"damage\": \"1d8 (slashing)",
+                    "effect": "Ranged attack (15 feet). Returns to the user, charming the target if hit."
+                },
+                {
+                    "name": "Blade Dance\", \"damage\": \"1d6 (slashing)",
+                    "effect": "Can attack two different targets, with a chance to charm each."
+                },
+                {
+                    "name": "Inspiring Spin\", \"damage\": \"None",
+                    "effect": "Increases allies' morale, granting advantage on their next attack rolls."
+                }
+            ]
+        }
+    },
+    "Whip": {
+        "weapon_details": {
+            "Name": "Whip",
+            "Stat": "CHA",
+            "Base_damage": "1d6 (slashing)",
+            "Description": "The Spiked Whip is known for its CHA-based attacks.",
+            "Actions": [
+                {
+                    "name": "Lash of Persuasion\", \"damage\": \"1d6 (slashing)",
+                    "effect": "Single target attack with 10 feet reach. Charms target if hit."
+                },
+                {
+                    "name": "Entangling Command\", \"damage\": \"None",
+                    "effect": "Target is restrained for the next turn, compelled to obey."
+                },
+                {
+                    "name": "Whip of Leadership\", \"damage\": \"1d4 (slashing)",
+                    "effect": "Hits all enemies in a 5-foot radius, with a chance to cause them to flee."
+                }
+            ]
+        }
+    },
+    "Round Shield": {
+        "weapon_details": {
+            "Name": "Round Shield",
+            "Stat": "CON",
+            "Description": "The Round Shield is known for its CON-based defense.",
+            "Passive": {
+                "Name": "Shield Defense",
+                "Effect": "+2 AC"
+            },
+            "Actions": [
+                {
+                    "name": "Defensive Stance",
+                    "effect": "Gain the ability to use block as a reaction."
+                }
+            ]
+        }
+    },
+    "Kite Shield": {
+        "weapon_details": {
+            "Name": "Kite Shield",
+            "Stat": "CON",
+            "Description": "The Kite Shield is known for its CON-based defense.",
+            "Passive": {
+                "Name": "Strong Shielding",
+                "Effect": "+3 AC"
+            },
+            "Actions": [
+                {
+                    "name": "Aggro Pull",
+                    "effect": "Access to an exclusive pull aggro skill that gives an extra +2 AC and aggros all nearby enemies."
+                }
+            ]
+        }
+    },
+    "Weapon_Rarity": {
+        "rarity_details": {
+            "Common": {
+                "effects": [
+                    "None"
+                ]
+            },
+            "Uncommon": {
+                "effects": [
+                    "Extra Action"
+                ]
+            },
+            "Rare": {
+                "effects": [
+                    "Extra Action",
+                    "Extra Damage"
+                ]
+            },
+            "Epic": {
+                "effects": [
+                    "Enhanced Actions"
+                ]
+            },
+            "Legendary": {
+                "effects": [
+                    "Advantage on Rolls"
+                ]
+            }
+        }
+    },
+    "Example_Items": {
+        "Uncommon_Axe": {
+            "item_details": {
+                "Name": "Uncommon Axe",
+                "Rarity": "Uncommon",
+                "Custom_Effect": "Extra Action: Quick Slash",
+                "Damage": "1d12",
+                "Durability": 100
+            }
+        },
+        "Rare_Bone_Spear": {
+            "item_details": {
+                "Name": "Rare Bone Spear",
+                "Rarity": "Rare",
+                "Custom_Effect": "Extra Action: Vicious Jab, Extra Damage: +1d4",
+                "Damage": "1d10",
+                "Durability": 90
+            }
+        },
+        "Epic_Chain_Dual_Club": {
+            "item_details": {
+                "Name": "Epic Chain Dual Club",
+                "Rarity": "Epic",
+                "Custom_Effect": "Enhanced Actions: Double Whirlwind Strike",
+                "Damage": "1d8",
+                "Durability": 80
+            }
+        },
+        "Common_Sword": {
+            "item_details": {
+                "Name": "Common Sword",
+                "Rarity": "Common",
+                "Custom_Effect": "None",
+                "Damage": "1d8",
+                "Durability": 100
+            }
+        }
+    }
+}

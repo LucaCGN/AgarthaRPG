@@ -9,16 +9,16 @@
 │   │           ├── { "name": "Cleave", "damage": "1d10 (slashing)", "effect": "Hits up to 2 adjacent enemies." }
 │   │           ├── { "name": "Rending Strike", "damage": "1d8 (slashing)", "effect": "Target suffers a bleeding debuff, taking an additional 1d4 damage for 2 turns." }
 │   │           ├── { "name": "Axe Throw", "damage": "1d12 (slashing)", "effect": "Ranged attack (20 feet). Must retrieve the axe next turn." }
-│   ├── Bone Spear (Document)
+│   ├── Spear (Document)
 │   │   └── weapon_details (Fields)
 │   │       ├── Name (String) - "Bone Spear"
 │   │       ├── Stat (String) - "STR"
 │   │       ├── Base_damage (String) - "1d10 (piercing)"
-│   │       ├── Description (String) - "The Bone Spear is the weapon of choice for the cunning. With its long reach and piercing thrusts, control the battlefield and pull your enemies into your deadly traps."
+│   │       ├── Description (String) - "The Spear is the weapon of choice for the cunning. With its long reach and piercing thrusts, control the battlefield and pull your enemies into your deadly traps."
 │   │       └── Actions (Array of Maps)
 │   │           ├── { "name": "Piercing Thrust", "damage": "1d10 (piercing)", "effect": "Single target attack with extra 5 feet reach." }
-│   │           ├── { "name": "Skeletal Pull", "damage": "1d8 (piercing)", "effect": "Pulls target 10 feet closer." }
-│   │           ├── { "name": "Bone Shards", "damage": "1d6 (piercing)", "effect": "Hits all enemies in a 10-foot cone." }
+│   │           ├── { "name": "Pierce and Pull", "damage": "1d8 (piercing)", "effect": "Pulls target 10 feet closer." }
+│   │           ├── { "name": "Spinning Shield", "damage": "1d6 (piercing)", "effect": "If you would dogde a projectile, reflect it instead" }
 │   ├── Chain Dual Club (Document)
 │   │   └── weapon_details (Fields)
 │   │       ├── Name (String) - "Chain Dual Club"
@@ -69,16 +69,6 @@
 │   │           ├── { "name": "Great Cleave", "damage": "2d8 (slashing)", "effect": "Hits up to 3 adjacent enemies." }
 │   │           ├── { "name": "Charging Slash", "damage": "3d6 (slashing)", "effect": "Move up to 10 feet in a straight line and attack all in path." }
 │   │           ├── { "name": "Guard Stance", "damage": "None", "effect": "Increases AC by 3 for the next turn, but can't attack." }
-│   ├── Dual Scissors Blades (Document)
-│   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Dual Scissors Blades"
-│   │       ├── Stat (String) - "STR"
-│   │       ├── Base_damage (String) - "1d8 (slashing)"
-│   │       ├── Description (String) - "The Dual Scissors Blades is known for its STR-based attacks."
-│   │       └── Actions (Array of Maps)
-│   │           ├── { "name": "Scissor Snip", "damage": "2d6 (slashing)", "effect": "Single target attack." }
-│   │           ├── { "name": "Blade Dance", "damage": "1d8 (slashing)", "effect": "Hits up to 2 adjacent enemies." }
-│   │           ├── { "name": "Defensive Parry", "damage": "None", "effect": "Parries the next melee attack, countering with 1d6 damage." }
 │   ├── Fuuma Shuriken (Document)
 │   │   └── weapon_details (Fields)
 │   │       ├── Name (String) - "Fuuma Shuriken"
@@ -169,16 +159,6 @@
 │   │           ├── { "name": "Rapid Throw", "damage": "3d4 (piercing)", "effect": "Three rapid ranged attacks on a single target." }
 │   │           ├── { "name": "Poisoned Tips", "damage": "1d4 (piercing)", "effect": "Target is poisoned for 3 turns, taking 1d4 damage each turn." }
 │   │           ├── { "name": "Shadow Strike", "damage": "1d6 (piercing)", "effect": "Attack with advantage if undetected." }
-│   ├── Spiked Brass Knuckle (Document)
-│   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Spiked Brass Knuckle"
-│   │       ├── Stat (String) - "STR"
-│   │       ├── Base_damage (String) - "1d6 (bludgeoning)"
-│   │       ├── Description (String) - "The Spiked Brass Knuckle is known for its STR-based attacks."
-│   │       └── Actions (Array of Maps)
-│   │           ├── { "name": "Punch Combo", "damage": "3d4 (bludgeoning)", "effect": "Three rapid punches on a single target." }
-│   │           ├── { "name": "Knockout Blow", "damage": "1d8 (bludgeoning)", "effect": "Target is stunned for the next turn." }
-│   │           ├── { "name": "Defensive Stance", "damage": "None", "effect": "Increases AC by 2 for the next turn." }
 │   ├── Trident (Document)
 │   │   └── weapon_details (Fields)
 │   │       ├── Name (String) - "Trident"
@@ -199,26 +179,6 @@
 │   │           ├── { "name": "Smash", "damage": "1d12 (bludgeoning)", "effect": "Single target attack." }
 │   │           ├── { "name": "Ground Slam", "damage": "1d8 (bludgeoning)", "effect": "Hits all enemies in a 5-foot radius." }
 │   │           ├── { "name": "Stunning Blow", "damage": "1d6 (bludgeoning)", "effect": "Target is stunned for the next turn." }
-│   ├── Bladed Fan (Document)
-│   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Bladed Fan"
-│   │       ├── Stat (String) - "CHA"
-│   │       ├── Base_damage (String) - "1d6 (slashing)"
-│   │       ├── Description (String) - "The Bladed Fan is known for its CHA-based attacks."
-│   │       └── Actions (Array of Maps)
-│   │           ├── { "name": "Graceful Dance", "damage": "3d4 (slashing)", "effect": "Charm a single target, causing them to be stunned for a turn." }
-│   │           ├── { "name": "Wind Cutter", "damage": "1d6 (slashing)", "effect": "Ranged attack (15 feet). Pushes target 5 feet back with a graceful motion." }
-│   │           ├── { "name": "Elegant Twirl", "damage": "None", "effect": "Increases allies' AC by 2 for the next turn through an inspiring performance." }
-│   ├── Boomerang (Document)
-│   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Boomerang"
-│   │       ├── Stat (String) - "CHA"
-│   │       ├── Base_damage (String) - "1d8 (bludgeoning)"
-│   │       ├── Description (String) - "The Boomerang is known for its CHA-based attacks."
-│   │       └── Actions (Array of Maps)
-│   │           ├── { "name": "Ricochet Charm", "damage": "1d6 (bludgeoning)", "effect": "Hits up to 3 enemies in a line, with a chance to charm each target for a turn." }
-│   │           ├── { "name": "Stunning Performance", "damage": "1d8 (bludgeoning)", "effect": "Target is stunned for the next turn, mesmerized by the throw." }
-│   │           ├── { "name": "Returning Show", "damage": "1d8 (bludgeoning)", "effect": "Ignores half cover. Charms target if hit." }
 │   ├── Ring Blade (Document)
 │   │   └── weapon_details (Fields)
 │   │       ├── Name (String) - "Ring Blade"
@@ -229,9 +189,9 @@
 │   │           ├── { "name": "Circular Charm", "damage": "1d8 (slashing)", "effect": "Ranged attack (15 feet). Returns to the user, charming the target if hit." }
 │   │           ├── { "name": "Blade Dance", "damage": "1d6 (slashing)", "effect": "Can attack two different targets, with a chance to charm each." }
 │   │           ├── { "name": "Inspiring Spin", "damage": "None", "effect": "Increases allies' morale, granting advantage on their next attack rolls." }
-│   ├── Spiked Whip (Document)
+│   ├── Whip (Document)
 │   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Spiked Whip"
+│   │       ├── Name (String) - "Whip"
 │   │       ├── Stat (String) - "CHA"
 │   │       ├── Base_damage (String) - "1d6 (slashing)"
 │   │       ├── Description (String) - "The Spiked Whip is known for its CHA-based attacks."
@@ -239,26 +199,6 @@
 │   │           ├── { "name": "Lash of Persuasion", "damage": "1d6 (slashing)", "effect": "Single target attack with 10 feet reach. Charms target if hit." }
 │   │           ├── { "name": "Entangling Command", "damage": "None", "effect": "Target is restrained for the next turn, compelled to obey." }
 │   │           ├── { "name": "Whip of Leadership", "damage": "1d4 (slashing)", "effect": "Hits all enemies in a 5-foot radius, with a chance to cause them to flee." }
-│   ├── Trident Whip (Document)
-│   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Trident Whip"
-│   │       ├── Stat (String) - "CHA"
-│   │       ├── Base_damage (String) - "1d8 (slashing)"
-│   │       ├── Description (String) - "The Trident Whip is known for its CHA-based attacks."
-│   │       └── Actions (Array of Maps)
-│   │           ├── { "name": "Whip of Authority", "damage": "1d8 (slashing)", "effect": "Single target attack with 10 feet reach. Charms target if hit." }
-│   │           ├── { "name": "Commanding Tines", "damage": "None", "effect": "Target is restrained for the next turn, obeying the user's command." }
-│   │           ├── { "name": "Triple Charm", "damage": "3d4 (slashing)", "effect": "Three rapid attacks on a single target, with a chance to charm with each hit." }
-│   ├── Bracer (Document)
-│   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Bracer"
-│   │       ├── Stat (String) - "CON"
-│   │       ├── Description (String) - "The Bracer is known for its CON-based attacks."
-│   │       ├── Passive (Map)
-│   │       │   ├── Name (String) - "Armor Enhancement"
-│   │       │   ├── Effect (String) - "+1 AC"
-│   │       └── Actions (Array of Maps)
-│   │           ├── { "name": "Combat Readiness", "effect": "1 combat action. Can be used together with one and two-handed weapons." }
 │   ├── Round Shield (Document)
 │   │   └── weapon_details (Fields)
 │   │       ├── Name (String) - "Round Shield"
@@ -279,36 +219,6 @@
 │   │       │   ├── Effect (String) - "+3 AC"
 │   │       └── Actions (Array of Maps)
 │   │           ├── { "name": "Aggro Pull", "effect": "Access to an exclusive pull aggro skill that gives an extra +2 AC and aggros all nearby enemies." }
-│   ├── Staff of Wisdom (Document)
-│   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Staff of Wisdom"
-│   │       ├── Stat (String) - "WIS"
-│   │       ├── Base_damage (String) - "1d8 (magical)"
-│   │       ├── Description (String) - "The Staff of Wisdom is a versatile weapon that allows its wielder to both deal damage and support allies."
-│   │       └── Actions (Array of Maps)
-│   │           ├── { "name": "Arcane Blast", "damage": "1d10 (magical)", "effect": "Ranged attack (30 feet)." }
-│   │           ├── { "name": "Healing Touch", "damage": "None", "effect": "Heals an ally for 1d6 HP." }
-│   │           ├── { "name": "Mana Shield", "damage": "None", "effect": "Grants a shield that absorbs up to 1d4 damage for 3 turns." }
-│   ├── Divine Scepter (Document)
-│   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Divine Scepter"
-│   │       ├── Stat (String) - "WIS"
-│   │       ├── Base_damage (String) - "1d6 (divine)"
-│   │       ├── Description (String) - "The Divine Scepter is a powerful artifact that channels divine energy for both offense and support."
-│   │       └── Actions (Array of Maps)
-│   │           ├── { "name": "Smite", "damage": "1d8 (divine)", "effect": "Single target attack." }
-│   │           ├── { "name": "Bless", "damage": "None", "effect": "Grants an ally advantage on their next attack." }
-│   │           ├── { "name": "Purge", "damage": "None", "effect": "Removes a debuff from an ally." }
-│   ├── Nature's Wand (Document)
-│   │   └── weapon_details (Fields)
-│   │       ├── Name (String) - "Nature's Wand"
-│   │       ├── Stat (String) - "WIS"
-│   │       ├── Base_damage (String) - "1d6 (nature)"
-│   │       ├── Description (String) - "Nature's Wand is imbued with the essence of the earth, allowing for control over natural elements."
-│   │       └── Actions (Array of Maps)
-│   │           ├── { "name": "Entangling Roots", "damage": "None", "effect": "Restrains an enemy for 2 turns." }
-│   │           ├── { "name": "Thorn Burst", "damage": "1d8 (nature)", "effect": "Hits all enemies in a 10-foot radius." }
-│   │           ├── { "name": "Regrowth", "damage": "None", "effect": "Heals an ally for 1d4 HP each turn for 3 turns." }
 │   ├── Weapon_Rarity (Document)
 │   │   └── rarity_details (Fields)
 │   │       ├── Common (Map)
@@ -327,13 +237,26 @@
 │       │       ├── Name (String) - "Uncommon Axe"
 │       │       ├── Rarity (String) - "Uncommon"
 │       │       ├── Custom_Effect (String) - "Extra Action: Quick Slash"
+│       │       ├── Damage (String) - "1d12"
+│       │       ├── Durability (Number) - 100
 │       ├── Rare_Bone_Spear (Document)
 │       │   └── item_details (Fields)
 │       │       ├── Name (String) - "Rare Bone Spear"
 │       │       ├── Rarity (String) - "Rare"
 │       │       ├── Custom_Effect (String) - "Extra Action: Vicious Jab, Extra Damage: +1d4"
-│       └── Epic_Chain_Dual_Club (Document)
+│       │       ├── Damage (String) - "1d10"
+│       │       ├── Durability (Number) - 90
+│       ├── Epic_Chain_Dual_Club (Document)
+│       │   └── item_details (Fields)
+│       │       ├── Name (String) - "Epic Chain Dual Club"
+│       │       ├── Rarity (String) - "Epic"
+│       │       ├── Custom_Effect (String) - "Enhanced Actions: Double Whirlwind Strike"
+│       │       ├── Damage (String) - "1d8"
+│       │       ├── Durability (Number) - 80
+│       └── Common_Sword (Document)
 │           └── item_details (Fields)
-│               ├── Name (String) - "Epic Chain Dual Club"
-│               ├── Rarity (String) - "Epic"
-│               ├── Custom_Effect (String) - "Enhanced Actions: Double Whirlwind Strike"
+│               ├── Name (String) - "Common Sword"
+│               ├── Rarity (String) - "Common"
+│               ├── Custom_Effect (String) - "None"
+│               ├── Damage (String) - "1d8"
+│               ├── Durability (Number) - 100

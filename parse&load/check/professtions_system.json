@@ -1,0 +1,1405 @@
+{
+    "professions_system": {
+      "Miner": {
+        "Description": "Individuals specialized in extracting metals and raw materials from the earth.",
+        "Associated_Stat": "STR",
+        "Skills": {
+          "Rock Sense": {
+            "Type": "Passive",
+            "Effect": "Grants advantage on rolls for finding elemental crystals.",
+            "Level": 2
+          },
+          "Elemental Resonance": {
+            "Type": "Active",
+            "Effect": "Use one 'Metal' crystal to access deeper mining zones. Usable once per long rest.",
+            "Level": 4
+          },
+          "Sturdy Picks": {
+            "Type": "Passive",
+            "Effect": "Your mining tools never break.",
+            "Level": 6
+          },
+          "Mighty Swing": {
+            "Type": "Passive",
+            "Effect": "Gain a +2 bonus to all mining-related strength checks.",
+            "Level": 8
+          },
+          "Ore Whisperer": {
+            "Type": "Passive",
+            "Effect": "Grants a +3 bonus to rolls for finding rare metals.",
+            "Level": 10
+          },
+          "Seismic Sense": {
+            "Type": "Active",
+            "Effect": "Use one 'Earth' crystal to reveal all ore veins within 30 feet. Usable once per day.",
+            "Level": 12
+          },
+          "Iron Lungs": {
+            "Type": "Passive",
+            "Effect": "Immunity to toxic gases and environmental hazards in mines.",
+            "Level": 14
+          },
+          "Crystal Harmony": {
+            "Type": "Active",
+            "Effect": "Use one 'Earth' crystal to harmonize with the earth, increasing the yield of the next mining operation. Usable once per long rest.",
+            "Level": 16
+          },
+          "Master Extractor": {
+            "Type": "Active",
+            "Effect": "Once per day, guarantee the successful extraction of one rare crystal or metal.",
+            "Level": 18
+          },
+          "Ore Magnetism": {
+            "Type": "Active",
+            "Effect": "Use one 'Magnetism' crystal to attract more ores to your location. Usable once per long rest.",
+            "Level": 20
+          }
+        },
+        "Miner Items": {
+          "Common Pickaxe": {
+            "Description": "A tool used for breaking rocks and minerals."
+          },
+          "Common Shovel": {
+            "Description": "A tool used for digging and moving dirt."
+          },
+          "Common Lantern": {
+            "Description": "A light source used in dark places."
+          },
+          "Common Flint and steel": {
+            "Description": "A tool used to create sparks, which can be used to light a torch or lantern."
+          }
+        }
+      },
+      "Taylor": {
+        "Description": "Craftsmen who design and create clothing, sometimes using materials enhanced with elemental properties.",
+        "Associated_Stat": "DEX",
+        "Skills": {
+          "Fine Stitching": {
+            "Type": "Passive",
+            "Effect": "Garments you craft grant the wearer a +1 AC bonus.",
+            "Level": 2
+          },
+          "Shadow Weave": {
+            "Type": "Active",
+            "Effect": "Use one 'Shadow' crystal to make a garment that grants the wearer advantage on stealth checks. Usable once per long rest.",
+            "Level": 4
+          },
+          "Keen Eye": {
+            "Type": "Passive",
+            "Effect": "+2 to all checks related to garment quality and detail.",
+            "Level": 6
+          },
+          "Custom Fit": {
+            "Type": "Active",
+            "Effect": "Use one 'Metal' crystal to make adjustments to a garment, granting its wearer a +1 to DEX rolls. Usable once per long rest.",
+            "Level": 8
+          },
+          "Elemental Fortitude": {
+            "Type": "Passive",
+            "Effect": "Garments you craft grant the wearer advantage on saving throws against the chosen element.",
+            "Level": 10
+          },
+          "Fashion Sense": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' crystal to create garments that are exceptionally lightweight, reducing encumbrance for the wearer.",
+            "Level": 12
+          },
+          "Strong Fibers": {
+            "Type": "Passive",
+            "Effect": "Garments you craft are resistant to tearing and take half damage from attacks.",
+            "Level": 14
+          },
+          "Enhanced Materials": {
+            "Type": "Active",
+            "Effect": "Use two rare elemental crystals to craft a garment with permanent magical properties.",
+            "Level": 16
+          },
+          "Master Craftsman": {
+            "Type": "Passive",
+            "Effect": "Grants advantage on rolls for crafting exceptional garments.",
+            "Level": 18
+          },
+          "Tailor's Blessing": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' crystal to enhance a garment, granting its wearer a single use of a fire-based spell.",
+            "Level": 20
+          }
+        },
+        "Taylor Items": {
+          "Common Sewing needle": {
+            "Description": "A tool used for sewing fabric."
+          },
+          "Common Thread": {
+            "Description": "A thin cord used for sewing fabric."
+          },
+          "Common Scissors": {
+            "Description": "A tool used for cutting fabric."
+          },
+          "Common Cloth samples": {
+            "Description": "Small pieces of fabric that can be used to repair clothing or make new items."
+          }
+        }
+      },
+      "Farmer": {
+        "Description": "Individuals who cultivate the land, growing crops and raising livestock.",
+        "Associated_Stat": "CON",
+        "Skills": {
+          "Crop Whisperer": {
+            "Type": "Passive",
+            "Effect": "+2 to all checks related to crop growth and health.",
+            "Level": 2
+          },
+          "Elemental Nourishment": {
+            "Type": "Active",
+            "Effect": "Use one 'Wood' and one 'Water' crystal to enrich soil for the next crop cycle. Usable once per long rest.",
+            "Level": 4
+          },
+          "Pest Ward": {
+            "Type": "Passive",
+            "Effect": "Grants a +2 bonus to rolls for preventing and treating plant diseases and pest infestations.",
+            "Level": 6
+          },
+          "Rain Dance": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' crystal to summon rain, improving soil quality for the next 7 days.",
+            "Level": 8
+          },
+          "Soil Expertise": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for soil quality analysis.",
+            "Level": 10
+          },
+          "Growth Spurt": {
+            "Type": "Active",
+            "Effect": "Use one 'Earth' crystal to instantly mature one plant to harvestable size.",
+            "Level": 12
+          },
+          "Weatherproof Crops": {
+            "Type": "Passive",
+            "Effect": "Crops are resistant to weather-related damage.",
+            "Level": 14
+          },
+          "Bountiful Harvest": {
+            "Type": "Active",
+            "Effect": "Use one 'Sun' crystal to double the yield of one type of crop. Usable once per long rest.",
+            "Level": 16
+          },
+          "Elemental Crop": {
+            "Type": "Active",
+            "Effect": "Use three 'Sun' crystals to grow a special crop imbued with elemental magic. Requires three long rests to recharge.",
+            "Level": 18
+          },
+          "Harvest Moon": {
+            "Type": "Active",
+            "Effect": "Use one 'Light' crystal to extend the growing season for your crops. Usable once per year.",
+            "Level": 20
+          }
+        },
+        "Farmer Items": {
+          "Common Hoe": {
+            "Description": "A tool used for weeding and loosening soil."
+          },
+          "Common Rake": {
+            "Description": "A tool used for smoothing soil and collecting leaves and debris."
+          },
+          "Common Seed sack": {
+            "Description": "A bag used for storing seeds."
+          },
+          "Common Small trowel": {
+            "Description": "A small tool used for digging and planting."
+          }
+        }
+      },
+      "Alchemist": {
+        "Description": "Experts in the collection, refining, and crafting of elemental crystals into potions and other concoctions.",
+        "Associated_Stat": "WIS",
+        "Skills": {
+          "Crystal Affinity": {
+            "Type": "Passive",
+            "Effect": "Grants a +2 bonus to rolls for identifying elemental crystals.",
+            "Level": 2
+          },
+          "Potion Mastery": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' crystal to create a potion that grants the drinker fire resistance for one hour.",
+            "Level": 4
+          },
+          "Steady Hands": {
+            "Type": "Passive",
+            "Effect": "+2 to all checks related to potion crafting.",
+            "Level": 6
+          },
+          "Crystal Infusion": {
+            "Type": "Active",
+            "Effect": "Use two 'Water' crystals to craft a potion that can heal and provide water breathing for 30 minutes.",
+            "Level": 8
+          },
+          "Elemental Synergy": {
+            "Type": "Passive",
+            "Effect": "+1 to all rolls for crafting potions involving multiple elements.",
+            "Level": 10
+          },
+          "Elixir of Life": {
+            "Type": "Active",
+            "Effect": "Use one 'Spirit' crystal to create a potion that heals all HP and removes all conditions. Usable once per month.",
+            "Level": 12
+          },
+          "Toxicology Expert": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for identifying and crafting poisons.",
+            "Level": 14
+          },
+          "Elemental Transmutation": {
+            "Type": "Active",
+            "Effect": "Use one 'Chaos' crystal to change the properties of another crystal.",
+            "Level": 16
+          },
+          "Master of Elements": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for crafting elemental-related items.",
+            "Level": 18
+          },
+          "Alchemy of Time": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to accelerate the brewing process, instantly completing any potion. Usable once per long rest.",
+            "Level": 20
+          }
+        },
+        "Alchemist Items": {
+          "Common Mortar and pestle": {
+            "Description": "A tool used for grinding herbs and other substances."
+          },
+          "Common Test tubes": {
+            "Description": "Glass tubes used for conducting experiments."
+          },
+          "Common Beaker": {
+            "Description": "A glass vessel used for mixing and storing liquids."
+          },
+          "Common Small scale": {
+            "Description": "A tool used for measuring small quantities of substances."
+          }
+        }
+      },
+      "Merchant": {
+        "Description": "Traders who deal in various goods, including elemental crystals and magical artifacts.",
+        "Associated_Stat": "CHA",
+        "Skills": {
+          "Bargain Hunter": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for negotiating prices.",
+            "Level": 2
+          },
+          "Crystal Broker": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to gain advantage on all trade-related rolls. Usable once per long rest.",
+            "Level": 4
+          },
+          "Trustworthy": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for establishing trust with new clients.",
+            "Level": 6
+          },
+          "Flash Sale": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' crystal to attract a large crowd, increasing sales. Usable once per long rest.",
+            "Level": 8
+          },
+          "Eagle Eye": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for appraising the value of goods.",
+            "Level": 10
+          },
+          "Elemental Trade": {
+            "Type": "Active",
+            "Effect": "Use one 'Metal' crystal to enchant a trade item, doubling its value for the next trade.",
+            "Level": 12
+          },
+          "Sales Pitch": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for convincing customers.",
+            "Level": 14
+          },
+          "High Stakes Trade": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' and one 'Metal' crystal to secure a major trade deal. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Customer Insight": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for understanding customer needs and preferences.",
+            "Level": 18
+          },
+          "Merchant Prince/Princess": {
+            "Type": "Active",
+            "Effect": "Use three 'Time' crystals to organize a grand market event. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Merchant Items": {
+          "Common Cart": {
+            "Description": "A vehicle used for transporting goods."
+          },
+          "Common Scales": {
+            "Description": "A tool used for measuring the weight of objects."
+          },
+          "Common Weights": {
+            "Description": "A set of objects with known weights that are used to calibrate scales."
+          },
+          "Common Coins": {
+            "Description": "A form of currency used to purchase goods and services."
+          }
+        }
+      },
+      "Jeweler": {
+        "Description": "Craftsmen who design and create jewelry, often incorporating elemental crystals for aesthetic or minor magical effects.",
+        "Associated_Stat": "DEX",
+        "Skills": {
+          "Gemologist": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for identifying gems and crystals.",
+            "Level": 2
+          },
+          "Prismatic Setting": {
+            "Type": "Active",
+            "Effect": "Use one 'Light' crystal to create jewelry that emits light in dark conditions.",
+            "Level": 4
+          },
+          "Steady Hands": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on all crafting checks related to jewelry-making.",
+            "Level": 6
+          },
+          "Elemental Locket": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' crystal to craft a locket that grants the wearer a +1 to DEX rolls.",
+            "Level": 8
+          },
+          "Intricate Design": {
+            "Type": "Passive",
+            "Effect": "Jewelry you craft sells for 10% more.",
+            "Level": 10
+          },
+          "Healing Ring": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' crystal to create a ring that can heal minor wounds. Usable once per day.",
+            "Level": 12
+          },
+          "Valuable Crafting": {
+            "Type": "Passive",
+            "Effect": "Gain a +2 bonus to rolls for crafting items of exceptional quality.",
+            "Level": 14
+          },
+          "Charm of Luck": {
+            "Type": "Active",
+            "Effect": "Use one 'Metal' crystal to craft a charm that grants the wearer advantage on their next roll.",
+            "Level": 16
+          },
+          "Gem Cutting": {
+            "Type": "Passive",
+            "Effect": "Gain a +2 bonus to rolls for cutting and shaping gems.",
+            "Level": 18
+          },
+          "Timeless Jewelry": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to create a piece of jewelry that never tarnishes. Requires two long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Jeweler Items": {
+          "Common Magnifying glass": {
+            "Description": "A tool used to enlarge small objects."
+          },
+          "Common Jeweler's loupe": {
+            "Description": "A special type of magnifying glass used by jewelers to examine gemstones and jewelry."
+          },
+          "Common Tweezers": {
+            "Description": "A small tool used to grip and manipulate small objects."
+          },
+          "Common Files": {
+            "Description": "A tool used for shaping and smoothing metal."
+          }
+        }
+      },
+      "Lumberjack": {
+        "Description": "Workers who chop down trees to provide wood for various purposes.",
+        "Associated_Stat": "STR",
+        "Skills": {
+          "Tree Sense": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for identifying types of trees and their wood properties.",
+            "Level": 2
+          },
+          "Swift Felling": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' crystal to fell a tree instantly. Usable once per long rest.",
+            "Level": 4
+          },
+          "Sturdy Axes": {
+            "Type": "Passive",
+            "Effect": "Your axes never dull or break.",
+            "Level": 6
+          },
+          "Forest Whisperer": {
+            "Type": "Active",
+            "Effect": "Use one 'Earth' crystal to locate the oldest tree in the vicinity.",
+            "Level": 8
+          },
+          "Log Transport": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on strength checks for transporting logs.",
+            "Level": 10
+          },
+          "Timber Mastery": {
+            "Type": "Active",
+            "Effect": "Use one 'Wood' crystal to ensure the next tree you cut yields maximum usable wood.",
+            "Level": 12
+          },
+          "Safety Measures": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls to avoid accidents while lumbering.",
+            "Level": 14
+          },
+          "Elemental Timber": {
+            "Type": "Active",
+            "Effect": "Use two 'Wood' crystals to imbue a log with elemental magic. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Efficient Cutting": {
+            "Type": "Passive",
+            "Effect": "Cut down trees 20% faster.",
+            "Level": 18
+          },
+          "Lumber Harvest": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to age a young tree to maturity instantly. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Lumberjack Items": {
+          "Common Axe": {
+            "Description": "A tool used for chopping wood."
+          },
+          "Common Saw": {
+            "Description": "A tool used for cutting wood."
+          },
+          "Common Wedge": {
+            "Description": "A tool used to split wood."
+          },
+          "Common Maul": {
+            "Description": "A heavy hammer used for splitting wood."
+          }
+        }
+      },
+      "Shinobi": {
+        "Description": "Master in the arts of stealth, mercenaries that take any kind of service that must be completed in secret.",
+        "Associated_Stat": "DEX",
+        "Skills": {
+          "Stealth Mastery": {
+            "Type": "Passive",
+            "Effect": "+2 to all stealth checks.",
+            "Level": 2
+          },
+          "Shadow Step": {
+            "Type": "Active",
+            "Effect": "Use one 'Shadow' crystal to move silently for 1 minute. Usable once per long rest.",
+            "Level": 4
+          },
+          "Quick Reflexes": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on all acrobatic checks.",
+            "Level": 6
+          },
+          "Smoke Bomb": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' and one 'Air' crystal to create a smokescreen.",
+            "Level": 8
+          },
+          "Keen Senses": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on perception checks related to hearing and sight.",
+            "Level": 10
+          },
+          "Quick Strike": {
+            "Type": "Active",
+            "Effect": "Use one 'Electricity' crystal to add a stun effect to your next attack.",
+            "Level": 12
+          },
+          "Subterfuge": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for disguise and impersonation.",
+            "Level": 14
+          },
+          "Elemental Shuriken": {
+            "Type": "Active",
+            "Effect": "Use one 'Metal' crystal to imbue shurikens with elemental energy. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Evasion": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls to dodge attacks.",
+            "Level": 18
+          },
+          "Assassin's Mark": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to foresee an enemy's movement, gaining advantage on the next attack. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Shinobi Items": {
+          "Common Dark clothing": {
+            "Description": "Clothing that is difficult to see in the dark."
+          },
+          "Common Hood": {
+            "Description": "A piece of clothing that covers the head and face."
+          },
+          "Common Climbing gear": {
+            "Description": "Equipment used for climbing."
+          },
+          "Common Lockpicks": {
+            "Description": "Tools used to pick locks."
+          }
+        }
+      },
+      "Cook": {
+        "Description": "Description Placeholder",
+        "Associated_Stat": "CON",
+        "Skills": {
+          "Culinary Expertise": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for identifying ingredients and their properties.",
+            "Level": 2
+          },
+          "Flavor Burst": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' crystal to enhance the flavor of a dish. Usable once per long rest.",
+            "Level": 4
+          },
+          "Efficient Cooking": {
+            "Type": "Passive",
+            "Effect": "Cooking time is halved.",
+            "Level": 6
+          },
+          "Elemental Cuisine": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' crystal to create a dish that hydrates as well as nourishes.",
+            "Level": 8
+          },
+          "Nutritional Insight": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls to prepare health-boosting meals.",
+            "Level": 10
+          },
+          "Preservation": {
+            "Type": "Active",
+            "Effect": "Use one 'Ice' crystal to preserve a food item for an extended period.",
+            "Level": 12
+          },
+          "Taste Tester": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls to detect poisoned or tainted food.",
+            "Level": 14
+          },
+          "Gourmet Meal": {
+            "Type": "Active",
+            "Effect": "Use two 'Earth' crystals to prepare a feast that provides temporary hit points to those who partake. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Quick Prep": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for quickly preparing dishes.",
+            "Level": 18
+          },
+          "Miracle Dish": {
+            "Type": "Active",
+            "Effect": "Use one 'Spirit' crystal to create a dish that can cure ailments. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Cook Items": {
+          "Common Pot": {
+            "Description": "A container used for cooking food."
+          },
+          "Common Pan": {
+            "Description": "A container used for cooking food."
+          },
+          "Common Knife": {
+            "Description": "A tool used for cutting food."
+          },
+          "Common Spoon": {
+            "Description": "A utensil used for eating and stirring food."
+          }
+        }
+      },
+      "Librarian": {
+        "Description": "Custodians of knowledge, managing and organizing collections of books and scrolls. Can write or copy documents, often knowledgeable in various languages and scripts.",
+        "Associated_Stat": "WIS",
+        "Skills": {
+          "Archive Mastery": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for locating specific books or information.",
+            "Level": 2
+          },
+          "Instant Transcribe": {
+            "Type": "Active",
+            "Effect": "Use one 'Ink' crystal to instantly copy a text. Usable once per long rest.",
+            "Level": 4
+          },
+          "Preservation": {
+            "Type": "Passive",
+            "Effect": "Books and scrolls in your care are immune to decay.",
+            "Level": 6
+          },
+          "Ancient Understanding": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to comprehend an ancient or foreign script.",
+            "Level": 8
+          },
+          "Researcher": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for cross-referencing information.",
+            "Level": 10
+          },
+          "Silent Zone": {
+            "Type": "Active",
+            "Effect": "Use one 'Sound' crystal to create a zone of silence for focused reading or study.",
+            "Level": 12
+          },
+          "Cataloguing": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for cataloguing and organizing books.",
+            "Level": 14
+          },
+          "Restoration": {
+            "Type": "Active",
+            "Effect": "Use one 'Light' crystal to restore a damaged book or scroll. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Scholarly Network": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for acquiring rare books or scrolls.",
+            "Level": 18
+          },
+          "Dimensional Archive": {
+            "Type": "Active",
+            "Effect": "Use one 'Gravity' crystal to store an unlimited number of books in a pocket dimension. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Librarian Items": {
+          "Common Parchment": {
+            "Description": "Material made from animal skin that is used for writing and drawing."
+          },
+          "Common Ink and quill": {
+            "Description": "A writing utensil consisting of a pen and a bottle of ink."
+          },
+          "Common Book strap": {
+            "Description": "A strap used to keep books closed."
+          },
+          "Common Magnifying glass": {
+            "Description": "A tool used to enlarge small objects."
+          }
+        }
+      },
+      "Diplomat": {
+        "Description": "Individuals who devote to doing politics and relations between the various magic guilds and organizations in the world.",
+        "Associated_Stat": "CHA",
+        "Skills": {
+          "Charismatic Presence": {
+            "Type": "Passive",
+            "Effect": "+2 to all social interaction checks.",
+            "Level": 2
+          },
+          "Truth Serum": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' crystal to make someone more inclined to tell the truth. Usable once per long rest.",
+            "Level": 4
+          },
+          "Tactful": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for defusing tense situations.",
+            "Level": 6
+          },
+          "Charm Offensive": {
+            "Type": "Active",
+            "Effect": "Use one 'Light' crystal to become incredibly persuasive for 1 minute.",
+            "Level": 8
+          },
+          "Negotiation Skills": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for negotiating treaties or contracts.",
+            "Level": 10
+          },
+          "Aura of Calm": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' crystal to diffuse hostility in a room.",
+            "Level": 12
+          },
+          "Cultural Understanding": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for understanding foreign customs and etiquette.",
+            "Level": 14
+          },
+          "Time Stop": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to pause time briefly, allowing for a private conversation. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Reading People": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on Insight checks to understand someone's motives or feelings.",
+            "Level": 18
+          },
+          "Alliance Forge": {
+            "Type": "Active",
+            "Effect": "Use two 'Spirit' crystals to solidify a new alliance or treaty. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Diplomat Items": {
+          "Common Fine clothes": {
+            "Description": "Clothing that is suitable for formal occasions."
+          },
+          "Common Seal": {
+            "Description": "A device used to create an impression on wax or other soft material."
+          },
+          "Common Parchment": {
+            "Description": "Material made from animal skin that is used for writing and drawing."
+          },
+          "Common Ink and quill": {
+            "Description": "A writing utensil consisting of a pen and a bottle of ink."
+          }
+        }
+      },
+      "Carpenter": {
+        "Description": "Craftsmen skilled in making and repairing wooden structures and objects.",
+        "Associated_Stat": "STR",
+        "Skills": {
+          "Wood Identification": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for identifying types of wood and their properties.",
+            "Level": 2
+          },
+          "Quick Assembly": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' crystal to assemble a simple wooden structure instantly. Usable once per long rest.",
+            "Level": 4
+          },
+          "Sturdy Craftsmanship": {
+            "Type": "Passive",
+            "Effect": "Wooden structures you build are twice as durable.",
+            "Level": 6
+          },
+          "Elemental Woodwork": {
+            "Type": "Active",
+            "Effect": "Use one 'Earth' crystal to infuse a wooden item with elemental properties.",
+            "Level": 8
+          },
+          "Efficient Crafting": {
+            "Type": "Passive",
+            "Effect": "Reduce the amount of wood needed for any project by 10%.",
+            "Level": 10
+          },
+          "Structural Integrity": {
+            "Type": "Active",
+            "Effect": "Use one 'Metal' crystal to reinforce a wooden structure, making it as strong as metal.",
+            "Level": 12
+          },
+          "Master Craftsman": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for crafting exceptional wooden items.",
+            "Level": 14
+          },
+          "Living Furniture": {
+            "Type": "Active",
+            "Effect": "Use one 'Wood' crystal to create furniture that can move on command. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Design Insight": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for designing wooden structures or items.",
+            "Level": 18
+          },
+          "Timeless Craft": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to create a wooden item that never decays. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Carpenter Items": {
+          "Common Hammer": {
+            "Description": "A tool used for driving nails."
+          },
+          "Common Saw": {
+            "Description": "A tool used for cutting wood."
+          },
+          "Common Chisel": {
+            "Description": "A tool used for carving wood."
+          },
+          "Common Plane": {
+            "Description": "A tool used for smoothing wood."
+          }
+        }
+      },
+      "Cartographer": {
+        "Description": "Experts in creating maps and charts, often venturing into unknown territories to document the landscape.",
+        "Associated_Stat": "DEX",
+        "Skills": {
+          "Map Mastery": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for reading and understanding maps.",
+            "Level": 2
+          },
+          "Quick Sketch": {
+            "Type": "Active",
+            "Effect": "Use one 'Ink' crystal to instantly complete a basic map of an area. Usable once per long rest.",
+            "Level": 4
+          },
+          "Terrain Expertise": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for understanding geographical features.",
+            "Level": 6
+          },
+          "Elemental Mapping": {
+            "Type": "Active",
+            "Effect": "Use one 'Earth' crystal to reveal all elemental veins in an area on your map.",
+            "Level": 8
+          },
+          "Detail Oriented": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for adding details to maps.",
+            "Level": 10
+          },
+          "Teleport Beacon": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' crystal to mark a location on a map that you can teleport to.",
+            "Level": 12
+          },
+          "Navigation": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for navigating through unknown terrains.",
+            "Level": 14
+          },
+          "Interactive Map": {
+            "Type": "Active",
+            "Effect": "Use one 'Electricity' crystal to create a map that shows real-time movement. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Pathfinding": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for discovering shortcuts or hidden paths.",
+            "Level": 18
+          },
+          "Dimensional Atlas": {
+            "Type": "Active",
+            "Effect": "Use one 'Gravity' crystal to create a map that can unfold into a 3D model. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Cartographer Items": {
+          "Common Compass": {
+            "Description": "A tool used for navigation."
+          },
+          "Common Ruler": {
+            "Description": "A tool used for measuring."
+          },
+          "Common Ink and quill": {
+            "Description": "A writing utensil consisting of a pen and a bottle of ink."
+          },
+          "Common Parchment scroll": {
+            "Description": "A scroll made of parchment used for sketching and recording geographical details."
+          }
+        }
+      },
+      "Tanner": {
+        "Description": "Workers who treat animal hides to produce leather.",
+        "Associated_Stat": "CON",
+        "Skills": {
+          "Hide Identification": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for identifying types of hides and their quality.",
+            "Level": 2
+          },
+          "Quick Tanning": {
+            "Type": "Active",
+            "Effect": "Use one 'Sun' crystal to instantly tan a hide. Usable once per long rest.",
+            "Level": 4
+          },
+          "Durable Leather": {
+            "Type": "Passive",
+            "Effect": "Leather you produce is twice as durable.",
+            "Level": 6
+          },
+          "Elemental Resilience": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' crystal to make a piece of leather water-resistant.",
+            "Level": 8
+          },
+          "Efficient Process": {
+            "Type": "Passive",
+            "Effect": "Reduce the amount of materials needed for tanning by 10%.",
+            "Level": 10
+          },
+          "Softness": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' crystal to make leather exceptionally soft.",
+            "Level": 12
+          },
+          "Toxic Resistance": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for treating hides to be toxin-resistant.",
+            "Level": 14
+          },
+          "Magical Leather": {
+            "Type": "Active",
+            "Effect": "Use one 'Spirit' crystal to imbue leather with minor magical properties. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Craftsmanship": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for crafting items from leather.",
+            "Level": 18
+          },
+          "Timeless Hide": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to create leather that never ages. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Tanner Items": {
+          "Common Knives": {
+            "Description": "Tools used for cutting and scraping hides."
+          },
+          "Common Scrapers": {
+            "Description": "Tools used for scraping hides."
+          },
+          "Common Hides": {
+            "Description": "Animal skins that are being tanned."
+          },
+          "Common Leather roll": {
+            "Description": "A roll of processed leather used for crafting and repairs."
+          }
+        }
+      },
+      "Seamen": {
+        "Description": "Skilled sailors who navigate the vast oceans and waterways, often relying on the stars and elemental cues to guide their way.",
+        "Associated_Stat": "WIS",
+        "Skills": {
+          "Sea Legs": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for maintaining balance and footing on a ship.",
+            "Level": 2
+          },
+          "Sail Mastery": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' crystal to fill sails and speed up the ship. Usable once per long rest.",
+            "Level": 4
+          },
+          "Navigation Expertise": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for navigating at sea.",
+            "Level": 6
+          },
+          "Storm Sense": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' crystal to predict and avoid storms.",
+            "Level": 8
+          },
+          "Knot Mastery": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for tying and untying knots.",
+            "Level": 10
+          },
+          "Elemental Navigation": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' crystal to illuminate the correct path in foggy or dark conditions.",
+            "Level": 12
+          },
+          "Tide Sense": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for predicting tides.",
+            "Level": 14
+          },
+          "Mythic Catch": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' and one 'Earth' crystal to summon a mythical sea creature. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Teamwork": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for coordinating with crew members.",
+            "Level": 18
+          },
+          "Ocean's Blessing": {
+            "Type": "Active",
+            "Effect": "Use one 'Spirit' crystal to bless the ship and crew, providing safe passage. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Seamen Items": {
+          "Common Compass": {
+            "Description": "A tool used for navigation."
+          },
+          "Common Map": {
+            "Description": "A representation of the Earth's surface."
+          },
+          "Common Rope": {
+            "Description": "A long cord made of twisted fibers."
+          },
+          "Common Belaying pin": {
+            "Description": "A heavy, tapered piece of wood used for securing ropes."
+          }
+        }
+      },
+      "Tavern Owner": {
+        "Description": "Proprietors of establishments where people gather for drink, food, and entertainment. Often a hub of information and gossip.",
+        "Associated_Stat": "CHA",
+        "Skills": {
+          "Customer Relations": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for understanding customer needs and preferences.",
+            "Level": 2
+          },
+          "Elemental Brew": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' crystal to create a drink that warms anyone who drinks it. Usable once per long rest.",
+            "Level": 4
+          },
+          "Entertainment": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for keeping customers entertained.",
+            "Level": 6
+          },
+          "Mood Lighting": {
+            "Type": "Active",
+            "Effect": "Use one 'Light' crystal to set the lighting according to the mood of the room.",
+            "Level": 8
+          },
+          "Business Acumen": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for business-related decisions.",
+            "Level": 10
+          },
+          "Feast": {
+            "Type": "Active",
+            "Effect": "Use one 'Earth' crystal to prepare a feast that satisfies all types of tastes.",
+            "Level": 12
+          },
+          "Local Knowledge": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for gathering information or rumors.",
+            "Level": 14
+          },
+          "Timeless Ale": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to create an ale that never goes stale. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Negotiation": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for negotiating with suppliers.",
+            "Level": 18
+          },
+          "Grand Event": {
+            "Type": "Active",
+            "Effect": "Use three 'Air' crystals to summon a grand celebration that attracts patrons from all over. Requires three long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Tavern Owner Items": {
+          "Common Apron": {
+            "Description": "A garment worn over the front of the body to protect clothing from dirt and spills."
+          },
+          "Common Mug": {
+            "Description": "A cylindrical cup used for drinking."
+          },
+          "Common Rag": {
+            "Description": "A piece of cloth used for cleaning."
+          },
+          "Common Barrel of ale": {
+            "Description": "A large container of ale."
+          }
+        }
+      },
+      "Blacksmith": {
+        "Description": "Masters of metalwork, capable of forging weapons, armor, and various tools. Highly skilled in the use of elemental crystals for enhanced crafting.",
+        "Associated_Stat": "STR",
+        "Skills": {
+          "Metal Mastery": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for identifying metal types and their properties.",
+            "Level": 2
+          },
+          "Elemental Forging": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' crystal to forge a weapon that deals fire damage. Usable once per long rest.",
+            "Level": 4
+          },
+          "Enduring Craftsmanship": {
+            "Type": "Passive",
+            "Effect": "Weapons and armor you forge gain a +1 AC bonus or +1 to attack rolls.",
+            "Level": 6
+          },
+          "Tempering Skill": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' crystal to make a weapon or armor highly resistant to rust and corrosion.",
+            "Level": 8
+          },
+          "Effortless Hammering": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on all crafting checks related to forging.",
+            "Level": 10
+          },
+          "Critical Forging": {
+            "Type": "Active",
+            "Effect": "Use one 'Metal' crystal to guarantee that the next item you forge is of exceptional quality.",
+            "Level": 12
+          },
+          "Rapid Cooling": {
+            "Type": "Passive",
+            "Effect": "Items you forge cool twice as fast, reducing crafting time.",
+            "Level": 14
+          },
+          "Masterwork": {
+            "Type": "Active",
+            "Effect": "Use two 'Metal' crystals to create a weapon or armor piece with a unique magical property. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Armor Expertise": {
+            "Type": "Passive",
+            "Effect": "Armor you forge grants the wearer advantage on saving throws against elemental damage.",
+            "Level": 18
+          },
+          "Artisan's Strike": {
+            "Type": "Active",
+            "Effect": "Use one 'Light' crystal to imprint a unique design on a weapon or armor, making it more valuable.",
+            "Level": 20
+          }
+        },
+        "Blacksmith Items": {
+          "Common Hammer": {
+            "Description": "A tool used for pounding metal."
+          },
+          "Common Anvil": {
+            "Description": "A heavy metal block used for shaping metal."
+          },
+          "Common Tongs": {
+            "Description": "A tool used for holding hot metal."
+          },
+          "Common Forge": {
+            "Description": "A furnace used for heating metal."
+          }
+        }
+      },
+      "Fisherman": {
+        "Description": "People who catch fish and other aquatic creatures for food.",
+        "Associated_Stat": "CON",
+        "Skills": {
+          "Seafaring": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for navigating and understanding aquatic environments.",
+            "Level": 2
+          },
+          "Aquatic Trap": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' crystal to increase the catch of the day. Usable once per long rest.",
+            "Level": 4
+          },
+          "Sturdy Nets": {
+            "Type": "Passive",
+            "Effect": "Your fishing nets are twice as durable.",
+            "Level": 6
+          },
+          "Storm Prediction": {
+            "Type": "Active",
+            "Effect": "Use one 'Air' crystal to predict and avoid bad weather while at sea.",
+            "Level": 8
+          },
+          "Fish Whisperer": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for locating schools of fish.",
+            "Level": 10
+          },
+          "Elemental Catch": {
+            "Type": "Active",
+            "Effect": "Use one 'Earth' crystal to attract elemental fish. Usable once per day.",
+            "Level": 12
+          },
+          "Quick Reflexes": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for reacting to sudden movements in the water.",
+            "Level": 14
+          },
+          "Tide Control": {
+            "Type": "Active",
+            "Effect": "Use one 'Gravity' crystal to control tides in a small area. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Hook Mastery": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for hooking fish.",
+            "Level": 18
+          },
+          "Legendary Catch": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' and one 'Earth' crystal to attract a legendary fish. Usable once per year.",
+            "Level": 20
+          }
+        },
+        "Fisherman Items": {
+          "Common Rod": {
+            "Description": "A long pole with a line and hook at the end used for catching fish."
+          },
+          "Common Reel": {
+            "Description": "A device used to wind and unwind fishing line."
+          },
+          "Common Line": {
+            "Description": "A thin cord used for fishing."
+          },
+          "Common Bait": {
+            "Description": "Food or other objects used to attract fish."
+          }
+        }
+      },
+      "Herbalist": {
+        "Description": "Experts in the collection and use of herbs for medicinal and other purposes.",
+        "Associated_Stat": "WIS",
+        "Skills": {
+          "Plant Identification": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for identifying plants and herbs.",
+            "Level": 2
+          },
+          "Elemental Infusion": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' crystal to infuse an herb, enhancing its healing properties.",
+            "Level": 4
+          },
+          "Foraging Skill": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on rolls for locating rare herbs.",
+            "Level": 6
+          },
+          "Growth Spurt": {
+            "Type": "Active",
+            "Effect": "Use one 'Earth' crystal to instantly grow an herb to harvestable size.",
+            "Level": 8
+          },
+          "Natural Remedy": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for creating herbal remedies.",
+            "Level": 10
+          },
+          "Soothing Balm": {
+            "Type": "Active",
+            "Effect": "Use one 'Water' crystal to create a balm that can heal burns.",
+            "Level": 12
+          },
+          "Potion Synergy": {
+            "Type": "Passive",
+            "Effect": "Gain a +2 bonus to rolls for crafting potions involving herbs.",
+            "Level": 14
+          },
+          "Plant Communication": {
+            "Type": "Active",
+            "Effect": "Use one 'Spirit' crystal to communicate with a plant and learn its properties. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Natural Resistance": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on saving throws against poison and disease.",
+            "Level": 18
+          },
+          "Herbal Mastery": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to age an herb, increasing its potency. Requires two long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Herbalist Items": {
+          "Common Basket": {
+            "Description": "A container used for collecting and storing herbs."
+          },
+          "Common Knife": {
+            "Description": "A tool used for cutting herbs and other plants."
+          },
+          "Common Drying rack": {
+            "Description": "A device used for drying herbs and other plants."
+          },
+          "Common Mortar and pestle": {
+            "Description": "A tool used for grinding herbs and other substances."
+          }
+        }
+      },
+      "Artist": {
+        "Description": "Individuals skilled in various arts, be it painting, sculpture, or other forms.",
+        "Associated_Stat": "CHA",
+        "Skills": {
+          "Artistic Insight": {
+            "Type": "Passive",
+            "Effect": "+2 to rolls for understanding and interpreting art.",
+            "Level": 2
+          },
+          "Colorful Creation": {
+            "Type": "Active",
+            "Effect": "Use one 'Light' crystal to create art that changes color based on the viewer's mood.",
+            "Level": 4
+          },
+          "Steady Hand": {
+            "Type": "Passive",
+            "Effect": "Gain advantage on all crafting checks related to art creation.",
+            "Level": 6
+          },
+          "Elemental Palette": {
+            "Type": "Active",
+            "Effect": "Use one 'Fire' crystal to create art that emits warmth.",
+            "Level": 8
+          },
+          "Masterpiece": {
+            "Type": "Passive",
+            "Effect": "Gain a +2 bonus to rolls for crafting items of exceptional artistic quality.",
+            "Level": 10
+          },
+          "Sound Sculpture": {
+            "Type": "Active",
+            "Effect": "Use one 'Sound' crystal to create a sculpture that produces harmonious sounds.",
+            "Level": 12
+          },
+          "Inspiration": {
+            "Type": "Passive",
+            "Effect": "Once per day, gain advantage on a single artistic creation roll.",
+            "Level": 14
+          },
+          "Living Canvas": {
+            "Type": "Active",
+            "Effect": "Use one 'Spirit' crystal to imbue a painting with minor sentience. Requires two long rests to recharge.",
+            "Level": 16
+          },
+          "Artistic Influence": {
+            "Type": "Passive",
+            "Effect": "Gain a +2 bonus to social interaction rolls when discussing art.",
+            "Level": 18
+          },
+          "Timeless Art": {
+            "Type": "Active",
+            "Effect": "Use one 'Time' crystal to create art that never ages. Requires two long rests to recharge.",
+            "Level": 20
+          }
+        },
+        "Artist Items": {
+          "Common Sketchbook": {
+            "Description": "A book used for sketching and drawing."
+          },
+          "Common Pencil": {
+            "Description": "A tool used for writing and drawing."
+          },
+          "Common Eraser": {
+            "Description": "A tool used to remove pencil marks."
+          },
+          "Common Charcoal": {
+            "Description": "A black substance used for drawing and sketching."
+          }
+        }
+      }       
+    }
+  }
+  

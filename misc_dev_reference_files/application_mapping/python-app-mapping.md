@@ -8,8 +8,9 @@
 5. [Infrastructure Modules](#infrastructure-modules)
 6. [User Experience](#user-experience)
 7. [Engine Summary](#engine-summary)
-8. [Application Engine Demonstration](#application-engine-demonstration)
-
+8. [API Interactions](#api-interactions)
+9. [Agent-based Decision Making](#agent-based-decision-making)
+10. [Application Engine Demonstration](#application-engine-demonstration)
 ---
 
 ## Application Flow
@@ -99,13 +100,11 @@ These modules provide various utilities and functionalities needed during gamepl
 ---
 
 ## Infrastructure Modules
-These modules handle the backend logic and data management.
-
-- **Memory Context Management**: Manages the game state and player choices.
+- **API Interactions**: Manages the interaction with external APIs for fetching real-world data or other services.
+  - **Langchain Component**: Use Langchain's `API Chain` for this module. **(New)**
   
-- **Manual and Lore Simple Chat Bot**: Provides lore and manual information upon player request.
-  
-- **Character/Inventory Management**: Manages player's character stats, inventory, and other persistent data.
+- **Agent-based Decision Making**: Manages complex decision-making processes in the game.
+  - **Langchain Component**: Use Langchain's `Agents` for this module. **(New)**
 
 ---
 
@@ -115,6 +114,8 @@ Detailed steps from user login to quest completion, including character creation
 ---
 
 ## Engine Summary
+- **Agent-based Decision Making**: How the agent decides which tool to use based on the context.
+  - **Langchain Component**: Use Langchain's `Agents` for this part. **(New)**
 
 ### Components
 - **System Input**: Initial data and settings loaded into the game engine.
@@ -145,3 +146,41 @@ This section provides a step-by-step walkthrough of how the engine handles the f
   
 - **LLM Prompt for User Message Processing**: Detailed logic for how the LLM processes user input to generate appropriate responses.
 
+USER EXPERIENCE:
+block0:
+1. Log In
+block1: 
+2. Choose Character Name
+3. Choose Character Profession
+4. Choose Character Weapons
+5. Roll 4d6, droplowets, 6 times for all 6 Value stat
+6. Print the user the avaiable values, and ask the player stat by stat which value to assign to it.
+7. Give context that player is just made 18 and ask him to describe their character personality and phisical characteristics.
+block2.
+8. Inniate game with initial prompt of player waking up and giving game context.
+9. Set player goals in the scenario, inspect with his 2 bags and 2 weapons
+10.Player should interact as he want, minnimally or extensevly with the scenario, until he complete the block objectives 
+block3:
+11. Once the player leaves the house, we set the two objectives by giving the player context: 1. he needs go to the village but before that 2. he need to perform his daily training routine, which will serve as combat tutorial.
+12. The relevant NPCs will be training between the player and the city, that makes the engagement with the tutorial unavoidable
+13. Player will be presented to all his weapons actions and will be given the chance to perform to combat actions in the training dummy to get a feel of the system.
+block4:
+14. Today is the day you, your childhood friend and your mentor are going to the city for both of you to perform the elemental affinity ritual. Being ready to depart in 3 hours is the next objective
+15. The player is free to interact however he wants with the village within his 3 hour window, which will give the sense of freedom that is the goal of the game.
+16. Once the LLM, which will be keeping track of the passage of time through each iteration with the user, infers that 3 hours have passed, if the player is not on the pier yet, Novak will appear and scold you, if you resist, he will just get furious and bring you by force.
+block5:
+17. Goal again is time based. Travel is supposed to take 3 hours but will only last 1h, in this 1h, you can interact with the NPCs as to bond with them or to learn more about the world.
+18. In the 1 hour limit, a highlevel elemental beast atacks and we get our only cutscene like part of the tutorial, where the mentor NPC propels the ship towards the shore while performing some strange magic on both you and your childhood friend, you crash on the shore and faint.
+block6:
+19. Player wake up, feels something weird with his body, trys to remember what happened and in this moment:
+20. interrupt game flow to run for element affinity
+21. craft your initial abilitys based on your character choices and how you desire to use your element
+22. "in this moment", the players pc has a mental visualiztion of his element and how he can use it
+23. Before he can process it, he looks at the childhood NPC which appears to be experiencing the same thing, and before both of you can say a world, you hear two children scream from what appears to be a small cave entrance 30ft from you both.
+24. Your friend speeds towards the cave, and you, still completely confused, follows her inside.
+block6:
+25. As we change blocks, the objective here switchs to complete the dungeon! The user will be introduce to many mechanics, the dungeon general mechanics, the combat mechanics and the alignment mechanic.
+26. The player navigates through the dungeon, one of the paths with a trap and estaer like chamber with a treasure.
+27. Be it by staying and prioritizing the treasure or by how the PC saves or not the children, define character alignment
+28. Battle and defeat the wolf
+29. Depending on the outcome, faint or finish cave exploration before exiting it.
