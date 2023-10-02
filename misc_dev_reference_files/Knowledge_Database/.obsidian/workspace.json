@@ -1,0 +1,330 @@
+{
+  "main": {
+    "id": "145dbdf7264bf317",
+    "type": "split",
+    "children": [
+      {
+        "id": "3dd5cc3687ff9129",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bec35637bb3c929",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Elemental Magic/Elemental Magic Skill System Breakdown.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bd3dea537756ff5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Elemental Magic/Elements Natural Law/Elements Definition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc72544398862399",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Elemental Magic/Elements Natural Law/Elements Definition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2063be66dc3ccad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Elemental Magic/Types of Elemental Magic/Types of Elemental Magic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7cabef5bd8dce6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/Summary Files/Economy/Elemental_Economy_Breakdown_Per_Profession.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9432fc2ff03d94bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Economy/Magical Technology/Elemental Crystals/Elemental Crystal Summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e83ccfe6cef31828",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Economy/Magical Technology/Elemental Crystals/Elemental Crystal Uses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "746f3ba6539b66b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Economy/Magical Technology/Elemental Crystals/Elemental Crystals Rarity System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8971a3e9b1a7670",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/Summary Files/Economy/Elemental_Economy_Breakdown_Per_Profession.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "415f7e62043a18da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/Summary Files/Systems/Magic_Guilds_System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b873942d3b0da595",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Economy/Macro/Trade-Routes/Agartha Trade Route System - Origins and Implications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "194f2e10756d263d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Economy/Magical Technology/Elemental Crystals/Elemental Crystals Rarity System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 11
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "483c63cf1d502cb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c634524e3cb3106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "522cd08f602684dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "542ece611809dbbe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6f276a11ae95edf8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327.5
+  },
+  "right": {
+    "id": "30fe3250e7469087",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0cfdf34233e6049",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0905c1b179f2817",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Elemental Magic/Elemental Magic Skill System Breakdown.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ce0811f7df55f63",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Elemental Magic/Elemental Magic Skill System Breakdown.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d230605c845fca4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "da1cb9118d3f34a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "General Game Context/In Depth World Lore/Elemental Magic/Elemental Magic Skill System Breakdown.md"
+              }
+            }
+          },
+          {
+            "id": "7cd8d3bbf53f6a68",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 478.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false
+    }
+  },
+  "active": "522cd08f602684dc",
+  "lastOpenFiles": [
+    "General Game Context/In Depth World Lore/Economy/Magical Technology/Elemental Crystals/Elemental Crystal Uses.md",
+    "General Game Context/In Depth World Lore/Economy/Magical Technology/Elemental Crystals/Elemental Crystal Summary.md",
+    "General Game Context/In Depth World Lore/Economy/Magical Technology/Elemental Crystals/Elemental Crystal Examples.md",
+    "General Game Context/In Depth World Lore/Economy/Magical Technology/Elemental Crystals/Elemental Crystals Rarity System.md",
+    "General Game Context/In Depth World Lore/Economy/Magical Technology/Examples of Elemental Crystal Use.md",
+    "General Game Context/In Depth World Lore/Elemental Magic/Types of Elemental Magic/Types of Elemental Magic.md",
+    "General Game Context/In Depth World Lore/Elemental Magic/Types of Elemental Magic/Elemental Magic Examples.md",
+    "General Game Context/In Depth World Lore/Elemental Magic/Elements Natural Law/Interaction Between Elements.md",
+    "General Game Context/In Depth World Lore/Economy/Macro/Trade-Routes/Prevalent Trade Routes.md",
+    "General Game Context/In Depth World Lore/Economy/Macro/Trade-Routes/Agartha Trade Route System - Origins and Implications.md",
+    "General Game Context/In Depth World Lore/Elemental Magic/Elements Natural Law/Elements Definition.md",
+    "General Game Context/In Depth World Lore/Myths & Legends/Primordial_crystal.md",
+    "General Game Context/Summary Files/Systems/Magic_Guilds_System.md",
+    "General Game Context/Summary Files/Economy/Elemental_Economy_Breakdown_Per_Profession.md",
+    "General Game Context/Summary Files/GameLore/Campaign_Possibilities.md",
+    "General Game Context/In Depth World Lore/Economy/Magical Technology/Elemental Crystals",
+    "General Game Context/Summary Files/Economy/Elemental_Crystals_Summary.md",
+    "General Game Context/In Depth World Lore/Elemental Magic/Elemental Magic Skill System Breakdown.md",
+    "General Game Context/In Depth World Lore/Economy/Micro",
+    "General Game Context/In Depth World Lore/Economy/Macro",
+    "General Game Context/In Depth World Lore/Elemental Magic/Types of Elemental Magic",
+    "TECH-STACK-DOCS/langchain/summary/Pratical LangChain.md",
+    "General Game Context/In Depth World Lore/print.py",
+    "General Game Context/In Depth World Lore/Geography/Map/Citys/Buildings/City-Guild Hall",
+    "General Game Context/In Depth World Lore/Geography/Map/Citys/Buildings/Market",
+    "General Game Context/In Depth World Lore/Geography/Map/Citys/Buildings/Tavern",
+    "General Game Context/In Depth World Lore/Geography/Map/Citys/Buildings/Brothel",
+    "General Game Context/In Depth World Lore/Geography/Map/Citys/Buildings/Guild",
+    "TECH-STACK-DOCS/langchain/summary/AgentExecutor.md",
+    "TECH-STACK-DOCS/langchain/LangChain-Powered RPG Chatbot Schema for AGARTHA.AI.md",
+    "TECH-STACK-DOCS/langchain/official-github-docs/Ask A Book Questions - Langchain Usecase.md",
+    "TECH-STACK-DOCS/langchain/official-github-docs/5 Levels Of Summarization - Novice To Expert-adjusted.md",
+    "TECH-STACK-DOCS/langchain/official-github-docs/Agents.md",
+    "TECH-STACK-DOCS/langchain/official-github-docs/Quickstart Guide.md",
+    "TECH-STACK-DOCS/langchain/official-github-docs/LangChain Cookbook Part 2 - Use Cases.md",
+    "TECH-STACK-DOCS/langchain/official-github-docs/LangChain Cookbook Part 1 - Fundamentals.md"
+  ]
+}

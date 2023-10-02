@@ -1,17 +1,39 @@
-ELEMENTAL MANDALA SKILL TREE SYSTEM BREAKDOWN
+ELEMENTAL SKILL TREE SYSTEM BREAKDOWN
 
-    Summary of the Elemental Skill System: In this skill system, characters progress through a tiered system of elemental mastery. As they advance, they gain access to more elements and archetypes, culminating in powerful ultimate skills that harness the synergy of all three chosen elements.
+ELEMENTS LIST:
+Normal
+Water
+Fire
+Earth
+Air
+Poison
+Ice
+Magnetism
+Sand
+Electricity
+Metal
+Wood
+Ink
+Sound
+Light
+Shadow
+Spirit
+Gravity
+Time
+Chaos
+
+    Summary of the Elemental Skill System: In this skill system, characters progress through a tiered system of elemental mastery. As they advance, they gain access to more elements and archetypes, culminating in powerful ultimate skills that harness the synergy of all three chosen elements or the full capabilities of a single element.
 
     Skill tree: The skill tree is divided into three sections, each containing different types of nodes based on the number of elements and archetypes:
-        Inner Circle (Tier 1): Contains nodes with one element and one archetype, offering basic skills. Example: light node - basic healing spell.
-        Midward Circle (Tier 2): Contains nodes with two elements and skills that combine two archetypes. Example: light-wind node - healing spell with a gust of wind that pushes enemies away.
-        Outward Circle (Tier 3): Contains nodes with three elements, offering skills that combine all three archetypes and also introduces "Ultimates" - powerful skills that optimize all three elements for a single potent effect. Example: light-wind-sound node - a grand healing spell with wind damage that deafens, and as an ultimate: a blinding flash and deafening bang with strong winds to completely disorient enemies.
+        First Block (Tier 1): Contains nodes with one element and one archetype, offering basic skills. Example: light node - basic healing spell.
+        Second Block (Tier 2): Contains nodes with two elements and skills that combine two archetypes. Example: light-wind node - healing spell with a gust of wind that pushes enemies away.
+        Third Block (Tier 3): Contains nodes with three elements, offering skills that combine all three archetypes and also introduces "Ultimates" - powerful skills that optimize all three elements for a single potent effect. Example: light-wind-sound node - a grand healing spell with wind damage that deafens, and as an ultimate: a blinding flash and deafening bang with strong winds to completely disorient enemies.
 
     Effects: As characters progress, they unlock a variety of effects such as attack, defense, heal, CC, movement speed, extra action, repositioning, AoE vs single target, and status boosts.
 
     Character archetypes: Characters evolve from basic roles to multifaceted masters, transitioning from healers to damage dealers and tanks based on their chosen skills and elements.
 
-    Player choice: Players can choose elements, skills, and archetypes to create unique characters, with the freedom to mix and match as they progress.
+    Player choice: Players can choose elements, skills, and archetypes to create unique characters, with the freedom to mix and match as they progress. That is not a fixed system but a AI powered one. The AI will both analyse passively how the user plays and sinergy with his weapon, stats and profession choice while crafting new skills, and the user can actively describe skills he would like to train and learn to the AI.
 
     LLM generation: Generates unique skills based on elements, playstyle, archetype, and tier.
 
@@ -27,3 +49,24 @@ ELEMENTAL MANDALA SKILL TREE SYSTEM BREAKDOWN
             Spirit-chaos-wood mage: A master of healing, control, and tanking. Ultimate: A spiritual aura that sows chaos among enemies and fortifies allies with wooden shields.
 
 Tiered progression allows characters to evolve from basic elemental users to grandmasters, offering a rewarding journey of growth and specialization.
+
+
+Above we got as general breadown of the Tier Concept. Now lets tackle the tradeoff between elemental magic skill power and variety:
+
+	In this world, there are two different ways of matering your elements. 
+		1. Learning to use it in different ways and master a variety of magic
+		2. Master fewer magic and make there more powerfull.
+		
+
+	This system provides a diplomat or merchant to focus on have a myriad of utility skills while lumberjacks, seamen and other types of professions who venture into the wild and have a phisical based profession, might have fewer but more powerfull magic.
+
+	The gameprogression system for this section is as follow: When the player gets to have time to rest. He can instead of replenish his resources, choose to train or try to learn a new ability. The success is guaranteed, but how many trys/"training sections" it takes depends on the dice roll.
+
+
+LORE CONTEXT ON HUMAN AND ELEMENTAL MAGIC:
+
+	humans are not born inherently with elemental magic, but somehow, the Global Magic System found a way to use small fragments of the primordial crystal, which are keep in possession of each city master guild, to activate elemental affinity on human beings. The maximum elements, as said above, is 3, but that needs the ritual to be performed 3 times, and you must have complete domain on currently possessed affinity(s) before adding a second(third) one, which in game terms, is represented by the character level.
+	
+RESOURCES SYSTEM FOR ELEMENTAL MAGIC SKILL SYSTEM:
+	
+	each elemental magic skill have 2 resources. Focus and Mana. Mana scales based on the resource consumption of the skill and Focus based on concentration/complexity of the skill.

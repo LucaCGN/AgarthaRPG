@@ -45,10 +45,3 @@
 
 ### Others
 - **Subtypes**: Map, Book, Scroll, etc.
-
-
-Well, this system above is most likely be the system that will need the most level of details from the get go. That is because here we will have to deal with all our problems at once. We have a lot of precise itens with its precise parameters to define, we have to structure this in a way that the LLM agent can easily manage and keep track of it. The itens must reflect what is taken as inspiration from D&D5e + The specifics of our system.
-
-I removed the usable by and someparameters that did not seem necessary!
-
-With that in mind, please review the list above, and output me a more detailed breakdown which show the field maps for each type of item!

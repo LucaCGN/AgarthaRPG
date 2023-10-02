@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "80f38e6c43ddc9f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3b1e903ac098ea0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96bc5f9eed2cc262",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "In Depth World Lore/Myths & Legends/Primordial_crystal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41542c7e1f7bd408",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "copilot-conversations/Chat-2023_10_02-03_36_11.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6944fa1484650ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "In Depth World Lore/Elemental Magic/Elements Natural Law/Interaction Between Elements.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e903d8a51d0ac40",
+    "type": "split",
+    "children": [
+      {
+        "id": "f57f4fd6707fa5ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef6009b3e943de3e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6601e5c564854d7e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "829fce0d1b909f56",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9b83ca1b54bb3fec",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe9c3060867f2eac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccdccfa814d516ce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "copilot-conversations/Chat-2023_10_02-03_36_11.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7c8dab4426620511",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "copilot-conversations/Chat-2023_10_02-03_36_11.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "df80d5e18af10915",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ae379161df3a262e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "copilot-conversations/Chat-2023_10_02-03_36_11.md"
+              }
+            }
+          },
+          {
+            "id": "7987c321ec6bcbdf",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5b9e627fa9bee433",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "7555bd349e7e5709",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false
+    }
+  },
+  "active": "41542c7e1f7bd408",
+  "lastOpenFiles": [
+    "Elemental Combat System - Breakdown.md",
+    "copilot-conversations/Chat-2023_10_02-03_36_11.md",
+    "In Depth World Lore/Elemental Magic/Elements Natural Law/Interaction Between Elements.md",
+    "In Depth World Lore/Myths & Legends/Primordial_crystal.md",
+    "In Depth World Lore/Elemental Magic/Elements Natural Law/Elements Definition.md",
+    "MASTER REFERENCE NOTE.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 11 - Alistair.md",
+    "Playtest",
+    "In Depth World Lore/Economy/Magical Technology/Examples of Elemental Crystal Use.md",
+    "Summary Files/Systems/Magic_Guilds_System.md",
+    "In Depth World Lore/Economy/Macro/The Intricate Profession Based Econonomy.md",
+    "In Depth World Lore/Economy/Macro/Trade-Routes/Agartha Trade Route System - Origins and Implications.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 10 - Silas.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 9 - Roland.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 7 - Astrid.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 6 - Magnus.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 4 - Ember.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 3 - Zephyr.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 2 - Orion.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 1 - Seraphina.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 5 - Aurora.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 8 - Vivienne.md",
+    "In Depth World Lore/Plot/NPCs/Sample NPC 12 - Calder.md",
+    "In Depth World Lore/Plot/NPCs",
+    "In Depth World Lore/Economy/Macro/Trade-Routes/Prevalent Trade Routes.md",
+    "In Depth World Lore/Economy/Macro/Magic Guilds as Businesses.md",
+    "Summary Files/GameLore/Campaign_Possibilities.md",
+    "Summary Files/Economy/Elemental_Economy_Breakdown_Per_Profession.md",
+    "In Depth World Lore/Elemental Magic/Elements In Depth",
+    "Untitled.canvas",
+    "copilot-conversations"
+  ]
+}

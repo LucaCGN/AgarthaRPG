@@ -1,0 +1,8 @@
+[
+  [
+    {
+      "role": "user",
+      "content": "## Extraction Professions\n\nMiners and Lumberjacks, part of the Extraction Guilds, are responsible for acquiring raw materials like Elemental Crystals and magical wood, which are vital for various magic-based products and services.\n\n## Production Professions\n\nProduction Guilds house a variety of professions. Taylors, Blacksmiths, Jewelers, and Carpenters create magic-infused products that serve various purposes in society, ranging from clothing and jewelry to weapons and furniture.\n\n\nThis two sections needs to be reviwed and expanded, considering all production and extraction profissions we have. \n\nCorreclty defining this 2 concepts are crucial for us to later define both the gathering/extraction system and the crafting/production system correclty.\n\nBoth production and extraction professions must work in tendom.\n\nGive me a structure mark down document updating and expanding on production and extraction professions, containing all professions bellow:\n\nMiner\nTaylor\nFarmer\nJeweler\nFisherman\nHerbalist\nLumberjack\nCarpenter\nTanner\nBlacksmith\n\n"
+    }
+  ]
+]

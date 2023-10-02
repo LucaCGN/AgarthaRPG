@@ -1,3 +1,37 @@
+this a list with all professions:
+
+1. Miner
+2. Taylor
+3. Farmer
+4. Alchemist
+5. Merchant
+6. Jeweler
+7. Fisherman
+8. Herbalist
+9. Artist
+10. Lumberjack
+11. Shinobi
+12. Cook
+13. Librarian
+14. Diplomat
+15. Carpenter
+16. Cartographer
+17. Tanner
+18. Seamen
+19. Adventurer
+20. Blacksmith
+
+as you can see from the list above vs the breakdown bellow, this current economy breakdown needs some additions + we need to map "the normal economy" that acompanys this elemental economy. Even in a world like these, farmer cooks and merchants still engage in a spices-trade based  relationships.
+
+not only that, but all "harvesting/collectin" profession follows the same logic as miners bellow, as all world is imbued with elemental energy and crystals.
+
+So: Lumberjack, Fisherman, Tanner, Herbalist, Farmer AND Miner are secondary crystals producer.
+
+
+THE FULL PICTURE: The economy works in a hybrid way, so the professions above take part in the traditional and elemental side of the economy. Professions as cartographer, blacksmith, carpenter, diplomat and so on are more related to the tradinional economy in the value they produce, even though they might use and or produce elemental itens. Lastly we have Adventurer, Alchemist, Librarian as the 3 classes we are focused exclusively as the elemental crystal system. Needless to say, as the element crystal system is the base for all activities in some degree, that makes the economy come full circle.
+
+WITH THAT IN MIND. UPDATE THE BREAKDOWN BELLOW BEFORE WE CAN LOAD IT TO THE Knowledge BASE, CONSIDERING AND UPDATING THE CURRENT STRUCTURE AS NEEDED. 
+
 The Elemental Economy: A Comprehensive Overview
 
 In the vast expanse of our world, the economy is intricately woven with the elemental forces that govern it. At the heart of this economic system lie the elemental crystals, whose diverse properties fuel various professions and sectors. This report delves deep into the elemental economy, exploring the intricate relationships between economic sections, professions, and the elemental crystals.
@@ -6,17 +40,19 @@ In the vast expanse of our world, the economy is intricately woven with the elem
 
 The backbone of the elemental economy is the supply chain of elemental crystals. These crystals, ranging from the common 'Normal' to the rare 'Time', are the lifeblood of many professions.
 
-    Miner: Miners are the primary extractors of these precious crystals. Using their expertise, they delve deep into the earth, extracting crystals like 'Metal', 'Earth', and the rare 'Time'. Their work ensures a steady supply of raw materials for other professions.
+	Adventurer: Adventurers are the primary extractors of these precious crystals. Using their expertise, they delve deep into the wilderness, extracting crystals for the elemental beasts they hunt and take down. Their work ensures a steady supply of raw materials for other professions.
+
+    Miner: Miners are secondary extractors of these precious crystals. Using their expertise, they delve deep into the earth, and the minerals they extract sometimes are imbued and mixed with elemental crystals of that regions element.
 
     Alchemist: Once extracted, these crystals are refined and crafted by Alchemists. They transform raw crystals into usable forms, often enhancing their properties. For instance, a 'Water' crystal might be refined to provide purer hydration, while a 'Fire' crystal could be enhanced for more intense heat.
 
-    Merchant: The distribution of these refined crystals falls to the Merchants. They ensure that every corner of the world has access to these elemental wonders, setting prices based on demand and rarity.
+    Merchants: The distribution of these refined crystals falls to the Merchants. They ensure that every corner of the world has access to these elemental wonders, setting prices based on demand and rarity.
 
 2. Elemental Crystal Production Chain
 
 The production chain is where raw and refined crystals are transformed into tangible goods.
 
-    Blacksmith: Blacksmiths are masters of metal and fire. They forge weapons and tools, often infusing them with elemental crystals like 'Metal' for strength or 'Fire' for enhanced heat.
+    Blacksmith: Blacksmiths are masters of metal and fire. They forge weapons and tools, often infusing these tools with elemental crystals like 'Metal' for strength or 'Fire' for enhanced heat.
 
     Carpenter: Carpenters, on the other hand, work with wood, crafting structures and objects. They might use 'Wood' crystals to strengthen their creations or 'Time' crystals to restore old structures.
 
@@ -28,11 +64,9 @@ The production chain is where raw and refined crystals are transformed into tang
 
 The demand side of the economy is driven by the end-users of the crystal-infused products.
 
-    Tavern Owner: Taverns are hubs of social activity. Owners might use 'Fire' crystals for warmth, 'Light' for ambiance, and 'Sound' for entertainment.
-
     Artist: Artists incorporate crystals into their work, using 'Ink' for vivid paintings or 'Sound' for melodious tunes.
 
-    Librarian: In the hallowed halls of libraries, 'Light' crystals illuminate manuscripts, while 'Time' crystals help preserve ancient texts.
+    Librarian: In the hallowed halls of libraries, 'Light' crystals illuminate manuscripts, while 'Time' crystals help preserve ancient texts. They specialize in producing magical scrolls, meticulously crafted to harness the power of refined elemental crystals. Once a crystal is embedded into a scroll, its energy can be channeled to cast spells at will or be imbued into various crafts
 
     Fisherman: Fishermen, in their quest for the day's catch, might use 'Water' crystals to navigate or 'Sound' crystals to locate fish schools.
 
@@ -50,7 +84,7 @@ Trade routes crisscross the land, facilitated by various professions.
 
 The standard currency system of gold, silver, and copper is complemented by the value of elemental crystals.
 
-    Merchant: Merchants play a pivotal role, converting the value of crystals to standard currency based on rarity and demand.
+    Merchant: Merchants play a pivotal role, converting the value of crystals to a standard silver coin currency named Cris, based on rarity and demand.
 
     Diplomat: Diplomats negotiate currency exchange rates, ensuring fair trade across regions.
 
