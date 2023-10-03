@@ -1,5 +1,5 @@
 {
-  "api_key": "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",
+  "api_key": "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",
   "chat_open": true,
   "file_exclusions": "",
   "folder_exclusions": "",
@@ -16,5 +16,7 @@
   "smart_chat_model": "gpt-3.5-turbo-16k",
   "view_open": true,
   "version": "1.6.34",
-  "failed_files": []
+  "failed_files": [
+    ""
+  ]
 }
