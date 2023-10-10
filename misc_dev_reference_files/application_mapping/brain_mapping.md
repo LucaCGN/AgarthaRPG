@@ -1,36 +1,30 @@
-1. **World Setting**:
-   - **Era Creation Myth**:
-     - Primordial crystal - *ok
-     - Primordial war - *ok
-     - Primordial dragons - *ok
-     - Elemental crystals - *ok
-     - Explanation for the absence of traditional magic and races - *ok
-     - Basic geographical setting
-   - **Elemental Magic, Crystals, and Human Settling**:
-     - Evolution from human settlement to civilization
-     - Human demographics
-     - Elemental magic
-     - Elemental beasts
-     - Guild-government-system
+##Systems to Map
 
-2. **World Economy**:
-   - **Professions, Guild System, Currency, and Trade**:
-     - Economy supply-demand-chain
-     - Roles of various professions
-     - Different types of guilds and their roles
-     - Regional trade routes
+*Time Passage System
 
-3. **Profession and Crafting System**:
-   - Detailed breakdown of item crafting by profession
-     - In-depth profession systems
-     - Crafting system
-     - Rarity system
-     - Item system
+*Exhaustion System
 
-4. **Combat System**:
-   - **Weapons and Elemental Magic**:
-     - Weapon actions
-     - Restrictions of elemental magic
-     - Resource management
-     - Combat mechanics
-     - Types of elemental magic
+*Master-Manual Index System
+
+*Test/Check Bonuses System
+
+*Encounter Design System
+
+*Npc Design System
+
+*Campaing Design System
+
+*Item Crafting System
+
+*Npc Party System
+	combat: ok
+
+*Defense System
+	combat: ok
+
+*Monster Class System
+
+*Critical Roll System
+
+*Action Economy
+

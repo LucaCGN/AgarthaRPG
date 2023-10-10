@@ -1,3 +1,5 @@
+@SECTION TO ADJUST:
+
 # Item Schema for RPG Game
 
 ## Schema Attributes
@@ -45,3 +47,8 @@
 
 ### Others
 - **Subtypes**: Map, Book, Scroll, etc.
+
+-------------------------------------------
+
+Cris -> world currency
+Crystals as the highvalue good, ballast for the Cris currency

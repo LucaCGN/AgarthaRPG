@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "9842b06eee6346e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Map - V0 Block.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e8800ab403f21dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Map - V0 Block.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c6944fa1484650ef",
             "type": "leaf",
             "state": {
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.51103591918945
   },
   "right": {
     "id": "9b83ca1b54bb3fec",
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elemental Combat System - Breakdown.md",
+                "file": "Map - V0 Block.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elemental Combat System - Breakdown.md",
+                "file": "Map - V0 Block.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elemental Combat System - Breakdown.md"
+                "file": "Map - V0 Block.md"
               }
             }
           },
@@ -163,15 +187,7 @@
             }
           },
           {
-            "id": "5b9e627fa9bee433",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "7555bd349e7e5709",
+            "id": "a33288d044ba7927",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -183,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 398.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,20 +212,29 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "41542c7e1f7bd408",
+  "active": "8e8800ab403f21dd",
   "lastOpenFiles": [
+    "Pasted image 20231009232119.png",
+    "Elemental Combat System - Breakdown.md",
+    "Act0 - The Journey Begins.md",
+    "Map - V0 Block.md",
+    "Untitled",
     "MASTER REFERENCE NOTE.md",
+    "In Depth World Lore/Elemental Magic/Elements In Depth/Gravity.md",
+    "In Depth World Lore/Economy/Macro/Magic Guilds as Businesses.md",
+    "In Depth World Lore/Economy/Macro/Role of Magic Guilds in the Economy.md",
+    "copilot-conversations/Chat-2023_10_02-03_36_11.md",
+    "In Depth World Lore/Culture/Guilds/1.2 Historical Context of Magic Guilds.md",
+    "In Depth World Lore/Culture/Guilds/1.1 Definition and Role of Magic Guilds.md",
+    "Summary Files/Systems/Magic_Guilds_System.md",
+    "In Depth World Lore/Myths & Legends/Primordial_crystal.md",
     "In Depth World Lore/Economy/Macro/Trade-Routes/Prevalent Trade Routes.md",
     "In Depth World Lore/Economy/Macro/Trade-Routes/Agartha Trade Route System - Origins and Implications.md",
-    "In Depth World Lore/Myths & Legends/Primordial_crystal.md",
-    "Elemental Combat System - Breakdown.md",
-    "copilot-conversations/Chat-2023_10_02-03_36_11.md",
     "In Depth World Lore/Elemental Magic/Elements Natural Law/Interaction Between Elements.md",
     "In Depth World Lore/Elemental Magic/Elements Natural Law/Elements Definition.md",
     "In Depth World Lore/Plot/NPCs/Sample NPC 11 - Alistair.md",
     "Playtest",
     "In Depth World Lore/Economy/Magical Technology/Examples of Elemental Crystal Use.md",
-    "Summary Files/Systems/Magic_Guilds_System.md",
     "In Depth World Lore/Economy/Macro/The Intricate Profession Based Econonomy.md",
     "In Depth World Lore/Plot/NPCs/Sample NPC 10 - Silas.md",
     "In Depth World Lore/Plot/NPCs/Sample NPC 9 - Roland.md",
@@ -217,15 +242,7 @@
     "In Depth World Lore/Plot/NPCs/Sample NPC 6 - Magnus.md",
     "In Depth World Lore/Plot/NPCs/Sample NPC 4 - Ember.md",
     "In Depth World Lore/Plot/NPCs/Sample NPC 3 - Zephyr.md",
-    "In Depth World Lore/Plot/NPCs/Sample NPC 2 - Orion.md",
-    "In Depth World Lore/Plot/NPCs/Sample NPC 1 - Seraphina.md",
-    "In Depth World Lore/Plot/NPCs/Sample NPC 5 - Aurora.md",
-    "In Depth World Lore/Plot/NPCs/Sample NPC 8 - Vivienne.md",
-    "In Depth World Lore/Plot/NPCs/Sample NPC 12 - Calder.md",
     "In Depth World Lore/Plot/NPCs",
-    "In Depth World Lore/Economy/Macro/Magic Guilds as Businesses.md",
-    "Summary Files/GameLore/Campaign_Possibilities.md",
-    "Summary Files/Economy/Elemental_Economy_Breakdown_Per_Profession.md",
     "In Depth World Lore/Elemental Magic/Elements In Depth",
     "Untitled.canvas",
     "copilot-conversations"
