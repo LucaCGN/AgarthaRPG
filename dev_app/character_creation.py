@@ -1,207 +1,170 @@
-from google.cloud import firestore
+import tkinter as tk
+from tkinter import ttk
+from tkinter import Canvas, Frame, Scrollbar
 
-def create_new_character(db, user_id, character_data, selected_weapons, selected_profession):
-    # Fetch the dev_character document
-    dev_character_ref = db.collection('user').document(user_id).collection('game_data').document('dev_character')
-    dev_character = dev_character_ref.get()
+# Function to create the profession panel
+def create_profession_panel(professions, ui, on_confirm, weapons):
+    panel = ttk.Frame(ui.main_frame, padding="10")
     
-    if dev_character.exists:
-        # Copy the dev_character data
-        new_character_data = dev_character.to_dict()
-        
-        # Update it with the new fields
-        new_character_data.update(character_data)
-        
-        # Create a new document with the character name
-        new_character_name = character_data['name']
-        new_character_ref = db.collection('user').document(user_id).collection('game_data').document(f"{user_id}_{new_character_name}")
-        
-        # Set the new document with the updated data
-        new_character_ref.set(new_character_data)
-        
-               # Create a subcollection for character_game_data
-        character_game_data_ref = new_character_ref.collection('character_game_data')
-        
-        # Fetch and add selected weapons to the subcollection
-        weapons_ref = db.collection('fixed_game_data').document('fixed_game_systems').collection('weapons_system')
-        for weapon_name in selected_weapons:
-            weapon_doc = weapons_ref.document(weapon_name).get()
-            if weapon_doc.exists:
-                character_game_data_ref.document(f"Weapon_{weapon_name}").set(weapon_doc.to_dict())
-        
-        # Fetch and add selected profession to the subcollection
-        professions_ref = db.collection('fixed_game_data').document('fixed_game_systems').collection('professions_system')
-        profession_doc = professions_ref.document(selected_profession).get()
-        if profession_doc.exists:
-            character_game_data_ref.document(f"Profession_{selected_profession}").set(profession_doc.to_dict())
-        
-        print(f"New character {new_character_name} created!")
-    else:
-        print("No dev_character found.")
+    # Dropdown menu for profession selection
+    var = tk.StringVar(panel)
+    var.set("Alchemist")  # Set Alchemist as the default selection
 
-stats = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA']
+    # Create the OptionMenu with an empty list initially
+    profession_dropdown = ttk.OptionMenu(panel, var, "")
+    profession_dropdown.grid(row=0, column=0, columnspan=5, sticky=tk.W + tk.E)
 
-def fetch_professions_from_firestore(db):
-    print("Fetching professions from Firestore...")
-    professions_ref = db.collection('fixed_game_data').document('fixed_game_systems').collection('professions_system')
-    query_snapshot = professions_ref.stream()
+    # Clear the menu and add items back in
+    menu = profession_dropdown['menu']
+    menu.delete(0, tk.END)
+    all_professions = []
+    for stat, prof_list in professions.items():
+        all_professions.extend(prof_list)
+    sorted_professions = sorted([(f"{p['name']}") for p in all_professions])
+
+
+    for p in sorted_professions:
+        menu.add_command(label=p, command=lambda profession=p: var.set(profession))
+
     
-    professions = {}
+    # Create Text widget for profession details
+    details_text = tk.Text(panel, wrap=tk.NONE, width=150, height=40)  # Tripled the width and height
+    details_text.grid(row=1, column=0, columnspan=5, sticky=tk.N+tk.S+tk.W+tk.E)
     
-    for doc in query_snapshot:
-        data = doc.to_dict()
-        stat = data.get('Associated_Stat', 'Unknown')
-        
-        if stat not in professions:
-            professions[stat] = []
-        
-        professions[stat].append({
-            'name': doc.id,
-            'description': data.get('Description', 'No description available'),
-            'skills': data.get('Skills', {})
-        })
-        
-    return professions
+    # Add a horizontal scrollbar to Text widget
+    h_scroll = ttk.Scrollbar(panel, orient='horizontal', command=details_text.xview)
+    h_scroll.grid(row=2, column=0, columnspan=5, sticky=tk.W + tk.E)
+    details_text['xscrollcommand'] = h_scroll.set
+    
+    def update_details(*args):
+        selected = var.get()
+        for p in professions:
+            if p['name'] == selected:
+                details_text.delete(1.0, tk.END)
+                details_text.insert(tk.END, f"---------------------------------------\n")
+                details_text.insert(tk.END, f"{p['name']}\n\n")
+                details_text.insert(tk.END, f"Associated Stat: {p.get('stat', 'N/A')}\n\n")  # Safely get 'stat'
+                details_text.insert(tk.END, f"{p['description']}\n\n")
+                
+                # Sort skills by level before displaying
+                sorted_skills = sorted(p['skills'].items(), key=lambda x: x[1].get('Level', 0))
+                
+                for skill_name, skill in sorted_skills:
+                    skill_level = skill.get('Level', 'Default Skill Level')
+                    skill_type = skill.get('Type', 'Default Skill Type')
+                    skill_effect = skill.get('Effect', 'Default Skill Effect')
+                    
+                    details_text.insert(tk.END, f"Lvl {skill_level} Skill:\n")
+                    details_text.insert(tk.END, f"- Name: {skill_name}\n")
+                    details_text.insert(tk.END, f"- Level: {skill_level}\n")
+                    details_text.insert(tk.END, f"- Type: {skill_type}\n")
+                    details_text.insert(tk.END, f"- Effect: {skill_effect}\n\n")
+                
+                details_text.insert(tk.END, f"---------------------------------------\n")
+    
+    var.trace_add('write', update_details)
+    update_details()  # Trigger initial data load for Alchemist
+    
+    
+    # Trigger to move to weapon selection
+    def on_confirm_and_next():
+        selected_profession = on_confirm()
+        if selected_profession:
+            # Create and register the weapon panel
+            weapon_panel = create_weapon_panel(weapons, ui, on_confirm_weapon)
+            ui.register_panel('weapon', weapon_panel)
+            ui.show_panel("weapon")  # Show the weapon selection panel
 
-def select_stat():
-    print("Select a stat:")
-    for i, stat in enumerate(stats):
-        print(f"{i+1}. {stat}")
-    choice = int(input("Enter your choice (or 0 to go back): "))
-    if choice == 0:
-        return None
-    return stats[choice - 1]
+    def on_confirm_weapon():
+        selected = ui.weapon_var.get()
+        if selected in weapons:
+            ui.display_message(f"You have selected {selected}.")
+            return selected
 
-def select_profession_from_stat(professions, selected_stat):
-    print("##")
-    print(f"Professions under {selected_stat}:")
-    for i, prof in enumerate(professions[selected_stat]):
-        print(f"{i+1}. {prof['name']}")
-    print("##")
-    choice = int(input("Enter your choice (or 0 to go back): "))
-    if choice == 0:
-        return None
-    selected_prof = professions[selected_stat][choice - 1]
-    print("##")
-    print(f"Profession Chose: {selected_prof['name']}")
-    print("##")
-    print(f"Description: {selected_prof['description']}")
-    print("##")
-    print("Skills:")
-    
-    # Sort skills by their levels
-    sorted_skills = sorted(selected_prof['skills'].items(), key=lambda x: x[1]['Level'])
-    
-    for skill, details in sorted_skills:
-        print(f"{skill}({details['Level']}): {details['Effect']}")
-    print("##")
-    confirm = input("Do you want to confirm this as your choice?(yes,no): ")
-    if confirm.lower() == 'yes':
-        return selected_prof['name']
-    return None
+    ttk.Button(panel, text="Confirm", command=on_confirm_and_next).grid(row=3, column=0, columnspan=5)
 
-def select_profession(db):
-    professions = fetch_professions_from_firestore(db)
-    selected_profession = None
-    while True:
-        selected_stat = select_stat()
-        if selected_stat is None:
-            break
-        if selected_stat in professions:
-            selected_profession = select_profession_from_stat(professions, selected_stat)
-            if selected_profession:
-                return selected_profession
-
-def fetch_weapons_from_firestore(db):
-    print("Fetching weapons from Firestore...")
-    weapons_ref = db.collection('fixed_game_data').document('fixed_game_systems').collection('weapons_system')
-    query_snapshot = weapons_ref.stream()
-    
-    weapons = {}
-    
-    for doc in query_snapshot:
-        data = doc.to_dict()
-        weapon_details_data = data.get('weapon_details', {})
-        
-        stat = weapon_details_data.get('Stat', 'Unknown')
-        
-        # Skip over documents that are not weapons
-        if stat == 'Unknown':
-            continue
-        
-        if stat not in weapons:
-            weapons[stat] = []
-        
-        weapon_details = {
-            'Name': weapon_details_data.get('Name', 'Unknown'),
-            'Description': weapon_details_data.get('Description', 'Unknown'),
-            'Base_damage': weapon_details_data.get('Base_damage', None),
-            'Passive': weapon_details_data.get('Passive', None),
-            'Actions': weapon_details_data.get('Actions', [])
-        }
-        
-        weapons[stat].append(weapon_details)
-        
-    return weapons
+    return panel
 
 
-def select_weapon_from_stat(weapons, selected_stat):
-    print("##")
-    print(f"Weapons under {selected_stat}:")
-    for i, weapon in enumerate(weapons[selected_stat]):
-        print(f"{i+1}. {weapon['Name']}")
-    print("##")
-    choice = int(input("Enter your choice (or 0 to go back): "))
-    if choice == 0:
-        return None
-    selected_weapon = weapons[selected_stat][choice - 1]
-    print("##")
-    print(f"Weapon Chose: {selected_weapon['Name']}")
-    print("##")
-    print(f"Description: {selected_weapon['Description']}")
-    print("##")
-    
-    if 'Base_damage' in selected_weapon:
-        print(f"Base Damage: {selected_weapon['Base_damage']}")
-    elif 'Passive' in selected_weapon:
-        print(f"Passive: {selected_weapon['Passive']['Name']} ({selected_weapon['Passive']['Effect']})")
-    
-    print("##")
-    print("Actions:")
-    
-    for action in selected_weapon['Actions']:
-        print(f"{action['name']}: {action['effect']}")
-        if 'damage' in action:
-            print(f"Damage: {action['damage']}")
-    print("##")
-    
-    confirm = input("Do you want to confirm this as your choice?(yes,no): ")
-    if confirm.lower() == 'yes':
-        return selected_weapon['Name']
-    return None
+# Function to select a profession
+def select_profession(professions, ui, weapons):
+    def on_confirm():
+        selected = ui.profession_var.get().split(" ")[0]
+        for p in professions:
+            if p['name'] == selected:
+                ui.display_message(f"You have selected {selected}.")
+                return selected
+
+    ui.profession_var = tk.StringVar()
+    all_professions = []
+    for stat, prof_list in professions.items():
+        all_professions.extend(prof_list)
+    profession_panel = create_profession_panel(all_professions, ui, on_confirm, weapons)
+
+    ui.register_panel('profession', profession_panel)
+    ui.show_panel('profession')
 
 
-def select_weapons(db, user_id):
-    weapons = fetch_weapons_from_firestore(db)
-    selected_weapons = []
+# Function to create the weapon panel
+def create_weapon_panel(weapons, ui, on_confirm):
+    panel = ttk.Frame(ui.main_frame, padding="10")
     
-    for i in range(2):
-        while True:
-            selected_stat = select_stat()
-            if selected_stat is None:
-                break
-            if selected_stat in weapons:
-                selected_weapon = select_weapon_from_stat(weapons, selected_stat)
-                if selected_weapon:
-                    selected_weapons.append(selected_weapon)
-                    break
+    # Dropdown menu for weapon selection
+    var = tk.StringVar(panel)
+    var.set("Katana")  # Set Katana as the default selection
+
+    # Create the OptionMenu with an empty list initially
+    weapon_dropdown = ttk.OptionMenu(panel, var, "")
+    weapon_dropdown.grid(row=0, column=0, columnspan=5, sticky=tk.W + tk.E)
+
+    # Clear the menu and add items back in
+    menu = weapon_dropdown['menu']
+    menu.delete(0, tk.END)
+    sorted_weapons = sorted(weapons.keys())
+
+    for w in sorted_weapons:
+        menu.add_command(label=w, command=lambda weapon=w: var.set(weapon))
+
+    # Create Text widget for weapon details
+    details_text = tk.Text(panel, wrap=tk.NONE, width=150, height=40)
+    details_text.grid(row=1, column=0, columnspan=5, sticky=tk.N+tk.S+tk.W+tk.E)
     
-    # Update Firestore document with selected weapons
-    if len(selected_weapons) == 2:
-        return selected_weapons
-    else:
-        print("You must select two weapons.")
-        return None
+    # Add a horizontal scrollbar to Text widget
+    h_scroll = ttk.Scrollbar(panel, orient='horizontal', command=details_text.xview)
+    h_scroll.grid(row=2, column=0, columnspan=5, sticky=tk.W + tk.E)
+    details_text['xscrollcommand'] = h_scroll.set
+    
+    def update_details(*args):
+        details_text.delete(1.0, tk.END)  # Clear text once at the start
+        selected = var.get()
+        if selected in weapons:  # Check if the selected weapon exists in the weapons dictionary
+            for skill in weapons[selected]:
+                details_text.insert(tk.END, f"Skill Name: {skill['name']}\n")
+                details_text.insert(tk.END, f"Skill Type: {skill['type']}\n")
+                details_text.insert(tk.END, f"Description: {skill['description']}\n")
+                details_text.insert(tk.END, f"Effect: {skill['effect']}\n")
+                details_text.insert(tk.END, f"AP Cost: {skill['ap_cost']}\n")
+                details_text.insert(tk.END, f"Initiative Value: {skill['initiative_value']}\n")
+                details_text.insert(tk.END, f"Interruptable: {skill['interruptable']}\n")
+                details_text.insert(tk.END, "---------------------------------------\n")
 
+    
+    var.trace_add('write', update_details)
+    update_details()  # Trigger initial data load for Katana
+    
+    ttk.Button(panel, text="Confirm", command=on_confirm).grid(row=3, column=0, columnspan=5)
+    
+    return panel
 
+# Function to select a weapon
+def select_weapon(weapons, ui):
+    def on_confirm():
+        selected = ui.weapon_var.get()
+        if selected in weapons:
+            ui.display_message(f"You have selected {selected}.")
+            return selected
 
+    ui.weapon_var = tk.StringVar()
+    weapon_panel = create_weapon_panel(weapons, ui, on_confirm)
+    ui.register_panel('weapon', weapon_panel)
+    ui.show_panel('weapon')

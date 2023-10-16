@@ -1,0 +1,230 @@
+{
+    "Katana": [
+        {
+            "name": "Swift Slash",
+            "type": "Basic Attack",
+            "description": "A quick horizontal slash aimed at the opponent's torso.",
+            "effect": "Deals 1 hit point of damage. Adds DEX modifier to the attack roll.",
+            "ap_cost": 1,
+            "initiative_value": 2,
+            "interruptable": "Yes"
+        },
+        {
+            "name": "Blade Dance",
+            "type": "Special Attack",
+            "description": "A series of rapid slashes, making it hard for the opponent to predict the next move.",
+            "effect": "Allows two separate attack rolls. Each successful hit deals 1 hit point of damage.",
+            "ap_cost": 3,
+            "initiative_value": 3,
+            "interruptable": "No"
+        },
+        {
+            "name": "Iaijutsu Strike",
+            "type": "Special Attack",
+            "description": "A lightning-fast draw and slash, catching the opponent off-guard.",
+            "effect": "Deals 2 hit points of damage. If successful by 5 or more, deals an additional hit point of damage.",
+            "ap_cost": 4,
+            "initiative_value": 4,
+            "interruptable": "No"
+        },
+        {
+            "name": "Parry",
+            "type": "Defensive Maneuver",
+            "description": "Deflect an incoming attack with the katana.",
+            "effect": "Grants advantage on the next defensive roll against a melee attack.",
+            "ap_cost": 1,
+            "initiative_value": 1,
+            "interruptable": "Yes"
+        }
+    ],
+    "Long Bow": [
+        {
+            "name": "Precise Shot",
+            "type": "Basic Attack",
+            "description": "A carefully aimed shot targeting the opponent's vital areas.",
+            "effect": "Deals 1 hit point of damage. Adds DEX modifier to the attack roll.",
+            "ap_cost": 1,
+            "initiative_value": 2,
+            "interruptable": "Yes"
+        },
+        {
+            "name": "Rapid Fire",
+            "type": "Special Attack",
+            "description": "Quickly releases multiple arrows in succession.",
+            "effect": "Allows two separate attack rolls. Each successful hit deals 1 hit point of damage.",
+            "ap_cost": 3,
+            "initiative_value": 3,
+            "interruptable": "No"
+        },
+        {
+            "name": "Piercing Arrow",
+            "type": "Special Attack",
+            "description": "An arrow shot with great force, capable of penetrating armor.",
+            "effect": "Deals 2 hit points of damage. If successful by 5 or more, deals an additional hit point of damage.",
+            "ap_cost": 4,
+            "initiative_value": 4,
+            "interruptable": "No"
+        },
+        {
+            "name": "Evasive Roll",
+            "type": "Defensive Maneuver",
+            "description": "A quick roll to evade incoming attacks.",
+            "effect": "Grants advantage on the next defensive roll against a ranged attack.",
+            "ap_cost": 1,
+            "initiative_value": 1,
+            "interruptable": "Yes"
+        }
+    ],
+    "Double Axe": [
+        {
+            "name": "Heavy Swing",
+            "type": "Basic Attack",
+            "description": "A powerful swing aimed at the opponent's head.",
+            "effect": "Deals 1 hit point of damage. Adds STR modifier to the attack roll.",
+            "ap_cost": 1,
+            "initiative_value": 2,
+            "interruptable": "Yes"
+        },
+        {
+            "name": "Whirlwind",
+            "type": "Special Attack",
+            "description": "A spinning attack hitting multiple enemies around you.",
+            "effect": "Allows two separate attack rolls. Each successful hit deals 1 hit point of damage.",
+            "ap_cost": 3,
+            "initiative_value": 3,
+            "interruptable": "No"
+        },
+        {
+            "name": "Axe Toss",
+            "type": "Special Attack",
+            "description": "Throw one of the axes at a distant enemy.",
+            "effect": "Deals 2 hit points of damage. If successful by 5 or more, deals an additional hit point of damage.",
+            "ap_cost": 4,
+            "initiative_value": 4,
+            "interruptable": "No"
+        },
+        {
+            "name": "Block",
+            "type": "Defensive Maneuver",
+            "description": "Use the axe to block an incoming attack.",
+            "effect": "Grants advantage on the next defensive roll against a melee attack.",
+            "ap_cost": 1,
+            "initiative_value": 1,
+            "interruptable": "Yes"
+        }
+    ],
+    "Short Sword & Shield": [
+        {
+            "name": "Shield Bash",
+            "type": "Basic Attack",
+            "description": "Use the shield to bash the enemy.",
+            "effect": "Deals 1 hit point of damage. Adds STR modifier to the attack roll.",
+            "ap_cost": 1,
+            "initiative_value": 2,
+            "interruptable": "Yes"
+        },
+        {
+            "name": "Double Strike",
+            "type": "Special Attack",
+            "description": "Attack with both sword and shield in quick succession.",
+            "effect": "Allows two separate attack rolls. Each successful hit deals 1 hit point of damage.",
+            "ap_cost": 3,
+            "initiative_value": 3,
+            "interruptable": "No"
+        },
+        {
+            "name": "Charged Strike",
+            "type": "Special Attack",
+            "description": "A powerful strike after a running start.",
+            "effect": "Deals 2 hit points of damage. If successful by 5 or more, deals an additional hit point of damage.",
+            "ap_cost": 4,
+            "initiative_value": 4,
+            "interruptable": "No"
+        },
+        {
+            "name": "Shield Wall",
+            "type": "Defensive Maneuver",
+            "description": "Raise the shield to block incoming attacks.",
+            "effect": "Grants advantage on the next defensive roll against a melee attack.",
+            "ap_cost": 1,
+            "initiative_value": 1,
+            "interruptable": "Yes"
+        }
+    ],
+    "Quarter Staff": [
+        {
+            "name": "Quick Jab",
+            "type": "Basic Attack",
+            "description": "A quick jab aimed at the opponent's midsection.",
+            "effect": "Deals 1 hit point of damage. Adds STR modifier to the attack roll.",
+            "ap_cost": 1,
+            "initiative_value": 2,
+            "interruptable": "Yes"
+        },
+        {
+            "name": "Spinning Strike",
+            "type": "Special Attack",
+            "description": "A spinning attack that can hit multiple enemies.",
+            "effect": "Allows two separate attack rolls. Each successful hit deals 1 hit point of damage.",
+            "ap_cost": 3,
+            "initiative_value": 3,
+            "interruptable": "No"
+        },
+        {
+            "name": "Overhead Smash",
+            "type": "Special Attack",
+            "description": "A powerful overhead strike.",
+            "effect": "Deals 2 hit points of damage. If successful by 5 or more, deals an additional hit point of damage.",
+            "ap_cost": 4,
+            "initiative_value": 4,
+            "interruptable": "No"
+        },
+        {
+            "name": "Defensive Stance",
+            "type": "Defensive Maneuver",
+            "description": "Use the staff to block incoming attacks.",
+            "effect": "Grants advantage on the next defensive roll against a melee attack.",
+            "ap_cost": 1,
+            "initiative_value": 1,
+            "interruptable": "Yes"
+        }
+    ],
+    "Double Daggers": [
+        {
+            "name": "Quick Stab",
+            "type": "Basic Attack",
+            "description": "A quick stab aimed at the opponent's vital points.",
+            "effect": "Deals 1 hit point of damage. Adds DEX modifier to the attack roll.",
+            "ap_cost": 1,
+            "initiative_value": 2,
+            "interruptable": "Yes"
+        },
+        {
+            "name": "Flurry of Strikes",
+            "type": "Special Attack",
+            "description": "A series of quick stabs and slashes.",
+            "effect": "Allows two separate attack rolls. Each successful hit deals 1 hit point of damage.",
+            "ap_cost": 3,
+            "initiative_value": 3,
+            "interruptable": "No"
+        },
+        {
+            "name": "Sneak Attack",
+            "type": "Special Attack",
+            "description": "A stealthy attack from behind.",
+            "effect": "Deals 2 hit points of damage. If successful by 5 or more, deals an additional hit point of damage.",
+            "ap_cost": 4,
+            "initiative_value": 4,
+            "interruptable": "No"
+        },
+        {
+            "name": "Evasion",
+            "type": "Defensive Maneuver",
+            "description": "A quick dodge to evade incoming attacks.",
+            "effect": "Grants advantage on the next defensive roll against a melee attack.",
+            "ap_cost": 1,
+            "initiative_value": 1,
+            "interruptable": "Yes"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-  "openAIApiKey": "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",
+  "openAIApiKey": "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",
   "huggingfaceApiKey": "",
   "cohereApiKey": "",
   "anthropicApiKey": "",
@@ -13,7 +13,7 @@
   "temperature": 0,
   "maxTokens": 8000,
   "contextTurns": 10,
-  "userSystemPrompt": "\"You are the Game Master for a text-based tabletop RPG. Maintain a consistent world, track player actions and resources, and provide dynamic responses based on player choices. Ensure a balanced and engaging experience.\"\n",
+  "userSystemPrompt": "\"You are the Game Master for a text-based tabletop RPG.  You are also an expert worldbuilder and gamedesigner.\"\n\nYour goal is to build the elemental world of agartha. A world with elemental mages and beasts.\n",
   "openAIProxyBaseUrl": "",
   "localAIModel": "",
   "ttlDays": 30,

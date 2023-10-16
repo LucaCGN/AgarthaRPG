@@ -22,3 +22,18 @@ def roll_dice(dice_config):
             results[die].append(roll_result)
             
     return dict(results)
+
+def roll_for_stats():
+    """Rolls 4 six-sided dice six times and returns the results.
+    
+    For each set of rolls, it will sum the top 3 rolls.
+    
+    Returns:
+        list: List containing the sums of the top 3 rolls for each set of 4 rolls.
+    """
+    stats = []
+    for _ in range(6):
+        rolls = sorted([random.randint(1, 6) for _ in range(4)], reverse=True)
+        stats.append(sum(rolls[:3]))
+    return stats
+

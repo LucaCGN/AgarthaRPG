@@ -1,5 +1,5 @@
 {
-  "api_key": "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",
+  "api_key": "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",
   "chat_open": true,
   "file_exclusions": "",
   "folder_exclusions": "",
@@ -17,6 +17,16 @@
   "view_open": true,
   "version": "1.6.34",
   "failed_files": [
-    ""
+    "",
+    "Act0 - The Journey Begins.md",
+    "Arquivos-Luca/Act0 - The Journey Begins.md",
+    "Arquivos-Luca/Elemental Combat System - Breakdown.md",
+    "Arquivos-Luca/MASTER REFERENCE NOTE.md",
+    "Arquivos-Luca/Map - V0 Block.md",
+    "Arquivos-Luca/Village - Ylvast.md",
+    "In Depth World Lore/Elemental Magic/Elements Natural Law/Interaction Between Elements.md",
+    "In Depth World Lore/Myths & Legends/Primordial_crystal.md",
+    "Map - V0 Block.md",
+    "Village - Ylvast.md"
   ]
 }
