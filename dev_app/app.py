@@ -75,10 +75,16 @@ class App:
                 self.user_id, self.ui, self.assigned_stats, self.rolled_stats
             )
             
-            # Start the profession selection process
-            character_creation.select_profession(self.professions, self.ui, self.weapons)
+            # Flatten the professions dictionary into a list
+            flattened_professions = []
+            for stat, prof_list in self.professions.items():
+                for prof in prof_list:
+                    prof['stat'] = stat  # Add the associated stat to each profession
+                    flattened_professions.append(prof)
 
-            
+            # Pass the flattened list to select_profession
+            character_creation.select_profession(flattened_professions, self.ui, self.weapons)
+                
         else:
             self.ui.display_message("Please login first.")
 

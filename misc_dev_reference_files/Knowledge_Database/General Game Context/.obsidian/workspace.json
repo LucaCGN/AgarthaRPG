@@ -163,7 +163,7 @@
             }
           },
           {
-            "id": "39db853614482ae3",
+            "id": "689708acd4890339",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -171,7 +171,7 @@
             }
           },
           {
-            "id": "c93cc62273247fbf",
+            "id": "da5c80c790cab093",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -183,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +196,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "ef6009b3e943de3e",
+  "active": "da5c80c790cab093",
   "lastOpenFiles": [
     "In Depth World Lore/Economy/Magical Technology/Elemental Crystals/Elemental Crystal Examples.md",
     "Arquivos-Luca/MASTER REFERENCE NOTE.md",
